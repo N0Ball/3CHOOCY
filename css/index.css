@@ -1,0 +1,87 @@
+*{
+    font-size: 25px;
+    font-weight: 400;
+}
+body{
+    display: grid;
+    width: 100%;
+    height: 100vh;
+    grid-template-columns: 200px 1fr 1fr 200px;
+    grid-template-rows: 200px auto 200px;
+    grid-template-areas:
+        "top top top top"
+        ". logo intro ."
+        "footer footer footer footer"
+}
+input{
+    border-bottom: solid #87898C 1px;
+}
+#top{
+    grid-area: top;
+    position: relative;
+}
+#top::after{
+    content: "";
+    display: inline-block;
+    background-color: #87898C;
+    width: 100vw;
+    height: 7px;
+    position: absolute;
+    bottom: 0;
+}
+#logo{
+    grid-area: logo;
+}
+#intro{
+    grid-area: intro;
+    display: flex;
+    flex-direction: column;
+}
+#logo-text{
+    font-size: 150px;
+    font-weight: 700;
+    letter-spacing: 5%;
+}
+#introduction{
+    text-align: end;
+}
+#intro-footer{
+    display: grid;
+    grid-template-columns: 150px auto;
+    grid-template-rows: auto auto;
+    grid-template-areas: 
+        "search input"
+        "start-btn start-btn"
+}
+#logo-subtext{
+    margin-top: .75rem;
+}
+#search{
+    grid-area: search;
+}
+#input{
+    grid-area: input;
+}
+#start-btn{
+    grid-area: start-btn;
+    text-align: end;
+}
+#start-btn button{
+    padding: 0 .35rem;
+    font-size: 28px;
+    font-weight: 700;
+    font-family: "Roboto";
+}
+#footer{
+    grid-area: footer;
+    position: relative;
+}
+#footer::before{
+    content: "";
+    display: inline-block;
+    background-color: #87898C;
+    width: 100vw;
+    height: 80px;
+    position: absolute;
+    top: 0;
+}

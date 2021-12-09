@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Saira", "Roboto";
+}
+body{
+    color: #E7EFF9;
+}
+input{
+    background-color: transparent;
+    border: none;
+    margin-left: 1rem;
+}
+.black{
+    background-color: #4F5559;
+}
+.dark{
+    background-color: #87898C;
+}
+.primary{
+    background-color: #F0E0C0;
+}
+.light{
+    background-color: #E5E5E5;
+}
+.d-flex{
+    display: flex;
+}
+.m-n{
+    margin: 1.5rem;
+}
+.m-s{
+    margin: .5rem;
+}
+.p-n{
+    padding: 1.5rem;
+}
+.top-out{
+    margin-top: 3rem;
+}
