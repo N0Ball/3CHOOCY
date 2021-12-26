@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/selection.css">
+    <link rel="stylesheet" href="./css/modules/bootstrap.min.css">
+    <link rel="stylesheet" href="./src/modules/fontawesome/css/all.min.css">
+    <title>Selection</title>
+</head>
+<body>
+
+    <!-- Top Section (Nav Bar) -->
+    <section id="top">
+        <div class="row g-0 h-100">
+
+            <div class="col-3 d-flex flex-column flex-column-reverse">
+                <img src="./src/img/logo_text.png" alt="Logo text" id="logo-text" class="m-3">
+            </div>
+
+            <div class="col-7 d-flex align-items-end" id="input-bar">
+                <div class="input-group mb-3 justify-content-end">
+                    <input id="product-input" type="text" class="form-control" placeholder="請輸入產品名稱" aria-label="請輸入產品名稱" aria-describedby="search-icon">
+                    <div class="input-group-text" id="search-icon">
+                        <i class="fas fa-search"></i>
+                    </div>
+                    <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">選擇類別</button>
+                    <ul class="dropdown-menu dropdown-menu-end">
+                      <li><a class="dropdown-item" href="#">手機</a></li>
+                      <li><a class="dropdown-item disabled" href="#">平板</a></li>
+                      <li><a class="dropdown-item disabled" href="#">電腦</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div id="logo-container">
+                <img id="logo-light" src="./src/img/logo_light.png" alt="logo light">
+            </div>
+
+        </div>
+    </section>
+
+    <main>
+
+        <div class="row g-0 h-100">
+            <div id="side-bar" class="col-3">
+
+                <!-- Budget Sidebar -->
+                <div id="budget" class="mt-4 mx-5 d-flex justify-content-center align-items-center flex-column">
+                    <h5>預算</h5>
+                    <div id="budget-field" class="d-flex justify-content-between w-100 m-1">
+                        <input type="number" name="lowest" value="0" id="budget-lowest" class="btn btn-secondary budget-number w-25" data-bs-toggle="tooltip" data-bs-placement="top" title="請輸入最低價格">
+                        <input type="number" name="highest" value="99999" id="budget-highest" class="btn btn-secondary budget-number w-25" data-bs-toggle="tooltip" data-bs-placement="top" title="請輸入最高價格">
+                    </div>
+                </div>
+
+                <!-- Selection Sidebar -->
+                <div id="side-bar-container" class="mx-5 ">
+                    <div id="side-bar-selection" class="container d-flex flex-column"></div>
+                </div>
+
+            </div>
+
+            <div class="col-8" id="result-field">
+
+                <!-- Results Ouput -->
+                <div class="d-flex mx-4 mt-4 justify-content-between">
+                    <p id="search-results">
+                        搜尋：「」，共找到99999筆相符的資料：
+                    </p>
+                    <div class="input-group mb-3 w-50">
+                        <label class="input-group-text" for="inputGroupSelect01">排序</label>
+                        <select class="form-select" id="inputGroupSelect01">
+                            <option selected>選擇排序</option>
+                            <option value="1">上市日期（新➞舊）</option>
+                            <option value="2">上市日期（舊➞新）</option>
+                        </select>
+                    </div>
+                </div>
+
+                <!-- Results Card -->
+                <div class="mx-4">
+                    <div id="result-cards" class="row g-0"></div>
+                </div>
+
+            </div>
+
+            <div class="col-1 d-flex flex-column justify-content-center">
+                <div id="target-bar" class="d-flex flex-column">
+                    <p class="text-center mt-3 bg-transparent">比較清單</p>
+                    <div class="d-inline-block h-75 bg-transparent d-flex align-items-center flex-column overflow-auto" id="target-field"></div>
+                    <button class="btn btn-dark m-3">開始</button>
+                </div>
+            </div>
+
+        </div>
+
+    </main>
+
+    <script src="./js/modules/bootstrap.bundle.min.js"></script>
+    <script src="./js/db.js"></script>
+    <script src="./js/selection.js"></script>
+    <script>
+
+        var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+        var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+            return new bootstrap.Tooltip(tooltipTriggerEl)
+        })
+
+        let phoneData = undefined;
+
+        class MyDbManager extends DBManager{
+            firstLoad(){
+                phoneData = myDbManager.getDb("phone");
+                initSideBar(myDbManager.getDb("selection"));
+                initPhone(phoneData);
+            }
+        }
+
+        const myDbManager = new MyDbManager();
+        myDbManager.addDb("selection");
+        myDbManager.addDb("phone");
+
+        myDbManager.init();
+
+        function update(){
+            requestAnimationFrame(update);
+
+            myDbManager.update();
+        }
+
+        update();
+
+    </script>
+
+</body>
+</html>

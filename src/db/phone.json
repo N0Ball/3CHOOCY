@@ -1,0 +1,68 @@
+{
+    "DATA": [
+        {
+            "title" : "小米 11T Pro",
+            "profile image path" : "./src/img/phones/sm11tpro.png",
+            "price" : 17999,
+            "tags" : {
+                "color": [
+                    "Blue",
+                    "Gray",
+                    "White"
+                ]
+            },
+            "details" : "OUO"
+        },
+        {
+            "title" : "小米 11T",
+            "profile image path" : "./src/img/phones/sm11t.png",
+            "price" : 13999,
+            "tags" : {
+                "color": [
+                    "Yellow"
+                ]
+            },
+            "details" : "OUO"
+        },
+        {
+            "title" : "小米 11 Lite 5G NE",
+            "profile image path" : "./src/img/phones/sm11lite5gne.png",
+            "price" : 9999,
+            "tags" : {
+                "color": [
+                    "Yellow"
+                ]
+            },
+            "details" : "OUO"
+        },
+        {
+            "title" : "小米 11 5G",
+            "profile image path" : "./src/img/phones/sm115g.png",
+            "price" : 21999,
+            "tags" : {
+                "color": [
+                    "Yellow"
+                ]
+            },
+            "details" : "OUO"
+        },
+        {
+            "title" : "Iphone 1011101010"
+        },
+        {
+            "title" : "Iphone 1011101010"
+        },
+        {
+            "title" : "Iphone 1011101010"
+        },
+        {
+            "title" : "Iphone 1011101010"
+        },
+        {
+            "title" : "Iphone 1011101010"
+        },
+        {
+            "title" : "Iphone 1011101010"
+        }
+    ]
+}

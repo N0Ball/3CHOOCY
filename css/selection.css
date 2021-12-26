@@ -1,0 +1,142 @@
+#logo-text{
+    width: 330px;
+    height: 50px;
+}
+#logo-container{
+    position: absolute;
+    overflow: hidden;
+    right: 3rem;
+    top: calc(5rem - 85px);
+    width: 170px;
+    height: 85px;
+}
+#logo-light{
+    position: absolute;
+    width: 170px;
+    height: 170px;
+}
+#product-input{
+    max-width: 40%;
+    background: rgba(217, 182, 139, 0.1);
+    border: 5px solid #D9B68B;
+    box-sizing: border-box;
+    border-radius: 3px;
+}
+.input-group-text{
+    background-color: #D9B68B !important;
+    border: 5px solid #D9B68B;
+    color: white !important;
+}
+.input-group-text>i{
+    color: white !important;
+}
+.btn-primary>i{
+    color: white !important;
+}
+main{
+    width: 100%;
+    height: calc(100vh - 5rem);
+}
+#side-bar{
+    position: relative;
+
+}
+#side-bar::after{
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: inline-block;
+    height: 100vh;
+    width: 5px;
+    background-color: #F0E0C0;
+}
+#side-bar-container{
+    max-height: calc(100vh - 12rem);
+    overflow-y: auto;
+}
+#budget-field{
+    position: relative;
+}
+#budget-field::after{
+    content: "";
+    display: inline-block;
+    position: absolute;
+    top: calc(50% - 2.5px);
+    left: 25%;
+    width: 50%;
+    height: 5px;
+    background-color: #D9B68B;
+}
+#result-field{
+    overflow-y: auto;
+    height: calc(100vh - 5rem);
+}
+.btn-sidebar{
+    border-radius: 0 !important;
+}
+.input-budget{
+    height: 25px;
+}
+.form-check-input[type=checkbox]{
+    background: #FFFCF7;
+    border: 3px solid #D9B68B;
+    box-sizing: border-box;
+    border-radius: 3px;
+}
+.form-check, .form-check-label{
+    background-color: transparent;
+}
+.card-dark{
+    background: rgba(240, 224, 192, 0.5) !important;
+    border: 3px solid #F0E0C0;
+    box-sizing: border-box;
+    border-radius: 3px;
+}
+.budget-number{
+    position: relative;
+    padding: 0 !important;
+    height: 27px;
+    font-size: 15px !important;
+    border-radius: 3px;
+}
+.card-body{
+    padding: 1rem 0 1rem 0 !important;
+}
+.card-img{
+    background: #FFFFFF;
+    border: 3px solid #F0E0C0;
+    box-sizing: border-box;
+    height: 300px;
+    width: 300px;
+    border-radius: 5px;
+}
+.card-price{
+    text-align: center;
+    color: red;
+}
+.card-price::before{
+    content: "$";
+}
+#target-bar{
+    height: 75vh;
+    background: #F7FCFF;
+    border: 10px solid #C4C4C4;
+    border-radius: 10px;
+}
+.target-container{
+    margin-top: 1rem;
+    background-color: transparent;
+    position: relative;
+}
+.target-cross{
+    position: absolute;
+    right: 0;
+    top: -.5rem;
+    color: red;
+}
+.target-img{
+    height: 120px;
+    width: 120px;
+    border: 5px solid #F0E0C0;
+}
