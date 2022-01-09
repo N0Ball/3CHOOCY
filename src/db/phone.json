@@ -16,33 +16,7 @@
                     "Gray",
                     "White"
                 ],
-                "OS": [
-                    "Android 11"
-                ],
-                "cpu-brand": [
-                    "Qualcomm"
-                ],
-                "cpu-type": [
-                    "Snapdragon 888"
-                ],
-                "screen-size": [
-                    6.67
-                ],
-                "camera-pixel": [
-                    "1.08 億"
-                ],
-                "RAM": [
-                    12
-                ],
-                "ROM": [
-                    "256G"
-                ],
-                "battery": [
-                    5000
-                ],
-                "NFC": [
-                    "支援"
-                ]
+                "internet": "3G/4G/5G", "OS": ["Android 11"], "cpu-brand": ["Qualcomm"], "cpu-type": ["Snapdragon 888"], "RAM": ["12 GB"], "ROM": ["256 GB"], "battery": ["5000 mAh"], "screen-size": ["6.67 inch"], "screen-resolution": ["2400x1080 pixels"], "screen-material": ["AMOLED"], "screen-refresh-rate": ["120 Hz"], "camera-pixel": ["1.08 \u5104\u756b\u7d20"], "3G": ["HSDPA, HSUPA, WCDMA"], "4G": ["Yes"], "5G": ["Yes"], "sim-number": ["2"], "NFC": ["Yes"], "fast-charge": ["HyperCharge"], "fast-charge-W": ["120 W"], "weight": ["204 g"], "transport port": ["USB Type-C"], "body-color": ["\u592a\u7a7a\u85cd, \u6708\u5149\u767d, \u6d41\u661f\u7070"]
             },
             "details" : "小米 11T Pro 配置 6.67 吋 FHD+ AMOLED「挖孔」螢幕，峰值亮度可達 1,000nits，具備 120Hz 螢幕更新率、480Hz 觸控採樣率；通過 DisplayMate 認證 A+ 評等，支援 HDR10+、10bit 色彩顯示、MEMC 動態補償技術，提供 TrueColor 顯示功能，螢幕表面覆蓋康寧大猩猩 Victus 玻璃。<br>Harman Kardon 調音<br>小米 11T Pro 背蓋分別採用浸滲防眩光表面，與刷紋金屬外觀設計，握持手感很不錯，機身設有側邊指紋辨識器，具備紅外線遙控器功能。機身搭載 Harman Kardon 專業調音雙揚聲器，支援 Dolby Atmos 環繞音效，能夠依據不同音源呈現對應的聲學曲線，打造高品質的音效表現。<br>120W 超速閃充<br>小米 11T Pro 搭載 Qualcomm Snapdragon 888 八核心處理器，內建 12GB RAM + 256GB ROM；支援 5G 高速上網，提供藍牙 5.2、Wi-Fi 6、NFC 功能；配備 5,000mAh 電池，支援 120W HyperCharge 超速閃充，充滿電只需 17 分鐘，通過德國萊因 TÜV 安全快充系統認證，保障電池的使用安全。<br>1.08 億主鏡頭<br>小米 11T Pro 前置 1,600 萬畫素自拍鏡頭，後置三鏡頭主相機，提供 1.08 億畫素主鏡頭 + 800 萬畫素 120 度超廣角鏡頭 + 500 萬畫素長焦微距鏡頭（3-7cm 微距模式），採用 2.1μm 九合一 Super Pixel 技術及雙原生 ISO，強化手機攝影體驗；支援 HDR10+ 攝影，具有一鍵 AI 電影模式、8K 錄影功能；搭配音源變焦功能，可同時聚焦畫面並拉近音訊距離，可更真實的呈現影片主體。<br>小米 11T Pro 功能特色<br>◎ 5G + 5G 雙卡雙待<br>◎ Android 11 作業系統、MIUI 12.5 操作介面<br>◎ 6.67 吋 2,400 x 1,080pixels 解析度螢幕（120Hz 螢幕更新率）<br>◎ Qualcomm Snapdragon 888 八核心處理器<br>◎ 12GB RAM + 256GB ROM<br>◎ 前置 1,600 萬畫素鏡頭<br>◎ 後置 1.08 億畫素鏡頭 + 800 萬畫素鏡頭 + 500 萬畫素鏡頭<br>◎ Wi-Fi 6、藍牙 5.2、NFC、紅外線遙控<br>◎ Harman Kardon 調音、Dolby Atmos 環繞音效<br>◎ 側邊指紋辨識<br>◎ 配備 5,000mAh 電池，採用 USB Type-C 連接埠<br>◎ 支援 120W HyperCharge 超速閃充"
         },
@@ -62,41 +36,18 @@
                     "Gray",
                     "White"
                 ],
-                "OS": [
-                    "Android 11"
-                ],
-                "cpu-brand": [
-                    "MediaTek"
-                ],
-                "cpu-type": [
-                    "Dimensity 1200-Ultra"
-                ],
-                "screen-size": [
-                    6.67
-                ],
-                "camera-pixel": [
-                    "1.08 億"
-                ],
-                "RAM": [
-                    8
-                ],
-                "ROM": [
-                    "256G"
-                ],
-                "battery": [
-                    5000
-                ]
+                "internet": "3G/4G/5G", "OS": ["Android 11"], "cpu-brand": ["MediaTek"], "cpu-type": ["Dimensity 1200-Ultra"], "RAM": ["8 GB"], "ROM": ["256 GB"], "battery": ["5000 mAh"], "screen-size": ["6.67 inch"], "screen-resolution": ["2400x1080 pixels"], "screen-material": ["AMOLED"], "screen-refresh-rate": ["120 Hz"], "camera-pixel": ["1.08 \u5104\u756b\u7d20"], "3G": ["HSDPA, HSUPA, WCDMA"], "4G": ["Yes"], "5G": ["Yes"], "sim-number": ["2"], "NFC": ["Yes"], "fast-charge": ["HyperCharge"], "fast-charge-W": ["67 W"], "weight": ["203 g"], "transport port": ["USB Type-C"], "body-color": ["\u592a\u7a7a\u85cd, \u6708\u5149\u767d, \u6d41\u661f\u7070"]
             },
             "details" : "6.67 吋 120Hz 螢幕<br>小米 11T 配置 6.67 吋 FHD+ AMOLED「挖孔」螢幕，峰值亮度可達 1,000nits，具備 120Hz 螢幕更新率、480Hz 觸控採樣率；支援 HDR10+、DCI-P3 廣色域、10bit 色彩顯示，提供 TrueColor、True Display 顯示功能，螢幕表面覆蓋康寧大猩猩 Victus 玻璃。<br>立體聲雙喇叭<br>小米 11T 背蓋分別採用浸滲防眩光表面，與刷紋金屬外觀設計，握持手感很不錯，機身側邊設有與電源鍵整合的指紋辨識器。機身搭載 Dolby Atmos 立體聲雙喇叭，提供 360° 環繞音效體驗；具備紅外線遙控器功能。<br>67W 有線快充<br>小米 11T 運行 Android 11 作業系統、MIUI 12.5 操作介面，搭載訂製的聯發科天璣 1200-Ultra 行動平台，內建 8GB RAM + 256GB ROM，支援 5G + 5G 雙卡雙待，提供藍牙 5.2、Wi-Fi 6、NFC 功能。配備 5,000mAh 電池，支援 67W 有線快充。<br>1.08 億主鏡頭<br>小米 11T 後置三鏡頭主相機，提供 1.08 億畫素廣角鏡頭 + 800 萬畫素 120 度超廣角鏡頭 + 500 萬畫素長焦微距鏡頭（3-7cm 微距模式），採用 2.1μm 九合一 Super Pixel 技術及雙原生 ISO，強化手機攝影體驗，支援 HDR 攝影，具有一鍵 AI 電影模式，搭配音源變焦功能，可同時聚焦畫面並拉近音訊的距離。<br>小米 11T 功能特色<br>◎ 5G + 5G 雙卡雙待<br>◎ Android 11 作業系統、MIUI 12.5 操作介面<br>◎ 6.67 吋 2,400 x 1,080pixels 解析度 AMOLED 螢幕（120Hz 螢幕更新率）<br>◎ 聯發科天璣 1200-Ultra 八核心處理器<br>◎ 8GB RAM + 256GB ROM<br>◎ 前置 1,600 萬畫素鏡頭<br>◎ 後置 1.08 億畫素鏡頭 + 800 萬畫素鏡頭 + 500 萬畫素鏡頭<br>◎ Wi-Fi 6、藍牙 5.2、NFC、紅外線遙控<br>◎ 側邊指紋辨識<br>◎ 配備 5,000mAh 電池，採用 USB Type-C 連接埠<br>◎ 支援 67W 有線快充"
         },
         {
             "title" : "小米 11 Lite 5G NE",
             "profile image path" : "./src/img/phones/sm11lite5gne.png",
-            "price" : 9999,
+            "price" : 11999,
             "prices":{
-                "128G / 6G": 17999,
-                "256G / 8G": 10999,
-                "128G / 8G": 9999
+                "128G / 6G": 9999,
+                "256G / 8G": 11999,
+                "128G / 8G": 10999
             },
             "tags" : {
                 "up-time": [
@@ -108,75 +59,30 @@
                     "White",
                     "Pink"
                 ],
-                "OS": [
-                    "Android 11"
-                ],
-                "cpu-brand": [
-                    "Qualcomm"
-                ],
-                "cpu-type": [
-                    "Snapdragon 778G"
-                ],
-                "screen-size": [
-                    6.55
-                ],
-                "camera-pixel": [
-                    "6400 萬"
-                ],
-                "RAM": [
-                    8, 6
-                ],
-                "ROM": [
-                    "128G", "256G"
-                ],
-                "battery": [
-                    4250
-                ]
+                "internet": "3G/4G/5G", "OS": ["Android 11"], "cpu-brand": ["Qualcomm"], "cpu-type": ["Snapdragon 778G"], "RAM": ["6 GB", "8 GB"], "ROM": ["128 GB", "256 GB"], "SD-card": ["microSD"], "battery": ["4250 mAh"], "screen-size": ["6.55 inch"], "screen-resolution": ["2400x1080 pixels"], "screen-material": ["AMOLED"], "screen-refresh-rate": ["90 Hz"], "camera-pixel": ["6400 \u842c\u756b\u7d20"], "3G": ["HSDPA, HSUPA, WCDMA"], "4G": ["Yes"], "5G": ["Yes"], "sim-number": ["2"], "NFC": ["Yes"], "fast-charge": ["MI-FC"], "fast-charge-W": ["33 W"], "body-material": ["\u73bb\u7483"], "weight": ["158 g"], "transport port": ["USB OTG, USB Type-C"], "body-color": ["\u677e\u9732\u9ed1, \u7cd6\u679c\u85cd, \u871c\u6843\u7c89, \u96ea\u82b1\u767d"]
             },
-            "details" : "6.55 吋 90Hz 螢幕<br>小米 11 Lite 5G NE (8GB/128GB) 配置 6.55 吋 AMOLED「挖孔」螢幕，提供 20：9 顯示比例，具備 90Hz 螢幕更新率、240Hz 觸控採樣率，支援 HDR10+、Dolby Vision 色彩顯示，無論追劇、玩遊戲都能享有沉浸式的影音體驗。正面覆蓋康寧第 5 代大猩猩玻璃，提高螢幕保護力。<br>防眩光磨砂玻璃<br>小米 11 Lite 5G NE (8GB/128GB) 主打輕薄機身外型，機身重量僅有 158g，擁有很好的握持手感；背蓋選用防眩光磨砂玻璃，可有效預防指紋沾黏，共有「松露黑」、「糖果藍」、「蜜桃粉」、「雪花白」等顏色款式。配備立體聲雙喇叭，支援智慧音效功能。<br>高通驍龍 778G<br>小米 11 Lite 5G NE (8GB/128GB) 運行 Android 11 作業系統、MIUI 12.5 操作介面，搭載 Qualcomm Snapdragon 778G 行動平台，内建 nano-SIM 三選二卡槽，支援 5G + 5G 雙卡雙待，提供 microSD 記憶卡擴充功能。配備 4,250mAh 電池，支援 33W 有線快充，提供藍牙 5.2、Wi-Fi 6、NFC 功能。<br>訂製妝容模式<br>小米 11 Lite 5G NE (8GB/128GB) 前置 2,000 萬畫素自拍鏡頭，支援 AI 美顏、人像解鎖，內建專屬訂製妝容模式。後置三鏡頭主相機，提供 6,400 萬畫素主鏡頭 + 800 萬畫素 119 度超廣角鏡頭 + 500 萬畫素長焦鏡頭（3-7cm 微距模式），搭配 0.7μm 四合一技術，可強化手機攝影體驗，具有一鍵 AI 電影模式、VLOG 錄影功能，支援 4K 錄影、夜間模式。<br>小米 11 Lite 5G NE (8GB/128GB) 功能特色<br>◎ 5G + 5G 雙卡雙待<br>◎ Android 11 作業系統、MIUI 12.5 操作介面<br>◎ 6.55 吋 2,400 x 1,080pixels 解析度螢幕（90Hz）<br>◎ Qualcomm Snapdragon 778G, 2.4GHz 八核心處理器<br>◎ 8GB RAM + 128GB ROM<br>◎ 前置 2,000 萬畫素鏡頭<br>◎ 後置 6,400 萬畫素鏡頭 + 800 萬畫素鏡頭 + 500 萬畫素鏡頭<br>◎ Wi-Fi 6、藍牙 5.2、NFC、紅外線遙控<br>◎ 側邊指紋辨識、人臉解鎖<br>◎ 配備 4,250mAh 電池<br>◎ 採用 USB Type-C 連接埠，支援 33W 有線快充<br>◎ 可透過 microSD 記憶卡擴充最大 1TB 儲存空間<br>◎ 盒裝配件：33W 電源充電器、USB Type-C 數據線、Type-C 轉 3.5 mm 耳機轉接器、高透軟膠保護殼、SIM 卡插針"
+            "details" : "6.55 吋 90Hz 螢幕<br>小米 11 Lite 5G NE 配置 6.55 吋 AMOLED「挖孔」螢幕，提供 20：9 顯示比例，具備 90Hz 螢幕更新率、240Hz 觸控採樣率，支援 HDR10+、Dolby Vision 色彩顯示，無論追劇、玩遊戲都能享有沉浸式的影音體驗。正面覆蓋康寧第 5 代大猩猩玻璃，提高螢幕保護力。<br>防眩光磨砂玻璃<br>小米 11 Lite 5G NE (8GB/128GB) 主打輕薄機身外型，機身重量僅有 158g，擁有很好的握持手感；背蓋選用防眩光磨砂玻璃，可有效預防指紋沾黏，共有「松露黑」、「糖果藍」、「蜜桃粉」、「雪花白」等顏色款式。配備立體聲雙喇叭，支援智慧音效功能。<br>高通驍龍 778G<br>小米 11 Lite 5G NE (8GB/128GB) 運行 Android 11 作業系統、MIUI 12.5 操作介面，搭載 Qualcomm Snapdragon 778G 行動平台，内建 nano-SIM 三選二卡槽，支援 5G + 5G 雙卡雙待，提供 microSD 記憶卡擴充功能。配備 4,250mAh 電池，支援 33W 有線快充，提供藍牙 5.2、Wi-Fi 6、NFC 功能。<br>訂製妝容模式<br>小米 11 Lite 5G NE (8GB/128GB) 前置 2,000 萬畫素自拍鏡頭，支援 AI 美顏、人像解鎖，內建專屬訂製妝容模式。後置三鏡頭主相機，提供 6,400 萬畫素主鏡頭 + 800 萬畫素 119 度超廣角鏡頭 + 500 萬畫素長焦鏡頭（3-7cm 微距模式），搭配 0.7μm 四合一技術，可強化手機攝影體驗，具有一鍵 AI 電影模式、VLOG 錄影功能，支援 4K 錄影、夜間模式。<br>小米 11 Lite 5G NE (8GB/128GB) 功能特色<br>◎ 5G + 5G 雙卡雙待<br>◎ Android 11 作業系統、MIUI 12.5 操作介面<br>◎ 6.55 吋 2,400 x 1,080pixels 解析度螢幕（90Hz）<br>◎ Qualcomm Snapdragon 778G, 2.4GHz 八核心處理器<br>◎ 8GB RAM + 128GB ROM<br>◎ 前置 2,000 萬畫素鏡頭<br>◎ 後置 6,400 萬畫素鏡頭 + 800 萬畫素鏡頭 + 500 萬畫素鏡頭<br>◎ Wi-Fi 6、藍牙 5.2、NFC、紅外線遙控<br>◎ 側邊指紋辨識、人臉解鎖<br>◎ 配備 4,250mAh 電池<br>◎ 採用 USB Type-C 連接埠，支援 33W 有線快充<br>◎ 可透過 microSD 記憶卡擴充最大 1TB 儲存空間<br>◎ 盒裝配件：33W 電源充電器、USB Type-C 數據線、Type-C 轉 3.5 mm 耳機轉接器、高透軟膠保護殼、SIM 卡插針"
         },
         {
             "title" : "小米 11 Lite 5G",
-            "profile image path" : "./src/img/phones/sm11lite5gne.png",
-            "price" : 9999,
+            "profile image path" : "./src/img/phones/sm11lite5g.jpg",
+            "price" : 10999,
             "prices":{
-                "128G / 6G": 9999
+                "128G / 6G": 9999,
+                "128G / 8G": 10999
             },
             "tags" : {
                 "up-time": [
                     "2021 / 05"
                 ],
                 "colors": [
-                    "Blue",
-                    "Gray",
-                    "White"
+                    "Green",
+                    "Yellow",
+                    "Black"
                 ],
-                "OS": [
-                    "Android 11"
-                ],
-                "cpu-brand": [
-                    "Qualcomm"
-                ],
-                "cpu-type": [
-                    "Snapdragon 780G"
-                ],
-                "screen-size": [
-                    6.55
-                ],
-                "camera-pixel": [
-                    "6400 萬"
-                ],
-                "RAM": [
-                    6
-                ],
-                "ROM": [
-                    "128G"
-                ],
-                "battery": [
-                    4250
-                ]
+                "internet": "3G/4G/5G", "OS": ["Android 11"], "cpu-brand": ["Qualcomm"], "cpu-type": ["Snapdragon 780G"], "RAM": ["6 GB", "8 GB"], "ROM": ["128 GB"], "SD-card": ["microSD"], "battery": ["4250 mAh"], "screen-size": ["6.55 inch"], "screen-resolution": ["2400x1080 pixels"], "screen-material": ["AMOLED"], "screen-refresh-rate": ["90 Hz"], "camera-pixel": ["6400 \u842c\u756b\u7d20"], "3G": ["HSDPA, HSUPA, WCDMA"], "4G": ["Yes"], "5G": ["Yes"], "sim-number": ["2"], "NFC": ["Yes"], "fast-charge": ["MI-FC"], "fast-charge-W": ["33 W"], "body-material": ["\u73bb\u7483"], "weight": ["159 g"], "transport port": ["USB Type-C"], "body-color": ["\u677e\u9732\u9ed1, \u67d1\u6a58\u9ec3, \u8584\u8377\u7da0"]
             },
-            "details" : "6.55 吋 90Hz 螢幕<br>小米 11 Lite 5G (6GB/128GB) 採用 6.55 吋 2,400 x 1,080pixels 解析度 AMOLED「挖孔」螢幕，通過 HDR10+ 顯示認證、DCI-P3 廣色域標準，擁有低藍光護眼模式，正面覆蓋康寧大猩猩第六代玻璃。支援 90Hz 螢幕更新率、240Hz 觸控採樣率，可提供滑順的操作體驗。<br>防眩光玻璃背蓋<br>小米 11 Lite 5G (6GB/128GB) 主打輕薄的機身設計，手機厚度僅有 6.81mm，帶來不錯的手感體驗；背蓋採用防眩光玻璃製成，能有效避免指紋沾染，搭配三款亮眼色系「松露黑」、「柑橘黃」與「薄荷綠」，打造初夏的視覺體驗。<br>高通驍龍 780G<br>小米 11 Lite 5G (6GB/128GB) 運行 Android 11 作業系統、MIUI 12 操作介面，規格搭載 Qualcomm Snapdragon 780G 八核心處理器，內建 6GB RAM + 128GB ROM，搭配 nano-SIM 三選二卡槽設計，支援 5G + 5G 雙卡雙待、microSD 記憶卡擴充功能。<br>LiquidCool 水冷散熱<br>小米 11 Lite 5G (6GB/128GB) 配備 4,250mAh 電池，支援 33W 快充技術，提供 Wi-Fi 6、藍牙 5.2 與 NFC 等功能。導入 LiquidCool 水冷散熱技術，即便處理各種複雜操作，也能確保機身溫度避免過熱。配備立體聲雙揚聲器，擁有 Hi-Res Audio 音效認證。<br>6,400 萬畫素三鏡頭<br>小米 11 Lite 5G (6GB/128GB) 後置三鏡頭主相機，分別為 6,400 畫素鏡頭 + 800 萬畫素 119 度超廣角 + 500 萬畫素 3cm 微距鏡頭，支援 AI 場景辨識、一鍵式 AI 電影模式，滿足多種場合的攝影需求。前置 2,000 萬畫素自拍鏡頭，具備人臉解鎖功能。<br>小米 11 Lite 5G (6GB/128GB) 功能特色<br>◎ Android 11 作業系統、MIUI 12 操作介面<br>◎ 5G + 5G 雙卡雙待<br>◎ 6.55 吋 2,400 x 1,080pixels 解析度 AMOLED 螢幕（90Hz 螢幕更新率）<br>◎ Qualcomm Snapdragon 780G 八核心處理器<br>◎ 6GB RAM + 128GB ROM<br>◎ 前置 2,000 萬畫素鏡頭<br>◎ 後置 6,400 畫素 + 800 萬畫素 + 500 萬畫素鏡頭<br>◎ Wi-Fi 6、藍牙 5.2、NFC、紅外線遙控<br>◎ Hi-Res Audio 音效<br>◎ 側邊指紋辨識、人臉解鎖<br>◎ 配備 4,250mAh 電池<br>◎ 採用 USB Type-C 連接埠，支援 33W 有線快充<br>◎ 可透過 microSD 記憶卡擴充 1TB 儲存空間"
+            "details" : "6.55 吋 90Hz 螢幕<br>小米 11 Lite 5G 採用 6.55 吋 2,400 x 1,080pixels 解析度 AMOLED「挖孔」螢幕，通過 HDR10+ 顯示認證、DCI-P3 廣色域標準，擁有低藍光護眼模式，正面覆蓋康寧大猩猩第六代玻璃。支援 90Hz 螢幕更新率、240Hz 觸控採樣率，可提供滑順的操作體驗。<br>防眩光玻璃背蓋<br>小米 11 Lite 5G (6GB/128GB) 主打輕薄的機身設計，手機厚度僅有 6.81mm，帶來不錯的手感體驗；背蓋採用防眩光玻璃製成，能有效避免指紋沾染，搭配三款亮眼色系「松露黑」、「柑橘黃」與「薄荷綠」，打造初夏的視覺體驗。<br>高通驍龍 780G<br>小米 11 Lite 5G (6GB/128GB) 運行 Android 11 作業系統、MIUI 12 操作介面，規格搭載 Qualcomm Snapdragon 780G 八核心處理器，內建 6GB RAM + 128GB ROM，搭配 nano-SIM 三選二卡槽設計，支援 5G + 5G 雙卡雙待、microSD 記憶卡擴充功能。<br>LiquidCool 水冷散熱<br>小米 11 Lite 5G (6GB/128GB) 配備 4,250mAh 電池，支援 33W 快充技術，提供 Wi-Fi 6、藍牙 5.2 與 NFC 等功能。導入 LiquidCool 水冷散熱技術，即便處理各種複雜操作，也能確保機身溫度避免過熱。配備立體聲雙揚聲器，擁有 Hi-Res Audio 音效認證。<br>6,400 萬畫素三鏡頭<br>小米 11 Lite 5G (6GB/128GB) 後置三鏡頭主相機，分別為 6,400 畫素鏡頭 + 800 萬畫素 119 度超廣角 + 500 萬畫素 3cm 微距鏡頭，支援 AI 場景辨識、一鍵式 AI 電影模式，滿足多種場合的攝影需求。前置 2,000 萬畫素自拍鏡頭，具備人臉解鎖功能。<br>小米 11 Lite 5G (6GB/128GB) 功能特色<br>◎ Android 11 作業系統、MIUI 12 操作介面<br>◎ 5G + 5G 雙卡雙待<br>◎ 6.55 吋 2,400 x 1,080pixels 解析度 AMOLED 螢幕（90Hz 螢幕更新率）<br>◎ Qualcomm Snapdragon 780G 八核心處理器<br>◎ 6GB RAM + 128GB ROM<br>◎ 前置 2,000 萬畫素鏡頭<br>◎ 後置 6,400 畫素 + 800 萬畫素 + 500 萬畫素鏡頭<br>◎ Wi-Fi 6、藍牙 5.2、NFC、紅外線遙控<br>◎ Hi-Res Audio 音效<br>◎ 側邊指紋辨識、人臉解鎖<br>◎ 配備 4,250mAh 電池<br>◎ 採用 USB Type-C 連接埠，支援 33W 有線快充<br>◎ 可透過 microSD 記憶卡擴充 1TB 儲存空間"
         },
         {
             "title" : "Xperia PRO-I",
@@ -190,34 +96,9 @@
                     "2021 / 05"
                 ],
                 "colors": [
-                    "Blue",
-                    "Gray",
-                    "White"
+                    "Black"
                 ],
-                "OS": [
-                    "Android 11"
-                ],
-                "cpu-brand": [
-                    "Qualcomm"
-                ],
-                "cpu-type": [
-                    "Snapdragon 888"
-                ],
-                "screen-size": [
-                    6.5
-                ],
-                "camera-pixel": [
-                    "1200 萬"
-                ],
-                "RAM": [
-                    12
-                ],
-                "ROM": [
-                    "512G"
-                ],
-                "battery": [
-                    4500
-                ]
+                "internet": "3G/4G/5G", "OS": ["Android 11"], "cpu-brand": ["Qualcomm"], "cpu-type": ["Snapdragon 888"], "RAM": ["12 GB"], "ROM": ["512 GB"], "SD-card": ["microSD"], "battery": ["4500 mAh"], "screen-size": ["6.5 inch"], "screen-resolution": ["3840x1644 pixels"], "screen-material": ["HDR OLED"], "screen-refresh-rate": ["120 Hz"], "camera-pixel": ["1200 \u842c\u756b\u7d20"], "3G": ["HSDPA, HSUPA, WCDMA"], "4G": ["Yes"], "5G": ["Yes"], "sim-number": ["2"], "NFC": ["Yes"], "fast-charge": ["PD"], "fast-charge-W": ["30 W"], "body-material": ["\u73bb\u7483"], "weight": ["211 g"], "waterproof": ["IP65, IP68"], "transport port": ["USB 3.2, USB OTG, USB Type-C"], "body-color": ["\u9727\u9ed1"]
             },
             "details" : "6.5 吋 4K HDR OLED 螢幕<br>Sony Xperia PRO-I 配置 6.5 吋 4K HDR OLED 螢幕，採用 21：9 顯示比例，覆蓋 Gorilla Glass Victus 玻璃，強化螢幕耐用性，具備 120Hz 螢幕更新率、240Hz 觸控採樣率；配備 X1 手機影像處理引擎，內建 CineAlta、導演模式等顯示功能，支援 DCI-P3、ITU-R BT.2020 色域，擁有等同於 10 位元的顯示技術，帶來栩栩如生的高品質螢幕效果。<br>磨砂霧面背蓋<br>Sony Xperia PRO-I 背蓋採用 Gorilla Glass 6 玻璃 + 磨砂霧面質感工藝，具備 IP68 防塵防水，結合環繞刻紋線條噴砂金屬框，帶來猶如專業相機般的視覺衝擊，側邊擁有吊飾孔設計，提升拍攝的便利性；內建劇院級立體聲喇叭，通過 Hi-Res 認證，搭載 DSEE Ultimate 數位音質還原技術；支援 360 度實景音效、360 度空間音效、杜比全景聲模式，享有 Sony 高品質音樂美學。<br>高通驍龍 888<br>Sony Xperia PRO-I 搭載 Qualcomm Snapdragon 888 行動平台，內建 12GB RAM + 512GB ROM，提供 5G + 4G 雙卡雙待；支援 1TB 記憶卡擴充；備有 4,500mAh 電池，支援 30W PD 快充，並導入充電保護機制，防止手機過度充電；內建「遊戲增強器」，結合 Qualcomm Snapdragon Elite Gaming 遊戲引擎，暢玩遊戲體驗大躍進，搭配「H.S.電源控制」，能繞過電池直接對手機供電，避免溫度上升。<br>蔡司 T* 鍍膜三鏡頭<br>Sony Xperia PRO-I 相機採用 Sony Alpha 技術與 ZEISS T* 鍍膜，提供 1,200 萬畫素 24mm 焦距廣角鏡頭（1 吋 Exmor RS 感光元件、F2.0 / F4.0 可變雙光圈、OIS）+ 1,200 萬畫素 50mm 標準鏡頭（1/2.9 吋 Exmor RS 感光元件、OIS）+ 1,200 萬畫素 16mm 124° 超廣角鏡頭（1/2.5 吋 Exmor RS 感光元件）；具備 3D iToF 測距感測器，搭配 BIONZ X 手機影像處理器，帶來出色的影像運算速度，創造更豐富多元的構圖可能性，提供 20fps 高速連拍。<br>Videography 高品質錄影功能<br>Sony Xperia PRO-I 推出 Videography Pro 高品質的錄影功能，具備光學智慧防手震錄影與 FlawlessEye 技術，讓拍攝更加流暢穩定不晃動，還可依個人需求進行調整；並首款在錄影方面搭載「眼部追蹤對焦」以及「物件追蹤對焦」功能，同時擁有 4K / 120fps 錄影、Cinematography Pro 電影級錄影。此外，在主相機旁還設有一個獨立麥克風，透過「智慧風切聲過濾」，可有效過濾風切聲，讓使用者能清晰地錄製語音。<br>同步推出專屬配件<br>Sony Xperia PRO-I 同步推出專屬配件，可選購 Vlog 專屬 3.5 吋 1,280 x 720pixels 解析度 16:9 LCD 外接螢幕（組合含外接螢幕、磁性設計專屬夾具、L 型連接線），提供外接麥克風插孔，專屬支架上保留麥克風安裝位置；搭配 GP-VPT2BT 無線遙控拍攝握把，直接在握把就能實現錄影操作，同時推出真皮質感專屬背蓋。<br>Sony Xperia PRO-I 功能特色<br>◎ 5G + 4G 雙卡雙待<br>◎ Android 11 作業系統<br>◎ 6.5 吋 3,840 x 1,644pixels 解析度 HDR OLED 螢幕（120Hz 螢幕更新率）<br>◎ Qualcomm Snapdragon 888 八核心處理器<br>◎ 12GB RAM + 512GB ROM<br>◎ 前鏡頭：800 萬畫素<br>◎ 後鏡頭：1,200 萬畫素 + 1,200 萬畫素 + 1,200 萬畫素（24mm + 50mm + 16mm）<br>◎ ZEISS T* 鍍膜、3D iToF 測距感測器<br>◎ Videography 高品質錄影<br>◎ 指紋辨識<br>◎ IP65 / IP68 防塵防水<br>◎ Wi-Fi 6、藍牙 5.2、NFC<br>◎ 4,500mAh 電池，採用 USB Type-C 規格<br>◎ 支援 30W PD 快充<br>◎ 支援 microSD 記憶卡，最高可擴充至 1TB 儲存空間"
         },
@@ -227,7 +108,7 @@
             "price" : 39990,
             "prices":{
                 "512G / 12G": 39990,
-                "256G / 12G": 39990
+                "256G / 12G": 36990
             },
             "tags" : {
                 "up-time": [
@@ -238,33 +119,9 @@
                     "Gray",
                     "White"
                 ],
-                "OS": [
-                    "Android 11"
-                ],
-                "cpu-brand": [
-                    "Qualcomm"
-                ],
-                "cpu-type": [
-                    "Snapdragon 888"
-                ],
-                "screen-size": [
-                    6.5
-                ],
-                "camera-pixel": [
-                    "1200 萬"
-                ],
-                "RAM": [
-                    12
-                ],
-                "ROM": [
-                    "256G",
-                    "512G"
-                ],
-                "battery": [
-                    4500
-                ]
+                "internet": "3G/4G/5G", "OS": ["Android 11"], "cpu-brand": ["Qualcomm"], "cpu-type": ["Snapdragon 888"], "RAM": ["12 GB"], "ROM": ["256 GB", "512 GB"], "SD-card": ["microSD"], "battery": ["4500 mAh"], "screen-size": ["6.5 inch"], "screen-resolution": ["3840x1644 pixels"], "screen-material": ["HDR OLED"], "screen-refresh-rate": ["120 Hz"], "camera-pixel": ["1200 \u842c\u756b\u7d20"], "3G": ["HSDPA, HSUPA, WCDMA"], "4G": ["Yes"], "5G": ["Yes"], "sim-number": ["2"], "NFC": ["Yes"], "fast-charge": ["PD"], "fast-charge-W": ["30 W"], "body-material": ["\u73bb\u7483"], "weight": ["187 g"], "waterproof": ["IP65, IP68"], "transport port": ["USB 3.1, USB OTG, USB Type-C"], "body-color": ["\u6d88\u5149\u7070, \u6d88\u5149\u7d2b, \u6d88\u5149\u7da0, \u6d88\u5149\u9ed1"]
             },
-            "details" : "21：9 顯示比例<br>Sony Xperia 1 III 256GB 搭載 6.5 吋 HDR OLED 螢幕，不但擁有 4K 超高解析度，同時具備 120Hz 螢幕更新率、240Hz 觸控採樣率。螢幕延續 21：9 顯示比例，配備 X1 手機影像處理引擎，內建 CinemaWide、導演模式等顯示功能，支援 BRAVIA HDR Remaster 技術，擁有等同於 10 位元的顯示技術。<br>磨砂霧面背蓋<br>Sony Xperia 1 III 256GB 正面覆蓋 Gorilla Glass Victus 玻璃，背蓋為 Gorilla Glass 6 玻璃 + 磨砂霧面質感設計，有效降低指紋沾染，具備 IP68 防塵防水。搭載雙前置「全段立體聲揚聲器」，結合全新擴音器音箱結構，可消除因聲壓引發的手機震動；支援 360 度空間音效、杜比全景聲模式，享有高品質的音學體驗。<br>高通驍龍 888<br>Sony Xperia 1 III 256GB 搭載 Qualcomm Snapdragon 888 行動平台，內建 12GB RAM + 256GB ROM，採用三選二 nano-SIM 卡插槽，支援 5G + 4G 雙卡雙待；具備最大 1TB 儲存空間的 microSD 記憶卡擴充功能。配備 4,500mAh 電池，符合 USB PD 快充協議，支援 30W 有線快充，提供 Qi 無線充電、無線電量共享功能<br>升級版遊戲增強器<br>Sony Xperia 1 III 256GB 再度強化遊戲體驗，內建全新升級的「遊戲增強器」功能，可針對部分遊戲開啟「L-γ深色背景強化」模式，讓藏身暗處的敵人無所遁形；搭配新增的「音訊等化器」還能自由強化 31Hz-16kHz 間的音頻聲量，不管是敵人的腳步聲、遊戲背景的蟲鳴鳥叫，都可以依玩家喜好調整得很清楚；支援高幀率遊戲錄影與 30 秒回放預錄功能。<br>潛望式光學變焦<br>Sony Xperia 1 III 256GB 相機延續 Sony Alpha 技術與 ZEISS T* 鍍膜，提供 1,200 萬畫素 16mm 焦距超廣角鏡頭（1/2.6 吋 Exmor RS 感光元件）+ 1,200 萬畫素 24mm 焦距廣角鏡頭（1/1.7 吋 Exmor RS 感光元件、OIS）+ 1,200 萬畫素 70mm-105mm 焦距望遠鏡頭（1/2.9 吋 Exmor RS 感光元件、潛望式光學變焦、OIS、F2.3 光圈 / F2.8 光圈）；同時擁有 4 組焦距，為手機攝影帶來更多的創作可能。具備 3D iToF 測距感測器，內建新升級的即時眼部（人眼、動物眼）追焦、即時物件追焦，提供 20fps 高速連拍與 AI 超高解析縮放功能。<br>Sony Xperia 1 III 256GB 功能特色<br>◎ 5G + 4G 雙卡雙待<br>◎ Android 11 作業系統<br>◎ 6.5 吋 3,840 x 1,644pixels 解析度 HDR OLED 螢幕（120Hz 螢幕更新率）<br>◎ Qualcomm Snapdragon 888 八核心處理器<br>◎ 12GB RAM + 256GB ROM<br>◎ 前鏡頭：800 萬畫素<br>◎ 後鏡頭：1,200 萬畫素 + 1,200 萬畫素 + 1,200 萬畫素（16mm + 24mm + 70mm/105mm）<br>◎ ZEISS T* 鍍膜、3D iToF 測距感測器<br>◎ 即時眼部追焦、即時物件追焦、AI 超高解析縮放<br>◎ 側邊指紋辨識<br>◎ IP65 / IP68 防塵防水<br>◎ Wi-Fi 6、藍牙 5.2、NFC<br>◎ 4,500mAh 電池，採用 USB Type-C 規格<br>◎ 支援 30W 有線快充，提供無線充電、無線電量共享<br>◎ 支援 microSD 記憶卡，最高可擴充至 1TB 儲存空間"
+            "details" : "21：9 顯示比例<br>Sony Xperia 1 III 搭載 6.5 吋 HDR OLED 螢幕，不但擁有 4K 超高解析度，同時具備 120Hz 螢幕更新率、240Hz 觸控採樣率。螢幕延續 21：9 顯示比例，配備 X1 手機影像處理引擎，內建 CinemaWide、導演模式等顯示功能，支援 BRAVIA HDR Remaster 技術，擁有等同於 10 位元的顯示技術。<br>磨砂霧面背蓋<br>Sony Xperia 1 III 256GB 正面覆蓋 Gorilla Glass Victus 玻璃，背蓋為 Gorilla Glass 6 玻璃 + 磨砂霧面質感設計，有效降低指紋沾染，具備 IP68 防塵防水。搭載雙前置「全段立體聲揚聲器」，結合全新擴音器音箱結構，可消除因聲壓引發的手機震動；支援 360 度空間音效、杜比全景聲模式，享有高品質的音學體驗。<br>高通驍龍 888<br>Sony Xperia 1 III 256GB 搭載 Qualcomm Snapdragon 888 行動平台，內建 12GB RAM + 256GB ROM，採用三選二 nano-SIM 卡插槽，支援 5G + 4G 雙卡雙待；具備最大 1TB 儲存空間的 microSD 記憶卡擴充功能。配備 4,500mAh 電池，符合 USB PD 快充協議，支援 30W 有線快充，提供 Qi 無線充電、無線電量共享功能<br>升級版遊戲增強器<br>Sony Xperia 1 III 256GB 再度強化遊戲體驗，內建全新升級的「遊戲增強器」功能，可針對部分遊戲開啟「L-γ深色背景強化」模式，讓藏身暗處的敵人無所遁形；搭配新增的「音訊等化器」還能自由強化 31Hz-16kHz 間的音頻聲量，不管是敵人的腳步聲、遊戲背景的蟲鳴鳥叫，都可以依玩家喜好調整得很清楚；支援高幀率遊戲錄影與 30 秒回放預錄功能。<br>潛望式光學變焦<br>Sony Xperia 1 III 256GB 相機延續 Sony Alpha 技術與 ZEISS T* 鍍膜，提供 1,200 萬畫素 16mm 焦距超廣角鏡頭（1/2.6 吋 Exmor RS 感光元件）+ 1,200 萬畫素 24mm 焦距廣角鏡頭（1/1.7 吋 Exmor RS 感光元件、OIS）+ 1,200 萬畫素 70mm-105mm 焦距望遠鏡頭（1/2.9 吋 Exmor RS 感光元件、潛望式光學變焦、OIS、F2.3 光圈 / F2.8 光圈）；同時擁有 4 組焦距，為手機攝影帶來更多的創作可能。具備 3D iToF 測距感測器，內建新升級的即時眼部（人眼、動物眼）追焦、即時物件追焦，提供 20fps 高速連拍與 AI 超高解析縮放功能。<br>Sony Xperia 1 III 256GB 功能特色<br>◎ 5G + 4G 雙卡雙待<br>◎ Android 11 作業系統<br>◎ 6.5 吋 3,840 x 1,644pixels 解析度 HDR OLED 螢幕（120Hz 螢幕更新率）<br>◎ Qualcomm Snapdragon 888 八核心處理器<br>◎ 12GB RAM + 256GB ROM<br>◎ 前鏡頭：800 萬畫素<br>◎ 後鏡頭：1,200 萬畫素 + 1,200 萬畫素 + 1,200 萬畫素（16mm + 24mm + 70mm/105mm）<br>◎ ZEISS T* 鍍膜、3D iToF 測距感測器<br>◎ 即時眼部追焦、即時物件追焦、AI 超高解析縮放<br>◎ 側邊指紋辨識<br>◎ IP65 / IP68 防塵防水<br>◎ Wi-Fi 6、藍牙 5.2、NFC<br>◎ 4,500mAh 電池，採用 USB Type-C 規格<br>◎ 支援 30W 有線快充，提供無線充電、無線電量共享<br>◎ 支援 microSD 記憶卡，最高可擴充至 1TB 儲存空間"
         },
         {
             "title" : "Xperia 5 III",
@@ -282,30 +139,7 @@
                     "Gray",
                     "White"
                 ],
-                "OS": [
-                    "Android 11"
-                ],
-                "cpu-brand": [
-                    "Qualcomm"
-                ],
-                "cpu-type": [
-                    "Snapdragon 888"
-                ],
-                "screen-size": [
-                    6.1
-                ],
-                "camera-pixel": [
-                    "1200 萬"
-                ],
-                "RAM": [
-                    8
-                ],
-                "ROM": [
-                    "256G"
-                ],
-                "battery": [
-                    4500
-                ]
+                "internet": "3G/4G/5G", "OS": ["Android 11"], "cpu-brand": ["Qualcomm"], "cpu-type": ["Snapdragon 888"], "RAM": ["8 GB"], "ROM": ["256 GB"], "SD-card": ["microSD"], "battery": ["4500 mAh"], "screen-size": ["6.1 inch"], "screen-resolution": ["2520x1080 pixels"], "screen-material": ["HDR OLED"], "screen-refresh-rate": ["120 Hz"], "camera-pixel": ["1200 \u842c\u756b\u7d20"], "3G": ["HSDPA, HSUPA, WCDMA"], "4G": ["Yes"], "5G": ["Yes"], "sim-number": ["2"], "NFC": ["Yes"], "fast-charge": ["PD"], "fast-charge-W": ["30 W"], "body-material": ["\u73bb\u7483"], "weight": ["169 g"], "waterproof": ["IP65, IP68"], "transport port": ["USB 3.1, USB Type-C"], "body-color": ["\u93e1\u7c89, \u93e1\u7da0, \u93e1\u9ed1"]
             },
             "details" : "6.1 吋 120Hz 螢幕<br>Sony Xperia 5 III 採用 6.1 吋 FHD+ 解析度 HDR OLED 螢幕，具備 120Hz 螢幕更新率、240Hz 觸控採樣率，提供滑順的操作體驗。螢幕延續 21：9 顯示比例，支援 X1 for mobile 影像處理技術，內建 CinemaWide、導演模式等顯示功能；正面覆蓋 Gorilla Glass 6 玻璃。<br>IP68 防塵防水<br>Sony Xperia 5 III 背蓋採用 Gorilla Glass 6 強化玻璃，延續亮面質感與小巧機身設計，具備 IP68 防塵防水，滿足日常防護所需，共有鏡黑、鏡綠、鏡粉等顏色款式。搭載雙前置「全段立體聲揚聲器」，結合全新擴音器音箱結構，支援 360 Reality Audio 實境音效、Dolby Atmos 杜比全景聲，享有優質的音學體驗。<br>高通驍龍 888<br>Sony Xperia 5 III 搭載 Qualcomm Snapdragon 888 行動平台，内建 8GB RAM / 256GB ROM，支援 5G + 4G 雙卡雙待，提供 microSD 記憶卡擴充；配備 4,500mAh 電池，擁有 30W 有線快充。遊戲體驗加入深色背景強化模式，新增高幀率遊戲錄影與 30 秒回放預錄功能。<br>潛望式光學變焦<br>Sony Xperia 5 III 延續 Sony Alpha 技術與 ZEISS T* 鍍膜，提供 1,200 萬畫素 16mm 焦距超廣角（1/2.6 吋 Exmor RS 感光元件）+ 1,200 萬畫素 24mm 焦距廣角（1/1.7 吋 Exmor RS 感光元件、OIS）+ 1,200 萬畫素 70mm-105mm 焦距（1/2.9 吋 Exmor RS 感光元件、潛望式光學變焦、F2.3 光圈 / F2.8 光圈、OIS）三鏡頭主相機，支援即時眼部（人眼、動物眼）追焦，提供物件追焦、AI 超高解析縮放功能。<br>Sony Xperia 5 III 功能特色<br>◎ 5G + 4G 雙卡雙待<br>◎ Android 11 作業系統<br>◎ 6.1 吋 2,520 x 1,080pixels 解析度 HDR OLED 螢幕<br>◎ Qualcomm Snapdragon 888 八核心處理器<br>◎ 8GB + 256GB<br>◎ 前鏡頭：800 萬畫素<br>◎ 後鏡頭：1,200 萬畫素 + 1,200 萬畫素 + 1,200 萬畫素<br>◎ 即時眼部追焦（人眼、動物眼）、物件追焦、AI 超高解析縮放<br>◎ 側邊指紋辨識<br>◎ IP68 防塵防水<br>◎ Wi-Fi 6、藍牙 5.2、NFC<br>◎ 4,500mAh 電池<br>◎ 採用 USB Type-C 規格，支援 30W 有線快充<br>◎ 支援 microSD 記憶卡，最高可擴充至 1TB 儲存空間"
         },
@@ -326,35 +160,260 @@
                     "Pink",
                     "White"
                 ],
-                "OS": [
-                    "Android 11"
-                ],
-                "cpu-brand": [
-                    "Qualcomm"
-                ],
-                "cpu-type": [
-                    "Snapdragon 690"
-                ],
-                "screen-size": [
-                    6
-                ],
-                "camera-pixel": [
-                    "1200 萬"
-                ],
-                "RAM": [
-                    6
-                ],
-                "ROM": [
-                    "128G"
-                ],
-                "battery": [
-                    4500
-                ]
+                "internet": "3G/4G/5G", "OS": ["Android 11"], "cpu-brand": ["Qualcomm"], "cpu-type": ["Snapdragon 690"], "RAM": ["6 GB"], "ROM": ["128 GB"], "SD-card": ["microSD"], "battery": ["4500 mAh"], "screen-size": ["6 inch"], "screen-resolution": ["2520x1080 pixels"], "screen-material": ["HDR OLED"], "screen-refresh-rate": ["60 Hz"], "camera-pixel": ["1200 \u842c\u756b\u7d20"], "3G": ["HSDPA, HSUPA, WCDMA"], "4G": ["Yes"], "5G": ["Yes"], "sim-number": ["2"], "NFC": ["Yes"], "fast-charge": ["PD"], "fast-charge-W": ["18 W"], "body-material": ["\u73bb\u7483"], "weight": ["169 g"], "waterproof": ["IP68"], "transport port": ["USB 3.1, USB Type-C"], "body-color": ["\u6c34\u6f3e\u767d, \u6c34\u6f3e\u7c89, \u6c34\u6f3e\u85cd, \u6c34\u6f3e\u9ed1"]
             },
             "details" : "21：9 顯示比例<br>Sony Xperia 10 III 採用 6 吋 FHD+ 解析度 HDR OLED 螢幕，延續 21：9 顯示比例，具備 120Hz 觸控採樣率，支援 TRILUMINOS display for mobile 原色顯示技術，提供寬廣的視覺體驗，正面覆蓋 Gorilla Glass 6 玻璃。<br>IP68 防塵防水<br>Sony Xperia 10 III 背蓋採用 Gorilla Glass 6 強化玻璃，共有水漾黑、水漾白、水漾藍、水漾粉等顏色款式，機身具備 IP68 防塵防水，滿足日常防護所需。保留 3.5mm 耳機孔，支援 Hi-Res Audio、DSEE Ultimate 數位音質還原技術。<br>高通驍龍 690<br>Sony Xperia 10 III 搭載 Qualcomm Snapdragon 690 行動平台，内建 6GB RAM / 128GB ROM；採用雙面 Nano-SIM 卡槽設計，支援 5G + 4G 雙卡雙待，具備 microSD 記憶卡擴充功能。配備 4,500mAh 電池，擁有 18W PD 有線快充。<br>夜景攝影模式<br>Sony Xperia 10 III 後置三鏡頭主相機，提供 800 萬畫素 16mm 焦距超廣角 + 1,200 萬畫素 27mm 焦距廣角 + 800 萬畫素 54mm 焦距三鏡頭，支援智慧場景辨識（寵物偵測優化）、10fps 高速連拍，提供夜景攝影功能。<br>Sony Xperia 10 III 功能特色<br>◎ 5G + 4G 雙卡雙待<br>◎ Android 11 作業系統<br>◎ 6 吋 2,520 x 1,080pixels 解析度 HDR OLED 螢幕<br>◎ Qualcomm Snapdragon 690 八核心處理器<br>◎ 6GB RAM / 128GB ROM<br>◎ 前鏡頭：800 萬畫素<br>◎ 後鏡頭：1,200 萬畫素 + 800 萬畫素 + 800 萬畫素<br>◎ 智慧場景辨識（寵物偵測優化）、夜景模式<br>◎ 側邊指紋辨識<br>◎ IP65 / IP68 防塵防水<br>◎ Wi-Fi 5、藍牙 5.1、NFC<br>◎ 4,500mAh 電池<br>◎ 採用 USB Type-C 規格，支援 18W PD 有線快充<br>◎ 支援 microSD 記憶卡，最高可擴充至 1TB 儲存空間"
         },
         {
-            "title" : "Iphone 1011101010"
+            "title" : "Xperia 5 II",
+            "profile image path" : "./src/img/phones/xperia5II.jpg",
+            "price" : 12990,
+            "prices":{
+                "256G / 8G": 12990
+            },
+            "tags" : {
+                "up-time": [
+                    "2020 / 10"
+                ],
+                "colors": [
+                    "Black",
+                    "Blue",
+                    "Pink",
+                    "Gray"
+                ],
+                "internet": "3G/4G/5G", "OS": ["Android 10"], "cpu-brand": ["Qualcomm"], "cpu-type": ["Snapdragon 865"], "RAM": ["8 GB"], "ROM": ["256 GB"], "SD-card": ["microSD"], "battery": ["4000 mAh"], "screen-size": ["6.1 inch"], "screen-resolution": ["2520x1080 pixels"], "screen-material": ["HDR OLED"], "camera-pixel": ["1200 \u842c\u756b\u7d20"], "3G": ["HSDPA, HSUPA, WCDMA"], "4G": ["Yes"], "5G": ["Yes"], "sim-number": ["2"], "NFC": ["Yes"], "fast-charge": ["PD 3.0"], "fast-charge-W": ["21 W"], "weight": ["163 g"], "waterproof": ["IP65, IP68"], "transport port": ["USB 3.1, USB OTG, USB Type-C"], "body-color": ["\u6de8\u900f\u85cd, \u7470\u871c\u7c89, \u7642\u7652\u9ed1, \u975c\u8b10\u7070"]
+            },
+            "details" : "6.1 吋 21：9 螢幕<br>Sony Xperia 5 II 配置 6.1 吋 2,520 x 1,080pixels 解析度 21：9 比例 FHD+ HDR OLED 螢幕，支援 120Hz 螢幕更新率、240Hz 觸控掃描頻率，機身側邊加入 Google 語音助理實體按鍵，正反面皆覆蓋康寧大猩猩第六代玻璃，具備 IP65 / IP68 防水防塵等級，提升手機耐用性；邊框採用金屬材質結合圓潤邊角設計，讓握持手感再升級。內建導演模式 Creator mode（powered by CineAlta），呈現前所未見的精準色彩；擁有 Sony Music Entertainment 音效，立體聲喇叭導入 360 Reality Audio 實境音效、DSEE Ultimate 數位音質還原技術，提供逼近真實、媲美原音重現的聆賞體驗。<br>5G + 4G 雙卡雙待<br>Sony Xperia 5 II 運行 Android 10 作業系統，內建 Qualcomm Snapdragon 865, 2.8GHz + 1.8GHz 八核心處理器、8GB RAM / 256GB ROM，導入石墨烯散熱架構，增強手機散熱表現；支援 5G + 4G 雙卡雙待，具備 Sub-6、NSA 功能，配備 4,000mAh 電池，擁有 21W PD 3.0 快充技術。遊戲增強器加入效能優先模式，自動調整螢幕更新率，若是搭配內建麥克風的 3.5mm 耳機，還可提高語音通話品質；提供 Heat Suppression 電源控制功能。其他具備 Wi-Fi 6、藍牙 5.1、NFC、側邊指紋辨識，支援 DUALSHOCK 4 遊戲手把操作。<br>即時眼部追焦<br>Sony Xperia 5 II 相機結合 Sony Alpha 與 ZEISS 光學專業技術，前置 800 萬畫素鏡頭（F2.0 光圈），後置 1,200 萬畫素 16mm 超廣角鏡頭（124 度廣角、F2.2 光圈、1/2.6 吋、 Dual Pixel PDAF）+ 1,200 萬畫素 70mm 望遠鏡頭（1/3.4 吋、F2.4 光圈、PDAF、OIS）+ 1,200 萬畫素 24mm 標準鏡頭（F1.7 光圈、1/1.7 吋、 Dual Pixel PDAF、OIS），透過大三元焦段，提供靈活多變的拍攝體驗；支援即時眼部追焦、3 倍光學變焦、20fps 高速連拍功能，每秒可執行 60 次自動對焦暨自動曝光 AF/AE 追蹤計算。Photo Pro 增加「RAW 檔案格式」儲存功能，轉盤設定增加 MR 模式，可將常用的參數直接設定儲存使用；Cinema Pro 支援 4K 120fps 慢動作錄影。<br>Sony Xperia 5 II 功能特色<br>◎ 5G + 4G 雙卡雙待<br>◎ Android 10 作業系統<br>◎ 6.1 吋 FHD+ HDR OLED 觸控螢幕（120Hz 螢幕更新率）<br>◎ Qualcomm Snapdragon 865, 2.8GHz + 1.8GHz 八核心處理器<br>◎ 8GB RAM / 256GB ROM<br>◎ 前置 800 萬畫素鏡頭<br>◎ 後置 1,200 萬畫素 + 1,200 萬畫素 + 1,200 萬畫素主相機<br>◎ Wi-Fi 6、藍牙 5.1、NFC<br>◎ IP65 / IP68 防塵防水等級<br>◎ 側邊指紋辨識<br>◎ Google 語音助理實體按鍵<br>◎ 4,000mAh 電池<br>◎ 採用 USB 3.1 Type-C 規格，支援 21W PD 3.0 快充<br>◎ 支援 microSD 記憶卡<br>◎ 盒裝配件：18W UCH32 電源充電器、USB Type-C 數據線、3.5mm 耳機、耳機塞、耳機夾"
+        },
+        {
+            "title" : "Xperia 1 II",
+            "profile image path" : "./src/img/phones/xperia1II.jpg",
+            "price" : 36990,
+            "prices":{
+                "256G / 8G": 35990,
+                "256G /12G": 36990
+            },
+            "tags" : {
+                "up-time": [
+                    "2020 / 06"
+                ],
+                "colors": [
+                    "Black",
+                    "Purple",
+                    "White"
+                ],
+                "internet": "3G/4G/5G", "OS": ["Android 10"], "cpu-brand": ["Qualcomm"], "cpu-type": ["Snapdragon 865"], "RAM": ["8 GB", "12 GB"], "ROM": ["256 GB"], "SD-card": ["microSD"], "battery": ["4000 mAh"], "screen-size": ["6.1 inch"], "screen-resolution": ["2520x1080 pixels"], "screen-material": ["HDR OLED"], "camera-pixel": ["1200 \u842c\u756b\u7d20"], "3G": ["HSDPA, HSUPA, WCDMA"], "4G": ["Yes"], "5G": ["Yes"], "sim-number": ["2"], "NFC": ["Yes"], "fast-charge": ["PD 3.0"], "fast-charge-W": ["21 W"], "weight": ["163 g"], "waterproof": ["IP65, IP68"], "transport port": ["USB 3.1, USB OTG, USB Type-C"], "body-color": ["\u6de8\u900f\u85cd, \u7470\u871c\u7c89, \u7642\u7652\u9ed1, \u975c\u8b10\u7070"]
+            },
+            "details" : "360 Reality Audio<br>Sony Xperia 1 II 配置 6.5 吋 21：9 CinemaWide 4K HDR OLED 螢幕，具備動態模糊減少技術 Motion Blur Reduction，以相當於 90Hz 螢幕更新率，減少影格延遲，提升影像畫質清晰度；搭配導演模式 Creator mode（powered by CineAlta），呈現前所未見的精準色彩。Sony Xperia 1 II (8GB/256GB) 透過與 Sony Music Entertainment 合作，調校出音樂人期望的理想高音質，並搭載立體聲喇叭，加入最新 360 Reality Audio 實境音效、DSEE Ultimate 數位音質還原技術，帶來逼近真實、媲美原音重現的聆賞體驗。此外，前後均覆蓋康寧大猩猩第六代玻璃，支援 IP65 / IP68 防水防塵等級。<br>Competition Set 專注模式<br>Sony Xperia 1 II (8GB/256GB) 運行 Android 10 作業系統，內建 Qualcomm Snapdragon 865, 2.8GHz + 1.8GHz 八核心處理器、8GB RAM / 256GB ROM，搭載 4,000mAh 電池，30 分鐘即可充電高達 50%，藉由 Qi 無線充電功能讓你更方便隨時補充電力。Sony Xperia 1 II (8GB/256GB) 搭配 PlayStation 4 的 DUALSHOCK 4 遊戲手把，提升手遊體驗的「遊戲增強器」，並支援 Competition Set 專注模式，讓遊戲應用程式置頂設定，以便玩家專注於遊戲賽事。此外，支援 5G 連網，以及 NSA 非獨立組網，提供更高速、高品質的內容存取及觀賞體驗。<br>3D iToF 測距感測器<br>Sony Xperia 1 II (8GB/256GB) 前置 800 萬畫素鏡頭（F2.0 光圈）、後置 1,200 萬畫素（F1.7 光圈）+ 1,200 萬畫素（F2.2 光圈）+ 1,200 萬畫素 124° 超廣角鏡頭（F2.4 光圈），分別擁有 16mm、24mm、70mm 三種焦段，帶來更隨心所欲、靈活多變的拍攝體驗。Sony Xperia 1 II (8GB/256GB) 結合 Sony Alpha 技術與 ZEISS 光學專業，以及特別打造的 3D iToF 測距感測器，運用 Alpha 可交換式鏡頭相機的技術，提供連續高速自動對焦功能，每秒可執行 60 次自動對焦暨自動曝光 AF/AE 追蹤計算，更以連續追蹤功能，造就全球首創每秒 20 張高速連拍功能。<br>Sony Xperia 1 II (8GB/256GB) 功能特色<br>◎ 5G 單卡、4G + 4G 雙卡雙待<br>◎ Android 10 作業系統<br>◎ 6.5 吋 3,840 x 1,644pixels 解析度 OLED 觸控螢幕<br>◎ Qualcomm Snapdragon 865, 2.8GHz + 1.8GHz 八核心處理器<br>◎ 8GB RAM / 256GB ROM<br>◎ 前置 800 萬畫素鏡頭<br>◎ 後置 1,200 萬畫素 + 1,200 萬畫素 + 1,200 萬畫素主相機<br>◎ Wi-Fi 6、藍牙 5.1、NFC<br>◎ IP65 / IP68 防塵防水等級<br>◎ 指紋辨識<br>◎ 4,000mAh 電池<br>◎ 採用 USB 3.1 Type-C 規格，支援 PD 3.0 快充<br>◎ 支援 microSD 記憶卡，最高可擴充至 1TB 儲存空間<br>◎ 盒裝配件：18W UCH32 電源充電器、USB Type-C 數據線、3.5mm 耳機、耳機塞、耳機夾"
+        },
+        {
+            "title" : "iPhone 13",
+            "profile image path" : "./src/img/phones/iphone13.jpg",
+            "price" : 36400,
+            "prices":{
+                "512G / 4G": 36400,
+                "128G / 4G": 25900,
+                "256G / 4G": 29400
+            },
+            "tags" : {
+                "up-time": [
+                    "2021 / 09"
+                ],
+                "colors": [
+                    "Blue",
+                    "Red",
+                    "White",
+                    "Black",
+                    "Pink"
+                ],
+                "battery": ["3227 mAh"], "internet": "3G/4G/5G", "RAM": ["4 GB"], "ROM": ["128 GB", "256 GB", "512 GB"], "OS": ["iOS 15"], "cpu-brand": ["Apple"], "cpu-type": ["A15 Bionic"], "screen-size": ["6.1 inch"], "screen-resolution": ["2532x1170 pixels"], "screen-material": ["OLED"], "camera-pixel": ["1200 \u842c\u756b\u7d20"], "3G": ["HSDPA, HSUPA, WCDMA"], "4G": ["Yes"], "5G": ["Yes"], "NFC": ["Yes"], "body-material": ["\u73bb\u7483"], "weight": ["173 g"], "waterproof": ["IP68"], "transport port": ["Lightning"], "body-color": ["\u5348\u591c, \u661f\u5149, \u7c89\u7d05, \u7d05, \u85cd"]
+            },
+            "details" : "6.1 吋 OLED 顯示器<br>Apple iPhone 13 配置 6.1 吋 2,532 x 1,170pixels 解析度超 Retina XDR 顯示器，搭載 OLED 螢幕面板，支援原彩顯示、電影級 P3 標準廣色域；顯示 HDR 內容時，螢幕亮度最高可達 1,200nits。另外，隨著螢幕「瀏海」也就是原深感測相機的面積縮小 20%，相對帶來更為寬廣的視覺體驗。<br>超瓷晶盾面板<br>Apple iPhone 13 128GB 延續高規格的保護力，正面採用超瓷晶盾面板加強機身防護效果，維持平面鋁金屬中框以及玻璃機背設計，擁有 IP68 防塵防水等級，在最深達 6 公尺的水中最長可達 30 分鐘。顏色方面，提供粉紅色、藍色、午夜色、星光色、紅色等 5 種款式可選。<br>A15 仿生晶片<br>Apple iPhone 13 128GB 搭載 A15 仿生晶片，具備全新 16 核心神經網路引擎，兼顧遊戲效能、手機續航表現；運行 iOS 15 作業系統，FaceTime 加入「同播共享」模式，提供滿載強大的功能，以及各式隱私保護設計。支援 5G 上網，提供 eSIM 服務，具備 Wi-Fi 6、藍牙 5.0、超寬頻、NFC 讀取等應用。<br>MagSafe 無線充電<br>Apple iPhone 13 128GB 具備 Face ID 功能，可透過原深感測相機進行臉部辨識，提供手機解鎖、身分認證等操作。續航部分，再度強化電池容量與續航能力，影片播放時間最長可達 19 小時，支援有線快速充電、7.5W Qi 無線充電；內建 MagSafe 磁石陣列，可提供 15W MagSafe 無線充電功能。<br>OIS 影像穩定<br>Apple iPhone 13 128GB 全面強化攝影架構，同時加入新一代感光元件，以及 OIS 感光元件位移式穩定功能，雙相機系統改採對角排列設計，具備 1,200 萬畫素廣角鏡頭 + 1,200 萬畫素 120 度超廣角鏡頭，支援智慧型 HDR 4、人像光線、原彩閃光燈功能。新增「電影級模式」，可自動拍攝淺景深效果影片，支援杜比視界 HDR 拍攝。<br>Apple iPhone 13 128GB 功能特色<br>◎ iOS 15 作業系統<br>◎ 6.1 吋 2,532 x 1,170pixels 解析度超 Retina XDR 顯示器（OLED 螢幕）<br>◎ A15 仿生晶片（4 核心 GPU）<br>◎ 128GB ROM<br>◎ 1,200 萬畫素原深感測相機<br>◎ 1,200 萬畫素廣角鏡頭 + 1,200 萬畫素超廣角鏡頭<br>◎ 5G 上網、eSIM、Wi-Fi 6、藍牙 5.0、超寬頻、NFC 讀取<br>◎ IP68 防水防塵<br>◎ 電影級模式、杜比視界錄製、夜間攝影、智慧型 HDR 4 模式<br>◎ Face ID 臉部辨識<br>◎ 支援有線快速充電、15W MagSafe 無線充電、7.5W Qi 無線充電<br>◎ 採用 Lightning 連接埠"
+        },
+        {
+            "title" : "iPhone 12",
+            "profile image path" : "./src/img/phones/iphone12.jpg",
+            "price" : 32000,
+            "prices":{
+                "256G / 4G": 32000,
+                "128G / 4G": 28500,
+                "64G / 4G": 26900
+            },
+            "tags" : {
+                "up-time": [
+                    "2020 / 10"
+                ],
+                "colors": [
+                    "White",
+                    "Black",
+                    "Blue",
+                    "Green",
+                    "Red",
+                    "Purple"
+                ],
+                "battery": ["2815 mAh"], "internet": "3G/4G/5G", "RAM": ["4 GB"], "ROM": ["64 GB", "128 GB", "256 GB"], "OS": ["iOS 14"], "cpu-brand": ["Apple"], "cpu-type": ["A14 Bionic"], "screen-size": ["6.1 inch"], "screen-resolution": ["2532x1170 pixels"], "screen-material": ["OLED"], "screen-refresh-rate": ["60 Hz"], "camera-pixel": ["1200 \u842c\u756b\u7d20"], "3G": ["HSDPA, HSUPA, WCDMA"], "4G": ["Yes"], "5G": ["Yes"], "NFC": ["Yes"], "body-material": ["\u73bb\u7483"], "weight": ["162 g"], "waterproof": ["IP68"], "transport port": ["Lightning"], "body-color": ["\u767d, \u7d05, \u7da0, \u85cd, \u9ed1"]
+            },
+            "details" : "6.1 吋 OLED 顯示器<br>Apple iPhone 12 配置 6.1 吋 2,532 x 1,170pixels 解析度超 Retina XDR 顯示器，搭載 OLED 螢幕面板，不僅對比度顯著提升，同時具備 HDR、原彩顯示，讓螢幕表現更上層樓。<br>超瓷晶盾面板<br>Apple iPhone 12 採用航太等級鋁金屬邊框設計，結合超瓷晶盾面板與玻璃機背，同時為加強機身防護效果，特別導入奈米級陶瓷晶體，以及雙離子交換製程，提升防刮表現；具備 IP68 防塵防水等級。<br>A14 仿生晶片<br>Apple iPhone 12 搭載 A14 仿生晶片，採用新一代神經網路引擎，運行 iOS 14 作業系統，提供 Wi-Fi 6、藍牙 5.0、NFC 等連線功能。支援快速充電功能，具備 15W MagSafe 無線充電、7.5W Qi 無線充電模式。<br>5G 上網<br>Apple iPhone 12 具備 5G 上網功能，除了能夠串流播放更高畫質的影片，享受超低延遲的多人連線遊戲體驗外，搭配智慧型數據模式，可在 iPhone 進行背景更新時，自動切換 4G 網路節省電力消耗。<br>杜比視界錄製<br>Apple iPhone 12 前置 1,200 萬畫素原深感測相機，提供智慧型 HDR 3 場景偵測功能，擁有人像模式，具備 Face ID 臉部辨識。後置 1,200 萬畫素廣角 + 1,200 萬畫素 120 度超廣角雙鏡頭，內建夜間攝影模式，支援即時杜比視界錄製，享有電影級的畫面表現。<br>Apple iPhone 12 128GB 功能特色<br>◎ iOS 14 作業系統<br>◎ 6.1 吋 2,532 x 1,170pixels 解析度超 Retina XDR 顯示器（OLED 螢幕）<br>◎ A14 仿生晶片<br>◎ 128GB ROM<br>◎ 1,200 萬畫素 + 1,200 萬畫素主鏡頭、1,200 萬畫素前鏡頭<br>◎ 5G 上網、Wi-Fi 6、藍牙 5.0、NFC<br>◎ IP68 防水防塵<br>◎ 支援杜比視界錄製、夜間攝影、智慧型 HDR 3 模式<br>◎ Face ID 臉部辨識<br>◎ 支援有線快速充電、15W MagSafe 無線充電、7.5W Qi 無線充電<br>◎ 採用 Lightning 連接埠<br>◎ 盒裝配件：USB Type-C to Lightning 數據線、SIM 卡插針"
+        },
+        {
+            "title" : "iPhone 13 Pro Max",
+            "profile image path" : "./src/img/phones/iphone13promax.jpg",
+            "price" : 54400,
+            "prices":{
+                "1TB / 6G": 54400,
+                "512G / 6G": 47400,
+                "128G / 6G": 36900,
+                "256G / 6G": 40400
+            },
+            "tags" : {
+                "up-time": [
+                    "2021 / 09"
+                ],
+                "colors": [
+                    "Silver",
+                    "Gold",
+                    "Black",
+                    "Blue"
+                ],
+                "battery": ["4352 mAh"], "internet": "3G/4G/5G", "RAM": ["6 GB"], "ROM": ["128 GB", "256 GB", "512 GB", "1 TB"], "OS": ["iOS 15"], "cpu-brand": ["Apple"], "cpu-type": ["A15 Bionic"], "screen-size": ["6.7 inch"], "screen-resolution": ["2778x1284 pixels"], "screen-material": ["OLED"], "screen-refresh-rate": ["120 Hz"], "camera-pixel": ["1200 \u842c\u756b\u7d20"], "3G": ["HSDPA, HSUPA, WCDMA"], "4G": ["Yes"], "5G": ["Yes"], "NFC": ["Yes"], "body-material": ["\u73bb\u7483"], "weight": ["238 g"], "waterproof": ["IP68"], "transport port": ["Lightning"], "body-color": ["\u5929\u5cf0\u85cd, \u77f3\u58a8, \u91d1, \u9280"]
+            },
+            "details" : "6.7 吋 OLED 顯示器<br>Apple iPhone 13 Pro Max 配置 6.7 吋 2,778 x 1,284pixels 解析度超 Retina XDR 顯示器，搭載 OLED 螢幕面板，具備 120Hz 的 ProMotion 自動適應更新頻率技術，提供順暢無比的操作體驗。另外，隨著螢幕「瀏海」也就是原深感測相機的面積縮小 20%，相對帶來更為寬廣的視覺體驗。<br>超瓷晶盾面板<br>Apple iPhone 13 Pro Max 128GB 延續高規格的保護力，正面採用超瓷晶盾面板加強機身防護效果，搭配不鏽鋼中框與霧面質感玻璃機背，擁有 IP68 防塵防水等級，在最深達 6 公尺的水中最長可達 30 分鐘。顏色方面，提供石墨色、金色、銀色、天峰藍色等 4 種款式可選。<br>效能版 A15 仿生晶片<br>Apple iPhone 13 Pro Max 128GB 搭載效能版 A15 仿生晶片，具備全新 16 核心神經網路引擎，GPU 相較 iPhone 13 更多一個 GPU 核心，有效加強繪圖處理能力，帶來更強大的遊戲表現；主打各式強大的功能，以及絕佳隱私保護設計。支援 5G 上網，提供 eSIM 服務，具備 Wi-Fi 6、藍牙 5.0、超寬頻、NFC 讀取等應用。<br>MagSafe 無線充電<br>Apple iPhone 13 Pro Max 128GB 具備 Face ID 功能，可透過原深感測相機進行臉部辨識，提供手機解鎖、身分認證等操作。續航部分，再度強化電池容量與續航能力，影片播放時間最長可達 28 小時，支援有線快速充電、7.5W Qi 無線充電；內建 MagSafe 磁石陣列，可提供 15W MagSafe 無線充電功能。<br>微距攝影模式<br>Apple iPhone 13 Pro Max 128GB 後置 1,200 萬畫素三鏡頭，分別提供 13mm + 26mm + 77mm 三組焦距，除了具備 OIS 感光元件位移式穩定功能，支援 3 光學變焦、15 倍數位變焦外，全新加入 2cm 微距攝影模式，滿足更多元的攝影需求。內建智慧型 HDR 4，可自動精細調整人像對比、光線與膚色效果。<br>三鏡頭夜景模式<br>Apple iPhone 13 Pro Max 128GB 支援 ProRes 影音錄製與剪輯功能，主打端對端專業工作流程的手機應用（128GB 版本支援最高 1080p/30fps，最高 4K/30fps 需 256GB 以上版本）；新增「電影級模式」，可自動拍攝淺景深效果影片，支援杜比視界 HDR 拍攝；搭載「攝影風格」模式，提供更強大的調色功能。三顆鏡頭皆具備「夜間」模式，昏暗環境下能更有效捕捉細節，讓精彩畫面不輕易錯過。<br>Apple iPhone 13 Pro Max 128GB 功能特色<br>◎ iOS 15 作業系統<br>◎ 6.7 吋 2,778 x 1,284pixels 解析度超 Retina XDR 顯示器（120Hz 螢幕）<br>◎ ProMotion 自動適應更新頻率<br>◎ A15 仿生晶片（5 核心 GPU）<br>◎ 128GB ROM<br>◎ 1,200 萬畫素原深感測相機<br>◎ 1,200 萬畫素廣角鏡頭 + 1,200 萬畫素超廣角鏡頭 + 1,200 萬畫素望遠鏡頭<br>◎ 5G 上網、eSIM、Wi-Fi 6、藍牙 5.0、超寬頻、NFC 讀取<br>◎ IP68 防水防塵<br>◎ 電影級模式、杜比視界錄製、夜間攝影、智慧型 HDR 4 模式、ProRes 影音錄製剪輯、微距攝影<br>◎ Face ID 臉部辨識<br>◎ 支援有線快速充電、15W MagSafe 無線充電、7.5W Qi 無線充電<br>◎ 採用 Lightning 連接埠"
+        },
+        {
+            "title" : "iPhone 12 Pro Max",
+            "profile image path" : "./src/img/phones/iphone12promax.jpg",
+            "price" : 48400,
+            "prices":{
+                "512G / 6G": 48400,
+                "128G / 6G": 37900,
+                "256G / 6G": 41400
+            },
+            "tags" : {
+                "up-time": [
+                    "2020 / 11"
+                ],
+                "colors": [
+                    "Silver",
+                    "Gold",
+                    "Black",
+                    "Blue"
+                ],
+                "battery": ["3687 mAh"], "internet": "3G/4G/5G", "RAM": "", "ROM": ["128 GB", "256 GB", "512 GB"], "OS": ["iOS 14"], "cpu-brand": ["Apple"], "cpu-type": ["A14 Bionic"], "screen-size": ["6.7 inch"], "screen-resolution": ["2778x1284 pixels"], "screen-material": ["OLED"], "screen-refresh-rate": ["60 Hz"], "camera-pixel": ["1200 \u842c\u756b\u7d20"], "3G": ["HSDPA, HSUPA, WCDMA"], "4G": ["Yes"], "5G": ["Yes"], "NFC": ["Yes"], "body-material": ["\u73bb\u7483"], "weight": ["226 g"], "waterproof": ["IP68"], "transport port": ["Lightning"], "body-color": ["\u592a\u5e73\u6d0b\u85cd, \u77f3\u58a8, \u91d1, \u9280"]
+            },
+            "details" : "6.7 吋 OLED 顯示器<br>Apple iPhone 12 Pro Max 配置 6.7 吋 2,778 x 1,284pixels 解析度超 Retina XDR 顯示器，搭載 OLED 螢幕面板，不僅對比度顯著提升，同時具備 HDR、原彩顯示，讓螢幕表現更上層樓。<br>超瓷晶盾面板<br>Apple iPhone 12 Pro Max 採用醫療級特製不鏽鋼邊框設計，結合超瓷晶盾面板與霧面質感玻璃機背，同時為加強機身防護效果，特別導入奈米級陶瓷晶體，以及雙離子交換製程，提升防刮表現；具備 IP68 防塵防水等級。<br>A14 仿生晶片<br>Apple iPhone 12 Pro Max 搭載 A14 仿生晶片，運行 iOS 14 作業系統，提供 Wi-Fi 6、藍牙 5.0、NFC 等連線功能；支援快速充電功能，具備 15W MagSafe 無線充電、7.5W Qi 無線充電模式。内建 ISP 影像訊號處理器，支援「杜比視界」錄製功能。<br>5G 上網<br>Apple iPhone 12 Pro Max 具備 5G 上網功能，除了能夠串流播放更高畫質的影片，享受超低延遲的多人連線遊戲體驗外，搭配智慧型數據模式，可在 iPhone 進行背景更新時，自動切換 4G 網路節省電力消耗。<br>全新 OIS 影像穩定<br>Apple iPhone 12 Pro Max 前置 1,200 萬畫素原深感測相機，提供智慧型 HDR 3 場景偵測功能，具備 Face ID 臉部辨識。後置 1,200 萬畫素廣角 + 1,200 萬畫素 120 度超廣角 + 1,200 萬畫素望遠三鏡頭，支援 5 倍光學變焦範圍，擁有全新 OIS 感光元件位移式穩定功能，內建夜間攝影模式。<br>光學雷達掃描儀<br>Apple iPhone 12 Pro Max 新增光學雷達掃描儀，透過射出隱形光束，測量光束從發射器到物體再回到接收器所需時間，得出絕對深度，可用於即時 AR、精準掌握物體的前後關係，或是加強低光源下的自動對焦速度。<br>Apple iPhone 12 Pro Max 128GB 功能特色<br>◎ iOS 14 作業系統<br>◎ 6.7 吋 2,778 x 1,284pixels 解析度超 Retina XDR 顯示器（OLED 螢幕）<br>◎ A14 仿生晶片<br>◎ 128GB ROM<br>◎ 1,200 萬畫素 + 1,200 萬畫素 + 1,200 萬畫素主鏡頭、1,200 萬畫素前鏡頭<br>◎ 5G 上網、Wi-Fi 6、藍牙 5.0、NFC<br>◎ IP68 防水防塵<br>◎ 支援杜比視界錄製、夜間攝影、智慧型 HDR 3 模式<br>◎ 全新 OIS 影像穩定、光學雷達掃描儀<br>◎ Face ID 臉部辨識<br>◎ 支援有線快速充電、15W MagSafe 無線充電、7.5W Qi 無線充電<br>◎ 採用 Lightning 連接埠<br>◎ 盒裝配件：USB Type-C to Lightning 數據線、SIM 卡插針"
+        },
+        {
+            "title" : "iPhone SE",
+            "profile image path" : "./src/img/phones/iphonese.jpg",
+            "price" : 20000,
+            "prices":{
+                "256G / 3G": 20000,
+                "128G / 3G": 16500,
+                "64G / 3G": 14500
+            },
+            "tags" : {
+                "up-time": [
+                    "2020 / 04"
+                ],
+                "colors": [
+                    "Red",
+                    "White",
+                    "Black"
+                ],
+                "battery": ["1821 mAh"], "internet": "3G/4G", "RAM": ["3 GB"], "ROM": ["64 GB", "128 GB", "256 GB"], "OS": ["iOS 13"], "cpu-brand": ["Apple"], "cpu-type": ["A13 Bionic"], "screen-size": ["4.7 inch"], "screen-resolution": ["1334x750 pixels"], "screen-material": ["IPS"], "camera-pixel": ["1200 \u842c\u756b\u7d20"], "3G": ["HSDPA, HSUPA, WCDMA"], "4G": ["Yes"], "NFC": ["Yes"], "body-material": ["\u73bb\u7483"], "weight": ["148 g"], "waterproof": ["IP67"], "transport port": ["Lightning"], "body-color": ["\u767d, \u7d05, \u9ed1"]
+            },
+            "details" : "4.7 吋 Retina HD 螢幕<br>Apple iPhone SE 配置 4.7 吋 Retina HD 顯示器，讓成像更逼真生動，提供原彩顯示，還可依據當前環境光色溫，自由調整顯示器白平衡效果，具備 P3 廣色域顯示標準，支援最大 625nits 顯示器亮度；機身採用玻璃背蓋與鋁金屬中框製成，共有黑、白、(PRODUCT) RED 三種配色款式。Apple iPhone SE (2020) 128GB 支援觸覺回饋觸控技術，能使用項目特色選單與捷徑，讓手機操作更便捷；搭載杜比全景聲音效，提供立體聲音訊錄製功能。此外，內建 Touch ID 指紋感測器，支援 Apple Pay，具備 IP67 防塵防水等級，在最深達 1 公尺水中最長可達 30 分鐘。<br>A13 Bionic 仿生晶片<br>Apple iPhone SE (2020) 128GB 運行 iOS 13 作業系統，內建 7nm FinFET 製程 A13 Bionic 仿生晶片、128GB ROM，支援 4G 與雙卡雙待（nano-SIM + eSIM），具備 Wi‑Fi 6、藍牙 5.0、NFC 功能；搭載第三代神經網路引擎，可執行各款最新 AR App，並協助測量現實世界的物體，與星空中星座的位置。Apple iPhone SE (2020) 128GB 內建音訊共享功能，可將兩副 AirPods、Beats 耳機與同一部 iPhone 配對，共享音樂曲目；續航方面與 iPhone 8 相同，支援 18W 快充（充電 30 分鐘最高可達 50% 電量）、Qi 無線充電功能。<br>智慧型 HDR 技術<br>Apple iPhone SE (2020) 128GB 後置 1,200 萬畫素廣角鏡頭（6P 鏡頭、F1.8 光圈），支援 5 倍數位變焦，具備 Focus Pixels 自動對焦，內建人像模式，提供散景效果與景深控制功能，搭載自然光、攝影棚燈光、輪廓光、舞台燈光、舞台燈光黑白、高色調燈光黑白等 6 種人像光線效果；採用新一代照片智慧型 HDR 技術，系統偵測到臉部的同時，會自動進行補光修正，並微調背景中的亮部與暗部細節。錄影方面支援 4K 60fps 影片拍攝，提供影片快錄、視訊穩定縮時攝影、連續自動對焦錄影功能。Apple iPhone SE (2020) 128GB 前置 700 萬畫素鏡頭、F2.2 光圈，具備人像模式、HDR、自動影像穩定功能。<br>Apple iPhone SE (2020) 128GB 功能特色<br>◎ iOS 13 作業系統<br>◎ 4.7 吋 1,334 x 750pixels 解析度 IPS 觸控螢幕（326ppi）<br>◎ A13 Bionic 六核心仿生晶片<br>◎ 128GB ROM<br>◎ 1,200 萬畫素廣角鏡頭、700 萬畫素前鏡頭<br>◎ 4G、Wi-Fi 6、藍牙 5.0<br>◎ IP67 防水防塵<br>◎ Touch ID 指紋辨識<br>◎ 支援 18W 快充、Qi 無線充電<br>◎ 盒裝配件：5W 電源充電器、USB-A to Lightning 數據線、Lightning EarPods 耳機、SIM 卡插針"
+        },
+        {
+            "title" : "iPhone 13 Pro",
+            "profile image path" : "./src/img/phones/iphone13pro.jpg",
+            "price" : 50400,
+            "prices":{
+                "1T / 6G": 50400,
+                "512G / 6G": 43400,
+                "256G / 6G": 36400
+            },
+            "tags" : {
+                "up-time": [
+                    "2021 / 09"
+                ],
+                "colors": [
+                    "Gold",
+                    "Silver",
+                    "Black",
+                    "Blue"
+                ],
+                "battery": ["3095 mAh"], "internet": "3G/4G/5G", "RAM": ["6 GB"], "ROM": ["256 GB", "512 GB", "1 TB"], "OS": ["iOS 15"], "cpu-brand": ["Apple"], "cpu-type": ["A15 Bionic"], "screen-size": ["6.1 inch"], "screen-resolution": ["2532x1170 pixels"], "screen-material": ["OLED"], "screen-refresh-rate": ["120 Hz"], "camera-pixel": ["1200 \u842c\u756b\u7d20"], "3G": ["HSDPA, HSUPA, WCDMA"], "4G": ["Yes"], "5G": ["Yes"], "NFC": ["Yes"], "body-material": ["\u73bb\u7483"], "weight": ["203 g"], "waterproof": ["IP68"], "transport port": ["Lightning"], "body-color": ["\u5929\u5cf0\u85cd, \u77f3\u58a8, \u91d1, \u9280"]
+            },
+            "details" : "6.1 吋 OLED 顯示器<br>Apple iPhone 13 Pro 配置 6.1 吋 2,532 x 1,170pixels 解析度超 Retina XDR 顯示器，搭載 OLED 螢幕面板，具備 120Hz 的 ProMotion 自動適應更新頻率技術，提供順暢無比的操作體驗。另外，隨著螢幕「瀏海」也就是原深感測相機的面積縮小 20%，相對帶來更為寬廣的視覺體驗。<br>超瓷晶盾面板<br>Apple iPhone 13 Pro 256GB 延續高規格的保護力，正面採用超瓷晶盾面板加強機身防護效果，搭配不鏽鋼中框與霧面質感玻璃機背，擁有 IP68 防塵防水等級，在最深達 6 公尺的水中最長可達 30 分鐘。顏色方面，提供石墨色、金色、銀色、天峰藍色等 4 種款式可選。<br>效能版 A15 仿生晶片<br>Apple iPhone 13 Pro 256GB 搭載效能版 A15 仿生晶片，具備全新 16 核心神經網路引擎，GPU 相較 iPhone 13 更多一個 GPU 核心，有效加強繪圖處理能力，帶來更強大的遊戲表現；主打各式強大的功能，以及絕佳隱私保護設計。支援 5G 上網，提供 eSIM 服務，具備 Wi-Fi 6、藍牙 5.0、超寬頻、NFC 讀取等應用。<br>MagSafe 無線充電<br>Apple iPhone 13 Pro 256GB 具備 Face ID 功能，可透過原深感測相機進行臉部辨識，提供手機解鎖、身分認證等操作。續航部分，再度強化電池容量與續航能力，影片播放時間最長可達 22 小時，支援有線快速充電、7.5W Qi 無線充電；內建 MagSafe 磁石陣列，可提供 15W MagSafe 無線充電功能。<br>微距攝影模式<br>Apple iPhone 13 Pro 256GB 後置 1,200 萬畫素三鏡頭，分別提供 13mm + 26mm + 77mm 三組焦距，除了具備 OIS 感光元件位移式穩定功能，支援 3 光學變焦、15 倍數位變焦外，全新加入 2cm 微距攝影模式，滿足更多元的攝影需求。內建智慧型 HDR 4，可自動精細調整人像對比、光線與膚色效果。<br>ProRes 影音錄製剪輯<br>Apple iPhone 13 Pro 256GB 支援 ProRes 影音錄製與剪輯功能，主打端對端專業工作流程的手機應用（128GB 版本支援最高 1080p/30fps，最高 4K/30fps 需 256GB 以上版本）；新增「電影級模式」，可自動拍攝淺景深效果影片，支援杜比視界 HDR 拍攝；搭載「攝影風格」模式，提供更強大的調色功能。三顆鏡頭皆具備「夜間」模式，昏暗環境下能更有效捕捉細節，讓精彩畫面不輕易錯過。<br>Apple iPhone 13 Pro 256GB 功能特色<br>◎ iOS 15 作業系統<br>◎ 6.1 吋 2,532 x 1,170pixels 解析度超 Retina XDR 顯示器（120Hz 螢幕）<br>◎ ProMotion 自動適應更新頻率<br>◎ A15 仿生晶片（5 核心 GPU）<br>◎ 256GB ROM<br>◎ 1,200 萬畫素原深感測相機<br>◎ 1,200 萬畫素廣角鏡頭 + 1,200 萬畫素超廣角鏡頭 + 1,200 萬畫素望遠鏡頭<br>◎ 5G 上網、eSIM、Wi-Fi 6、藍牙 5.0、超寬頻、NFC 讀取<br>◎ IP68 防水防塵<br>◎ 電影級模式、杜比視界錄製、夜間攝影、智慧型 HDR 4 模式、ProRes 影音錄製剪輯、微距攝影<br>◎ Face ID 臉部辨識<br>◎ 支援有線快速充電、15W MagSafe 無線充電、7.5W Qi 無線充電<br>◎ 採用 Lightning 連接埠"
+        },
+        {
+            "title" : "iPhone 12 Pro",
+            "profile image path" : "./src/img/phones/iphone12pro.png",
+            "price" : 44400,
+            "prices":{
+                "512G / 6G": 44400,
+                "256G / 6G": 37400
+            },
+            "tags" : {
+                "up-time": [
+                    "2020 / 10"
+                ],
+                "colors": [
+                    "Gold",
+                    "Silver",
+                    "Black",
+                    "Blue"
+                ],
+                "battery": ["2815 mAh"], "internet": "3G/4G/5G", "RAM": ["6 GB"], "ROM": ["256 GB", "512 GB"], "OS": ["iOS 15"], "cpu-brand": ["Apple"], "cpu-type": ["A15 Bionic"], "screen-size": ["6.1 inch"], "screen-resolution": ["2532x1170 pixels"], "screen-material": ["OLED"], "screen-refresh-rate": ["120 Hz"], "camera-pixel": ["1200 \u842c\u756b\u7d20"], "3G": ["HSDPA, HSUPA, WCDMA"], "4G": ["Yes"], "5G": ["Yes"], "NFC": ["Yes"], "body-material": ["\u73bb\u7483"], "weight": ["203 g"], "waterproof": ["IP68"], "transport port": ["Lightning"], "body-color": ["\u5929\u5cf0\u85cd, \u77f3\u58a8, \u91d1, \u9280"]
+            },
+            "details" : "6.1 吋 OLED 顯示器<br>Apple iPhone 12 Pro 配置 6.1 吋 2,532 x 1,170pixels 解析度超 Retina XDR 顯示器，搭載 OLED 螢幕面板，不僅對比度顯著提升，同時具備 HDR、原彩顯示，讓螢幕表現更上層樓。<br>超瓷晶盾面板<br>Apple iPhone 12 Pro 採用醫療級特製不鏽鋼邊框設計，結合超瓷晶盾面板與霧面質感玻璃機背，同時為加強機身防護效果，特別導入奈米級陶瓷晶體，以及雙離子交換製程，提升防刮表現；具備 IP68 防塵防水等級。<br>A14 仿生晶片<br>Apple iPhone 12 Pro 搭載 A14 仿生晶片，運行 iOS 14 作業系統，提供 Wi-Fi 6、藍牙 5.0、NFC 等連線功能；支援快速充電功能，具備 15W MagSafe 無線充電、7.5W Qi 無線充電模式。内建 ISP 影像訊號處理器，支援「杜比視界」錄製功能。<br>5G 上網<br>Apple iPhone 12 Pro 具備 5G 上網功能，除了能夠串流播放更高畫質的影片，享受超低延遲的多人連線遊戲體驗外，搭配智慧型數據模式，可在 iPhone 進行背景更新時，自動切換 4G 網路節省電力消耗。<br>智慧型 HDR 3 偵測<br>Apple iPhone 12 Pro 前置 1,200 萬畫素原深感測相機，提供智慧型 HDR 3 場景偵測功能，具備 Face ID 臉部辨識。後置 1,200 萬畫素廣角 + 1,200 萬畫素 120 度超廣角 + 1,200 萬畫素望遠三鏡頭，支援 4 倍光學變焦範圍，內建夜間攝影模式。<br>光學雷達掃描儀<br>Apple iPhone 12 Pro 新增光學雷達掃描儀，透過射出隱形光束，測量光束從發射器到物體再回到接收器所需時間，得出絕對深度，可用於即時 AR、精準掌握物體的前後關係，或是加強低光源下的自動對焦速度。<br>Apple iPhone 12 Pro 256GB 功能特色<br>◎ iOS 14 作業系統<br>◎ 6.1 吋 2,532 x 1,170pixels 解析度超 Retina XDR 顯示器（OLED 螢幕）<br>◎ A14 仿生晶片<br>◎ 256GB ROM<br>◎ 1,200 萬畫素 + 1,200 萬畫素 + 1,200 萬畫素主鏡頭、1,200 萬畫素前鏡頭<br>◎ 5G 上網、Wi-Fi 6、藍牙 5.0、NFC<br>◎ IP68 防水防塵<br>◎ 支援杜比視界錄製、夜間攝影、智慧型 HDR 3 模式<br>◎ 全新 OIS 影像穩定、光學雷達掃描儀<br>◎ Face ID 臉部辨識<br>◎ 支援有線快速充電、15W MagSafe 無線充電、7.5W Qi 無線充電<br>◎ 採用 Lightning 連接埠<br>◎ 盒裝配件：USB Type-C to Lightning 數據線、SIM 卡插針"
+        },
+        {
+            "title" : "iPhone 13 mini",
+            "profile image path" : "./src/img/phones/iphone13mini.jpg",
+            "price" : 33400,
+            "prices":{
+                "512G / 4G": 33400,
+                "256G / 4G": 26400
+            },
+            "tags" : {
+                "up-time": [
+                    "2021 / 09"
+                ],
+                "colors": [
+                    "Red",
+                    "White",
+                    "Black",
+                    "Pink",
+                    "Blue"
+                ],
+                "battery": ["2406 mAh"], "internet": "3G/4G/5G", "RAM": ["4 GB"], "ROM": ["256 GB", "512 GB"], "OS": ["iOS 15"], "cpu-brand": ["Apple"], "cpu-type": ["A15 Bionic"], "screen-size": ["5.4 inch"], "screen-resolution": ["2340x1080 pixels"], "screen-material": ["OLED"], "camera-pixel": ["1200 \u842c\u756b\u7d20"], "3G": ["HSDPA, HSUPA, WCDMA"], "4G": ["Yes"], "5G": ["Yes"], "NFC": ["Yes"], "body-material": ["\u73bb\u7483"], "weight": ["140 g"], "waterproof": ["IP68"], "transport port": ["Lightning"], "body-color": ["\u5348\u591c, \u661f\u5149, \u7c89\u7d05, \u7d05, \u85cd"]
+            },
+            "details" : "5.4 吋 OLED 顯示器<br>Apple iPhone 13 mini 配置 5.4 吋 2,340 x 1,080pixels 解析度超 Retina XDR 顯示器，搭載 OLED 螢幕面板，支援原彩顯示、電影級 P3 標準廣色域；顯示 HDR 內容時，螢幕亮度最高可達 1,200nits。另外，隨著螢幕「瀏海」也就是原深感測相機的面積縮小 20%，相對帶來更為寬廣的視覺體驗。<br>超瓷晶盾面板<br>Apple iPhone 13 mini 256GB 延續高規格的保護力，正面採用超瓷晶盾面板加強機身防護效果，維持平面鋁金屬中框以及玻璃機背設計，擁有 IP68 防塵防水等級，在最深達 6 公尺的水中最長可達 30 分鐘。顏色方面，提供粉紅色、藍色、午夜色、星光色、紅色等 5 種款式可選。<br>A15 仿生晶片<br>Apple iPhone 13 mini 256GB 搭載 A15 仿生晶片，具備全新 16 核心神經網路引擎，兼顧遊戲效能、手機續航表現；運行 iOS 15 作業系統，FaceTime 加入「同播共享」模式，提供滿載強大的功能，以及各式隱私保護設計。支援 5G 上網，提供 eSIM 服務，具備 Wi-Fi 6、藍牙 5.0、超寬頻、NFC 讀取等應用。<br>MagSafe 無線充電<br>Apple iPhone 13 mini 256GB 具備 Face ID 功能，可透過原深感測相機進行臉部辨識，提供手機解鎖、身分認證等操作。續航部分，再度強化電池容量與續航能力，影片播放時間最長可達 17 小時，支援有線快速充電、7.5W Qi 無線充電；內建 MagSafe 磁石陣列，可提供 15W MagSafe 無線充電功能。<br>全新 OIS 影像穩定<br>Apple iPhone 13 mini 256GB 全面強化攝影架構，同時加入新一代感光元件，以及 OIS 感光元件位移式穩定功能，雙相機系統改採對角排列設計，具備 1,200 萬畫素廣角鏡頭 + 1,200 萬畫素 120 度超廣角鏡頭，支援智慧型 HDR 4、人像光線、原彩閃光燈功能。新增「電影級模式」，可自動拍攝淺景深效果影片，支援杜比視界 HDR 拍攝。<br>Apple iPhone 13 mini 256GB 功能特色<br>◎ iOS 15 作業系統<br>◎ 5.4 吋 2,340 x 1,080pixels 解析度超 Retina XDR 顯示器（OLED 螢幕）<br>◎ A15 仿生晶片（4 核心 GPU）<br>◎ 256GB ROM<br>◎ 1,200 萬畫素原深感測相機<br>◎ 1,200 萬畫素廣角鏡頭 + 1,200 萬畫素超廣角鏡頭<br>◎ 5G 上網、eSIM、Wi-Fi 6、藍牙 5.0、超寬頻、NFC 讀取<br>◎ IP68 防水防塵<br>◎ 電影級模式、杜比視界錄製、夜間攝影、智慧型 HDR 4 模式<br>◎ Face ID 臉部辨識<br>◎ 支援有線快速充電、15W MagSafe 無線充電、7.5W Qi 無線充電<br>◎ 採用 Lightning 連接埠"
+        },
+        {
+            "title" : "iPhone 12 mini",
+            "profile image path" : "./src/img/phones/iphone12mini.jpg",
+            "price" : 29000,
+            "prices":{
+                "256G / 4G": 29000
+            },
+            "tags" : {
+                "up-time": [
+                    "2020 / 11"
+                ],
+                "colors": [
+                    "Red",
+                    "White",
+                    "Black",
+                    "Purple",
+                    "Green",
+                    "Blue"
+                ],
+                "battery": ["2227 mAh"], "internet": "3G/4G/5G", "RAM": "", "ROM": ["256 GB"], "OS": ["iOS 14"], "cpu-brand": ["Apple"], "cpu-type": ["A14 Bionic"], "screen-size": ["5.4 inch"], "screen-resolution": ["2340x1080 pixels"], "screen-material": ["OLED"], "screen-refresh-rate": ["60 Hz"], "camera-pixel": ["1200 \u842c\u756b\u7d20"], "3G": ["HSDPA, HSUPA, WCDMA"], "4G": ["Yes"], "5G": ["Yes"], "NFC": ["Yes"], "body-material": ["\u73bb\u7483"], "weight": ["133 g"], "waterproof": ["IP68"], "transport port": ["Lightning"], "body-color": ["\u767d, \u7d05, \u7da0, \u85cd, \u9ed1"]
+            },
+            "details" : "5.4 吋 OLED 顯示器<br>Apple iPhone 12 mini 配置 5.4 吋 2,340 x 1,080pixels 解析度超 Retina XDR 顯示器，搭載 OLED 螢幕面板，不僅對比度顯著提升，同時具備 HDR、原彩顯示，讓螢幕表現更上層樓。<br>超瓷晶盾面板<br>Apple iPhone 12 mini 採用航太等級鋁金屬邊框設計，結合超瓷晶盾面板與玻璃機背，同時為加強機身防護效果，特別導入奈米級陶瓷晶體，以及雙離子交換製程，提升防刮表現；具備 IP68 防塵防水等級。<br>A14 仿生晶片<br>Apple iPhone 12 mini 搭載 A14 仿生晶片，採用新一代神經網路引擎，運行 iOS 14 作業系統，提供 Wi-Fi 6、藍牙 5.0、NFC 等連線功能。支援快速充電功能，具備 15W MagSafe 無線充電、7.5W Qi 無線充電模式。<br>5G 上網<br>Apple iPhone 12 mini 具備 5G 上網功能，除了能夠串流播放更高畫質的影片，享受超低延遲的多人連線遊戲體驗外，搭配智慧型數據模式，可在 iPhone 進行背景更新時，自動切換 4G 網路節省電力消耗。<br>杜比視界錄製<br>Apple iPhone 12 mini 前置 1,200 萬畫素原深感測相機，提供智慧型 HDR 3 場景偵測功能，擁有人像模式，具備 Face ID 臉部辨識。後置 1,200 萬畫素廣角 + 1,200 萬畫素 120 度超廣角雙鏡頭，內建夜間攝影模式，支援即時杜比視界錄製，享有電影級的畫面表現。<br>Apple iPhone 12 mini 256GB 功能特色<br>◎ iOS 14 作業系統<br>◎ 5.4 吋 2,340 x 1,080pixels 解析度超 Retina XDR 顯示器（OLED 螢幕）<br>◎ A14 仿生晶片<br>◎ 256GB ROM<br>◎ 1,200 萬畫素 + 1,200 萬畫素主鏡頭、1,200 萬畫素前鏡頭<br>◎ 5G 上網、Wi-Fi 6、藍牙 5.0、NFC<br>◎ IP68 防水防塵<br>◎ 支援杜比視界錄製、夜間攝影、智慧型 HDR 3 模式<br>◎ Face ID 臉部辨識<br>◎ 支援有線快速充電、15W MagSafe 無線充電、7.5W Qi 無線充電<br>◎ 採用 Lightning 連接埠<br>◎ 盒裝配件：USB Type-C to Lightning 數據線、SIM 卡插針"
         }
     ]
 }

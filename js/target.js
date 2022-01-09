@@ -31,11 +31,18 @@ function addTarget(pid){
         return;
     }
 
+    let targetCount = 0;
     for (let item of targetField.childNodes){
         if (item.getAttribute('pid') == pid){
             console.warn(`Already Added pid < ${pid} > to comparison`);
             return;
         }
+        targetCount += 1;
+    }
+
+    console.log(targetCount);
+    if (targetCount >= 4){
+        removeTarget(targetField.childNodes[0].getAttribute('pid'));
     }
 
     const target = phoneData[pid];
