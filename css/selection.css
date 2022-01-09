@@ -1,26 +1,5 @@
-#logo-text{
-    width: 330px;
-    height: 50px;
-}
-#logo-container{
-    position: absolute;
-    overflow: hidden;
-    right: 3rem;
-    top: calc(5rem - 85px);
-    width: 170px;
-    height: 85px;
-}
-#logo-light{
-    position: absolute;
-    width: 170px;
-    height: 170px;
-}
-#product-input{
-    max-width: 40%;
-    background: rgba(217, 182, 139, 0.1);
-    border: 5px solid #D9B68B;
-    box-sizing: border-box;
-    border-radius: 3px;
+#product-input::placeholder{
+    color: rgba(240, 224, 192, 0.5) !important;
 }
 .input-group-text{
     background-color: #D9B68B !important;
@@ -55,6 +34,10 @@ main{
     max-height: calc(100vh - 12rem);
     overflow-y: auto;
 }
+.budget-title{
+    font-weight: bold !important;
+    letter-spacing: .1em;
+}
 #budget-field{
     position: relative;
 }
@@ -74,6 +57,8 @@ main{
 }
 .btn-sidebar{
     border-radius: 0 !important;
+    font-weight: bold !important;
+    letter-spacing: .1rem;
 }
 .input-budget{
     height: 25px;
@@ -88,7 +73,7 @@ main{
     background-color: transparent;
 }
 .card-dark{
-    background: rgba(240, 224, 192, 0.5) !important;
+    background: transparent !important;
     border: 3px solid #F0E0C0;
     box-sizing: border-box;
     border-radius: 3px;
@@ -125,8 +110,12 @@ main{
     text-align: center;
     color: red;
 }
-.card-price::before{
-    content: "$";
+.card-title{
+    font-family: 'Roboto' !important;
+    font-weight: bold !important;
+}
+.card-title:hover{
+    text-decoration: underline;
 }
 #target-bar{
     height: 75vh;
@@ -149,4 +138,8 @@ main{
     height: 120px;
     width: 120px;
     border: 5px solid #F0E0C0;
+}
+.phone-img{
+    height: 280px !important;
+    width: 280px !important;
 }

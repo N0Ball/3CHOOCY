@@ -62,6 +62,7 @@ function createName(nameList){
     th.scope = "row";
     th.classList.add('text-center');
     th.classList.add('border-dark-end');
+    th.classList.add('text');
     th.innerHTML = '名稱';
 
     tr.appendChild(th);
@@ -85,6 +86,7 @@ function createPrice(pricesList){
     th.scope = "row";
     th.classList.add('text-center');
     th.classList.add('border-dark-end');
+    th.classList.add('text');
     th.innerHTML = "價格";
 
     tr.appendChild(th);
@@ -97,6 +99,7 @@ function createPrice(pricesList){
             td.classList.add('text-center');
             td.classList.add('border-item');
             td.classList.add('red');
+            td.classList.add('title');
             td.colSpan = priceLen / Object.keys(prices).length;
 
             td.innerHTML = `$${price}`;
@@ -115,6 +118,7 @@ function createUptime(uptimeList){
     th.classList.add('text-center');
     th.classList.add('border-dark-end');
     th.classList.add('border-dark-bottom');
+    th.classList.add('text');
     th.innerHTML = "上市日期";
 
     tr.appendChild(th);
@@ -124,6 +128,7 @@ function createUptime(uptimeList){
         td.classList.add('text-center');
         td.classList.add('border-item');
         td.classList.add('border-dark-bottom');
+        td.classList.add('title');
         td.colSpan = priceLen;
 
         td.innerHTML = uptime;
@@ -145,6 +150,7 @@ function createDetailComparison(tagsList, pricesList){
         th.scope = "row";
         th.classList.add('text-center');
         th.classList.add('border-dark-end');
+        th.classList.add('text');
 
         th.innerHTML = `
         <div class="form-check">
@@ -172,6 +178,7 @@ function createDetailComparison(tagsList, pricesList){
                 td.colSpan = priceLen;
                 td.classList.add('text-center');
                 td.classList.add('border-item');
+                td.classList.add('title');
     
                 if (target in tags){
                     td.innerHTML = tags[target];
@@ -200,6 +207,7 @@ function createDetailROM(tr, pricesList){
             td.colSpan = priceLen / Object.keys(prices).length;
             td.classList.add('text-center');
             td.classList.add('border-item');
+            td.classList.add('title');
 
             td.innerHTML = ROM;
 
@@ -220,6 +228,7 @@ function createDetailRAM(tr, pricesList){
             td.colSpan = priceLen / Object.keys(prices).length;
             td.classList.add('text-center');
             td.classList.add('border-item');
+            td.classList.add('title');
 
             td.innerHTML = RAM;
 

@@ -26,14 +26,14 @@
             <div class="col-7 d-flex align-items-end" id="input-bar">
                 <div class="input-group mb-3 justify-content-end">
                     <input id="product-input" type="text" class="form-control" placeholder="請輸入產品名稱" aria-label="請輸入產品名稱" aria-describedby="search-icon">
-                    <div class="input-group-text" id="search-icon">
+                    <div class="input-group-text" id="search-icon" style="background-color: #F0E0C0 !important;">
                         <i class="fas fa-search"></i>
                     </div>
-                    <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">選擇類別</button>
+                    <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" style="border: 5px solid #F0E0C0 !important; color: #F0E0C0 !important; position: relative; left: -7.5rem; height: 44px; top: .5rem; padding: 0 .5rem 0 .75rem;">類別</button>
                     <ul class="dropdown-menu dropdown-menu-end">
-                        <li><a class="dropdown-item" href="#">手機</a></li>
-                        <li><a class="dropdown-item disabled" href="#">平板</a></li>
-                        <li><a class="dropdown-item disabled" href="#">電腦</a></li>
+                      <li><a class="dropdown-item" href="#">手機</a></li>
+                      <li><a class="dropdown-item disabled" href="#">平板</a></li>
+                      <li><a class="dropdown-item disabled" href="#">電腦</a></li>
                     </ul>
                 </div>
             </div>
@@ -44,6 +44,7 @@
 
         </div>
     </section>
+
 
     <main>
 
@@ -74,33 +75,35 @@
                                     <p class="text-end fw-light">上市日期： <span id="up-time"></span></p>
 
                                     <!-- Phone title -->
-                                    <h1 id="title" class="card-title fw-bold mb-5"></h1>
+                                    <h1 id="title" class="card-title fw-bold mb-5 title"></h1>
 
                                     <!-- After title discription-->
                                     <div class="row pt-4">
 
-                                        <div class="col-2 d-flex flex-column pe-0">
-                                            <span>作業系統</span>
-                                            <span>處理器品牌</span>
-                                            <span>處理器型號</span>
+                                        <div class="col-2 d-flex flex-column pe-0 title fs-little">
+                                            <span class="fs-little">作業系統</span>
+                                            <span class="fs-little">處理器品牌</span>
+                                            <span class="fs-little">處理器型號</span>
                                         </div>
 
-                                        <div class="col-4 d-flex flex-column">
-                                            <span id="OS"></span>
-                                            <span id="cpu-brand"></span>
-                                            <span id="cpu-type"></span>
+                                        <div class="col-4 d-flex flex-column title fs-little">
+                                            <span class="fs-little" id="OS"></span>
+                                            <span class="fs-little" id="cpu-brand"></span>
+                                            <span class="fs-little" id="cpu-type"></span>
                                         </div>
 
-                                        <div class="col-2 d-flex flex-column pe-0">
-                                            <span>主相機畫素</span>
-                                            <span>主螢幕尺寸</span>
-                                            <span>電池容量</span>
+                                        <div class="col-1"></div>
+
+                                        <div class="col-2 d-flex flex-column pe-0 title fs-little">
+                                            <span class="fs-little">主相機畫素</span>
+                                            <span class="fs-little">主螢幕尺寸</span>
+                                            <span class="fs-little">電池容量</span>
                                         </div>
 
                                         <div class="col-3 d-flex flex-column">
-                                            <span id="camera-pixel"></span>
-                                            <span id="screen-size"></span>
-                                            <span id="battery"></span>
+                                            <span class="fs-little" id="camera-pixel"></span>
+                                            <span class="fs-little" id="screen-size"></span>
+                                            <span class="fs-little" id="battery"></span>
                                         </div>
 
                                     </div> <!-- After title discription-->
@@ -110,14 +113,14 @@
                                     <!-- Memory badges -->
                                     <div class="mt-3">
                                         <div class="row g-0">
-                                            <div id="memories" class="col-6"></div>
+                                            <div id="memories" class="col-6 pt-2"></div>
                                             <div class="col-6">
                                                 <div class="row g-0">
                                                     <div class="col-9 d-flex flex-column">
                                                         <span id="price" class="red fw-bold fs-1"></span>
-                                                        <span class="fs-7 fw-light">（此為官方原價，請自行比價）</span>
+                                                        <span class="fs-tiny fw-light text">（此為官方原價，請自行比價）</span>
                                                     </div>
-                                                    <div class="col-3 d-flex justify-content-center align-items-center">
+                                                    <div class="col-3 d-flex justify-content-center align-items-center pt-2">
                                                         <button class="btn btn-primary add-btn" onclick="addDetailTarget()">
                                                             <i class="fas fa-plus"></i>
                                                         </button>
@@ -135,19 +138,15 @@
 
                     </div> <!-- Main display -->
 
-                    <!-- <div id="feature">
-                        <h1 class="fw-bold">產品特色</h1>
-                    </div> -->
-
                     <div class="accordion accordion-flush" id="feature">
                         <div class="accordion-item">
                             <h2 class="accordion-header" id="feature-heading">
                             <div class="collapsed bg-transparent" data-bs-toggle="collapse" data-bs-target="#feature-detail" aria-expanded="false" aria-controls="feature-detail">
-                                <h1 id="feature-title" class="fw-bold">產品特色</h1>
+                                <h1 id="feature-title" class="fw-bold text">產品特色</h1>
                             </div>
                             </h2>
                             <div id="feature-detail" class="accordion-collapse collapse" aria-labelledby="feature-heading" data-bs-parent="#feature">
-                                <div id="feature-detail-text" class="accordion-body"></div>
+                                <div id="feature-detail-text" class="accordion-body text"></div>
                             </div>
                             <div id="feature-footer" class="mb-5"></div>
                         </div>

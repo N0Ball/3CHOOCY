@@ -22,6 +22,7 @@ function initSideBar(data){
         let collapseContent = "";
         collapse.id = `collapse${itemName}`;
         collapse.classList.add("collapse");
+        collapse.style = "background: rgba(240, 224, 192, 0.5);";
         collapseContent = `
         <div class="card card-body card-dark px-3">
         `
@@ -55,8 +56,23 @@ function initPhone(data){
     for (const phone of data){
 
         const name = phone["title"] || "????";        
-        const price = phone["price"] || "NAN";
+        const prices = phone["prices"] || "{'NAN / NAN'}";
         const imgPath = phone["profile image path"] || "./src/img/default_phone.jpg";
+
+        let maxPrice = 0;
+        let minPrice = 100000;
+
+        for (const [_, price] of Object.entries(prices)){
+            maxPrice = (price > maxPrice ? price : maxPrice);
+            minPrice = (price < minPrice ? price : minPrice);
+        }
+
+        let price = "";
+        if (maxPrice == minPrice){
+            price = `$${maxPrice}`;
+        }else{
+            price = `$${maxPrice} ~ $${minPrice}`;
+        }
 
         const col = document.createElement('div');
         col.classList.add("col-sm-3");
@@ -71,17 +87,18 @@ function initPhone(data){
 
         const image = document.createElement('img');
         image.src = imgPath;
-        image.onclick = (e) => {viewDetail(e.path[0].getAttribute('pid'))};
         image.classList.add("card-img-top");
         image.classList.add("card-img");
-        image.setAttribute("pid", index);
+        image.classList.add("phone-img");
         image.setAttribute("alt", `${name} Profile`);
 
         const cardBody = document.createElement('div');
         cardBody.classList.add("card-body");
+        cardBody.setAttribute("pid", index);
+        cardBody.onclick = (e) => {viewDetail(e.path[0].getAttribute('pid'))};
         cardBody.innerHTML = `
-        <h5 class="card-title text-center">${name}</h5>
-        <div class="card-price">
+        <h5 class="card-title text-center title" pid='${index}'>${name}</h5>
+        <div class="card-price" pid='${index}'>
             ${price}
         </div>
         `
@@ -91,6 +108,9 @@ function initPhone(data){
         addBtn.classList.add("btn-primary");
         addBtn.classList.add("w-100");
         addBtn.setAttribute("pid", index);
+        addBtn.setAttribute("data-bs-toggle", 'tooltip');
+        addBtn.setAttribute("data-bs-placement", 'top');
+        addBtn.setAttribute("title", '加入比較清單');
         addBtn.onclick = (e) => {addTarget(e.path[0].getAttribute('pid'))};
         addBtn.innerHTML = `<i class="fas fa-plus" pid='${index}'></i>`;
 

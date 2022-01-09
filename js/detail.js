@@ -17,7 +17,6 @@ function displayPhone(pid){
     const target = phoneData[pid];
     const name = target["title"] || "?????";
     const imgPath = target["profile image path"] || "./src/img/default_phone.jpg";
-    const price = target["price"] || "NAN";
     const tags = target["tags"];
     const taglist = ['up-time', 'OS', 'cpu-brand', 'cpu-type', 'camera-pixel', 'screen-size', 'battery'];
     const details = target["details"] || "NAN";
@@ -33,11 +32,7 @@ function displayPhone(pid){
     const img = document.getElementById('phone-img');
     img.src = imgPath;
 
-    const priceDom = document.getElementById('price');
-    priceDom.innerHTML = `$ ${price}`;
-
     const colors = tags['colors'];
-    console.log(tags);
 
     colors.forEach(color => {
         const colorField = document.getElementById('detail-colors');
@@ -50,7 +45,8 @@ function displayPhone(pid){
 
     const memoriesDom = document.getElementById('memories');
     const memPrices = target["prices"];
-    console.log(memPrices);
+
+    let maxMemPrice = 0;
 
     for (const [memory, price] of Object.entries(memPrices)){
 
@@ -60,14 +56,20 @@ function displayPhone(pid){
         button.classList.add('btn-secondary');
         button.classList.add('detail-memory');
         button.classList.add('me-3');
-        button.classList.add('mt-2')
+        button.classList.add('mt-2');
+        button.classList.add('title');
+        button.classList.add('fs-little');
         button.setAttribute('price', price);
         button.onclick = (e) => {changeMemory(e.path[0].getAttribute('price'))};
         
         button.innerHTML = memory;
         console.log(button);
         memoriesDom.appendChild(button);
+
+        maxMemPrice = (price > maxMemPrice ? price : maxMemPrice);
     }
+
+    changeMemory(maxMemPrice);
 
     const featureDetail = document.getElementById('feature-detail-text');
     featureDetail.innerHTML = details;

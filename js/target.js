@@ -10,7 +10,7 @@ function initTarget(){
     target.innerHTML = `
     <p class="text-center mt-3 bg-transparent">比較清單</p>
     <div class="d-inline-block h-75 bg-transparent d-flex align-items-center flex-column overflow-auto" id="target-field"></div>
-    <button class="btn btn-dark m-3" onclick='location.href="./comparison.html"'>開始</button>
+    <button class="btn btn-dark m-3 text fw-bold" onclick='location.href="./comparison.html"' style="border-radius: 5px !important">開始</button>
     `
 
     target_pids = JSON.parse(getCookie('target_pids') || "[]");

@@ -26,9 +26,6 @@ select{
     border: 3px solid #D9B68B !important;
     border-radius: 3px !important;
 }
-.fs-7{
-    font-size: 20px;
-}
 .card{
     border: none !important;
     background-color: #FFFCF7 !important;
@@ -67,5 +64,45 @@ select{
 }
 .red{
     color: red;
-    letter-spacing: 3px;
+    font-weight: bold !important;
+}
+.text{
+    font-family: 'Saira' !important;
+    font-style: normal !important;
+    letter-spacing: 0.1rem;
+}
+.title{
+    font-family: 'Roboto' !important;
+    font-style: normal !important;
+    letter-spacing: .1rem;
+}
+#logo-text{
+    width: 330px;
+    height: 50px;
+}
+#logo-container{
+    position: absolute;
+    overflow: hidden;
+    right: 3rem;
+    top: calc(5rem - 85px);
+    width: 170px;
+    height: 85px;
+}
+#logo-light{
+    position: absolute;
+    width: 170px;
+    height: 170px;
+}
+#product-input{
+    max-width: 40%;
+    background: rgba(217, 182, 139, 0.1);
+    border: 5px solid #F0E0C0;
+    box-sizing: border-box;
+    border-radius: 3px;
+}
+.fs-little{
+    font-size: 20px !important;
+}
+.fs-tiny{
+    font-size: 18px !important;
 }

@@ -17,16 +17,18 @@
         <div class="row g-0 h-100">
 
             <div class="col-3 d-flex flex-column flex-column-reverse">
-                <img src="./src/img/logo_text.png" alt="Logo text" id="logo-text" class="m-3">
+                <a href="./selection.html">
+                    <img src="./src/img/logo_text.png" alt="Logo text" id="logo-text" class="m-3">
+                </a>
             </div>
 
             <div class="col-7 d-flex align-items-end" id="input-bar">
                 <div class="input-group mb-3 justify-content-end">
                     <input id="product-input" type="text" class="form-control" placeholder="請輸入產品名稱" aria-label="請輸入產品名稱" aria-describedby="search-icon">
-                    <div class="input-group-text" id="search-icon">
+                    <div class="input-group-text" id="search-icon" style="background-color: #F0E0C0 !important;">
                         <i class="fas fa-search"></i>
                     </div>
-                    <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">選擇類別</button>
+                    <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" style="border: 5px solid #F0E0C0 !important; color: #F0E0C0 !important; position: relative; left: -7.5rem; height: 44px; top: .5rem; padding: 0 .5rem 0 .75rem;">類別</button>
                     <ul class="dropdown-menu dropdown-menu-end">
                       <li><a class="dropdown-item" href="#">手機</a></li>
                       <li><a class="dropdown-item disabled" href="#">平板</a></li>
@@ -49,7 +51,7 @@
 
                 <!-- Budget Sidebar -->
                 <div id="budget" class="mt-4 mx-5 d-flex justify-content-center align-items-center flex-column">
-                    <h5>預算</h5>
+                    <h5 class="budget-title text">預算</h5>
                     <div id="budget-field" class="d-flex justify-content-between w-100 m-1">
                         <div class="budget w-25 d-flex justify-content-center">
                             <label class="budget-label" for="budget-lowest">$</label>
@@ -75,14 +77,17 @@
                 <!-- Results Ouput -->
                 <div class="d-flex mx-4 mt-4 justify-content-between">
                     <p id="search-results">
-                        搜尋：「」，共找到99999筆相符的資料：
+                        搜尋：「<span id="search-text"></span>」，共找到 <span id="search-count">0</span> 筆相符的資料：
                     </p>
                     <div class="input-group mb-3 w-50">
-                        <label class="input-group-text" for="inputGroupSelect01">排序</label>
-                        <select class="form-select" id="inputGroupSelect01">
+                        <label class="btn-secondary input-group-text" style="background-color: #F8EEDC !important; color: #73563D !important;" for="inputGroupSelect01">排序</label>
+                        <select class="form-select" id="inputGroupSelect01" style="background-color: #F8EEDC !important; color: #73563D !important;">
                             <option selected>選擇排序</option>
                             <option value="1">上市日期（新➞舊）</option>
-                            <option value="2">上市日期（舊➞新）</option>
+                            <option value="2">價格（低➞高）</option>
+                            <option value="3">價格（高➞低）</option>
+                            <option value="4">相機畫素（高➞低）</option>
+                            <option value="5">電池容量（高➞低）</option>
                         </select>
                     </div>
                 </div>

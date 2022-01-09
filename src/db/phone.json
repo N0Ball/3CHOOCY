@@ -3,7 +3,6 @@
         {
             "title" : "小米 11T Pro",
             "profile image path" : "./src/img/phones/sm11tpro.png",
-            "price" : 17999,
             "prices":{
                 "256G / 12G": 17999
             },
@@ -23,7 +22,6 @@
         {
             "title" : "小米 11T",
             "profile image path" : "./src/img/phones/sm11t.png",
-            "price" : 13999,
             "prices":{
                 "256G / 8G": 13999
             },
@@ -43,7 +41,6 @@
         {
             "title" : "小米 11 Lite 5G NE",
             "profile image path" : "./src/img/phones/sm11lite5gne.png",
-            "price" : 11999,
             "prices":{
                 "128G / 6G": 9999,
                 "256G / 8G": 11999,
@@ -66,7 +63,6 @@
         {
             "title" : "小米 11 Lite 5G",
             "profile image path" : "./src/img/phones/sm11lite5g.jpg",
-            "price" : 10999,
             "prices":{
                 "128G / 6G": 9999,
                 "128G / 8G": 10999
@@ -87,7 +83,6 @@
         {
             "title" : "Xperia PRO-I",
             "profile image path" : "./src/img/phones/xperiaproI.jpg",
-            "price" : 48880,
             "prices":{
                 "512G / 12G": 48880
             },
@@ -105,7 +100,6 @@
         {
             "title" : "Xperia 1 III",
             "profile image path" : "./src/img/phones/xperia1III.jpg",
-            "price" : 39990,
             "prices":{
                 "512G / 12G": 39990,
                 "256G / 12G": 36990
@@ -126,7 +120,6 @@
         {
             "title" : "Xperia 5 III",
             "profile image path" : "./src/img/phones/xperia5III.jpg",
-            "price" : 29990,
             "prices":{
                 "8G / 256G": 29990
             },
@@ -146,7 +139,6 @@
         {
             "title" : "Xperia 10 III",
             "profile image path" : "./src/img/phones/xperia10III.jpg",
-            "price" : 12990,
             "prices":{
                 "128G / 6G": 12990
             },
@@ -167,7 +159,6 @@
         {
             "title" : "Xperia 5 II",
             "profile image path" : "./src/img/phones/xperia5II.jpg",
-            "price" : 12990,
             "prices":{
                 "256G / 8G": 12990
             },
@@ -188,7 +179,6 @@
         {
             "title" : "Xperia 1 II",
             "profile image path" : "./src/img/phones/xperia1II.jpg",
-            "price" : 36990,
             "prices":{
                 "256G / 8G": 35990,
                 "256G /12G": 36990
@@ -209,7 +199,6 @@
         {
             "title" : "iPhone 13",
             "profile image path" : "./src/img/phones/iphone13.jpg",
-            "price" : 36400,
             "prices":{
                 "512G / 4G": 36400,
                 "128G / 4G": 25900,
@@ -233,7 +222,6 @@
         {
             "title" : "iPhone 12",
             "profile image path" : "./src/img/phones/iphone12.jpg",
-            "price" : 32000,
             "prices":{
                 "256G / 4G": 32000,
                 "128G / 4G": 28500,
@@ -258,7 +246,6 @@
         {
             "title" : "iPhone 13 Pro Max",
             "profile image path" : "./src/img/phones/iphone13promax.jpg",
-            "price" : 54400,
             "prices":{
                 "1TB / 6G": 54400,
                 "512G / 6G": 47400,
@@ -282,7 +269,6 @@
         {
             "title" : "iPhone 12 Pro Max",
             "profile image path" : "./src/img/phones/iphone12promax.jpg",
-            "price" : 48400,
             "prices":{
                 "512G / 6G": 48400,
                 "128G / 6G": 37900,
@@ -305,7 +291,6 @@
         {
             "title" : "iPhone SE",
             "profile image path" : "./src/img/phones/iphonese.jpg",
-            "price" : 20000,
             "prices":{
                 "256G / 3G": 20000,
                 "128G / 3G": 16500,
@@ -327,7 +312,6 @@
         {
             "title" : "iPhone 13 Pro",
             "profile image path" : "./src/img/phones/iphone13pro.jpg",
-            "price" : 50400,
             "prices":{
                 "1T / 6G": 50400,
                 "512G / 6G": 43400,
@@ -350,7 +334,6 @@
         {
             "title" : "iPhone 12 Pro",
             "profile image path" : "./src/img/phones/iphone12pro.png",
-            "price" : 44400,
             "prices":{
                 "512G / 6G": 44400,
                 "256G / 6G": 37400
@@ -372,7 +355,6 @@
         {
             "title" : "iPhone 13 mini",
             "profile image path" : "./src/img/phones/iphone13mini.jpg",
-            "price" : 33400,
             "prices":{
                 "512G / 4G": 33400,
                 "256G / 4G": 26400
@@ -395,7 +377,6 @@
         {
             "title" : "iPhone 12 mini",
             "profile image path" : "./src/img/phones/iphone12mini.jpg",
-            "price" : 29000,
             "prices":{
                 "256G / 4G": 29000
             },
