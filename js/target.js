@@ -13,7 +13,7 @@ function initTarget(){
     <button class="btn btn-dark m-3" onclick='location.href="./comparison.html"'>開始</button>
     `
 
-    target_pids = JSON.parse(getCookie('target_pids'));
+    target_pids = JSON.parse(getCookie('target_pids') || "[]");
 
     target_pids.forEach( e => {
         addTarget(e);
