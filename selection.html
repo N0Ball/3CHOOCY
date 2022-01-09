@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="./css/selection.css">
     <link rel="stylesheet" href="./css/modules/bootstrap.min.css">
     <link rel="stylesheet" href="./src/modules/fontawesome/css/all.min.css">
+    <link rel="shortcut icon" href="./src/img/logo.png" type="image/x-icon">
     <title>Selection</title>
 </head>
 <body>
@@ -50,8 +51,15 @@
                 <div id="budget" class="mt-4 mx-5 d-flex justify-content-center align-items-center flex-column">
                     <h5>預算</h5>
                     <div id="budget-field" class="d-flex justify-content-between w-100 m-1">
-                        <input type="number" name="lowest" value="0" id="budget-lowest" class="btn btn-secondary budget-number w-25" data-bs-toggle="tooltip" data-bs-placement="top" title="請輸入最低價格">
-                        <input type="number" name="highest" value="99999" id="budget-highest" class="btn btn-secondary budget-number w-25" data-bs-toggle="tooltip" data-bs-placement="top" title="請輸入最高價格">
+                        <div class="budget w-25 d-flex justify-content-center">
+                            <label class="budget-label" for="budget-lowest">$</label>
+                            <input type="number" name="lowest" value="0" id="budget-lowest" class="budget-number w-100" data-bs-toggle="tooltip" data-bs-placement="top" title="請輸入最低價格">
+                        </div>
+                        <div class="budget w-25 d-flex justify-content-center">
+                            <label class="budget-label" for="budget-highest">$</label>
+                            <input type="number" name="highest" value="99999" id="budget-highest" class="budget-number w-100" data-bs-toggle="tooltip" data-bs-placement="top" title="請輸入最高價格">
+                        </div>
+                        
                     </div>
                 </div>
 
@@ -86,23 +94,23 @@
 
             </div>
 
+            <!-- Target slide -->
             <div class="col-1 d-flex flex-column justify-content-center">
-                <div id="target-bar" class="d-flex flex-column">
-                    <p class="text-center mt-3 bg-transparent">比較清單</p>
-                    <div class="d-inline-block h-75 bg-transparent d-flex align-items-center flex-column overflow-auto" id="target-field"></div>
-                    <button class="btn btn-dark m-3">開始</button>
-                </div>
+                <div id="target-bar" class="d-flex flex-column"></div>
             </div>
-
+            
         </div>
-
+        
     </main>
-
+    
+    
     <script src="./js/modules/bootstrap.bundle.min.js"></script>
     <script src="./js/db.js"></script>
     <script src="./js/selection.js"></script>
+    <script src="./js/target.js"></script>
     <script>
 
+        var PID = undefined;
         var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
         var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
             return new bootstrap.Tooltip(tooltipTriggerEl)
@@ -115,6 +123,8 @@
                 phoneData = myDbManager.getDb("phone");
                 initSideBar(myDbManager.getDb("selection"));
                 initPhone(phoneData);
+                initTarget();
+                cancelAnimationFrame(update);
             }
         }
 

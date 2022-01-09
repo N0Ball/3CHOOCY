@@ -93,12 +93,22 @@ main{
     box-sizing: border-box;
     border-radius: 3px;
 }
-.budget-number{
+.budget{
+    border: 3px solid #D9B68B !important;
     position: relative;
-    padding: 0 !important;
+    padding: 0 0 0 .25rem !important;
     height: 27px;
     font-size: 15px !important;
-    border-radius: 3px;
+    border-radius: 5px;
+}
+.budget-label{
+    font-size: 13px !important;
+    font-weight: 900;
+}
+.budget-number{
+    padding-left: .25rem;
+    min-height: 20px !important;
+    font-weight: 700;
 }
 .card-body{
     padding: 1rem 0 1rem 0 !important;

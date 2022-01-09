@@ -1,0 +1,23 @@
+{
+    "DATA":{
+        "cpu-type": "處理器",
+        "ROM": "儲存空間",
+        "RAM": "記憶體",
+        "SD-card": "SD卡",
+        "camera-pixel": "相機畫素",
+        "record-resolution": "錄影畫質",
+        "screen-size": "螢幕尺寸 (吋)",
+        "screen-resolution": "螢幕解析度",
+        "screen-material": "螢幕解析度",
+        "screen-refresh-rate": "螢幕更新率",
+        "battery": "電池 (mhA)",
+        "waterproof": "防水",
+        "internet": "5G/4G/3G",
+        "sim-number": "SIM卡槽數",
+        "transport port": "傳輸埠",
+        "fast-charge": "快充",
+        "NFC": "NFC",
+        "color": "外觀顏色",
+        "body-material": "機身材質"
+    }
+}

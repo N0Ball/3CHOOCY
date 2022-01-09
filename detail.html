@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/selection.css">
+    <link rel="stylesheet" href="./css/detail.css">
+    <link rel="stylesheet" href="./css/modules/bootstrap.min.css">
+    <link rel="stylesheet" href="./src/modules/fontawesome/css/all.min.css">
+    <link rel="shortcut icon" href="./src/img/logo.png" type="image/x-icon">
+    <title>Selection</title>
+</head>
+<body>
+
+    <!-- Top Section (Nav Bar) -->
+    <section id="top">
+        <div class="row g-0 h-100">
+
+            <div class="col-3 d-flex flex-column flex-column-reverse">
+                <a href="./selection.html">
+                    <img src="./src/img/logo_text.png" alt="Logo text" id="logo-text" class="m-3">
+                </a>
+            </div>
+
+            <div class="col-7 d-flex align-items-end" id="input-bar">
+                <div class="input-group mb-3 justify-content-end">
+                    <input id="product-input" type="text" class="form-control" placeholder="請輸入產品名稱" aria-label="請輸入產品名稱" aria-describedby="search-icon">
+                    <div class="input-group-text" id="search-icon">
+                        <i class="fas fa-search"></i>
+                    </div>
+                    <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">選擇類別</button>
+                    <ul class="dropdown-menu dropdown-menu-end">
+                        <li><a class="dropdown-item" href="#">手機</a></li>
+                        <li><a class="dropdown-item disabled" href="#">平板</a></li>
+                        <li><a class="dropdown-item disabled" href="#">電腦</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div id="logo-container">
+                <img id="logo-light" src="./src/img/logo_light.png" alt="logo light">
+            </div>
+
+        </div>
+    </section>
+
+    <main>
+
+        <div class="row g-0 h-100">
+
+            <div class="col-11" id="result-field">
+
+                <div id="main-detail" class="row g-0 mt-5 ms-5 me-3 ps-5">
+
+                    <!-- Main display -->
+                    <div class="card mb-3">
+
+                        <div class="row g-0">
+
+                            <!-- Phone image -->
+                            <div class="col-4 d-flex justify-content-center align-items-center">
+                                <img id="phone-img" src="" class="img-fluid rounded-start" alt="Phone image">
+                            </div>
+
+                            <div class="col-2"></div>
+
+                            <!-- Phone breif discription -->
+                            <div class="col-6">
+
+                                <div class="card-body">
+
+                                    <!-- Phone up time -->
+                                    <p class="text-end fw-light">上市日期： <span id="up-time"></span></p>
+
+                                    <!-- Phone title -->
+                                    <h1 id="title" class="card-title fw-bold mb-5"></h1>
+
+                                    <!-- After title discription-->
+                                    <div class="row pt-4">
+
+                                        <div class="col-2 d-flex flex-column pe-0">
+                                            <span>作業系統</span>
+                                            <span>處理器品牌</span>
+                                            <span>處理器型號</span>
+                                        </div>
+
+                                        <div class="col-3 d-flex flex-column">
+                                            <span id="OS"></span>
+                                            <span id="cpu-brand"></span>
+                                            <span id="cpu-type"></span>
+                                        </div>
+
+                                        <div class="col-1"></div>
+
+                                        <div class="col-2 d-flex flex-column pe-0">
+                                            <span>主相機畫素</span>
+                                            <span>主螢幕尺寸</span>
+                                            <span>電池容量</span>
+                                        </div>
+
+                                        <div class="col-3 d-flex flex-column">
+                                            <span> <span id="camera-pixel"></span>畫素</span>
+                                            <span> <span id="screen-size"></span> inch</span>
+                                            <span> <span id="battery"></span> mAh</span>
+                                        </div>
+
+                                    </div> <!-- After title discription-->
+
+                                    <div id="detail-colors" class="mt-4"></div>
+
+                                    <!-- Memory badges -->
+                                    <div class="mt-3">
+                                        <div class="row g-0">
+                                            <div id="memories" class="col-6"></div>
+                                            <div class="col-6">
+                                                <div class="row g-0">
+                                                    <div class="col-9 d-flex flex-column">
+                                                        <span id="price" class="red fw-bold fs-1"></span>
+                                                        <span class="fs-7 fw-light">（此為官方原價，請自行比價）</span>
+                                                    </div>
+                                                    <div class="col-3 d-flex justify-content-center align-items-center">
+                                                        <button class="btn btn-primary add-btn" onclick="addDetailTarget()">
+                                                            <i class="fas fa-plus"></i>
+                                                        </button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div> <!-- Car body -->
+
+                            </div> <!-- Phone brief Discription -->
+
+                        </div> <!-- Row -->
+
+                    </div> <!-- Main display -->
+
+                    <!-- <div id="feature">
+                        <h1 class="fw-bold">產品特色</h1>
+                    </div> -->
+
+                    <div class="accordion accordion-flush" id="feature">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="feature-heading">
+                            <div class="collapsed bg-transparent" data-bs-toggle="collapse" data-bs-target="#feature-detail" aria-expanded="false" aria-controls="feature-detail">
+                                <h1 id="feature-title" class="fw-bold">產品特色</h1>
+                            </div>
+                            </h2>
+                            <div id="feature-detail" class="accordion-collapse collapse" aria-labelledby="feature-heading" data-bs-parent="#feature">
+                                <div id="feature-detail-text" class="accordion-body"></div>
+                            </div>
+                            <div id="feature-footer" class="mb-5"></div>
+                        </div>
+                    </div>
+
+                </div> <!-- Main details -->
+
+            </div> <!-- Main arena -->
+
+            <!-- Target slide -->
+            <div class="col-1 d-flex flex-column justify-content-center">
+                <div id="target-bar" class="d-flex flex-column"></div>
+            </div>
+            
+        </div>
+        
+    </main>
+
+    <script src="./js/modules/bootstrap.bundle.min.js"></script>
+    <script src="./js/db.js"></script>
+    <script src="./js/target.js"></script>
+    <script src="./js/detail.js"></script> 
+    <script>
+        const url = new URL(location.href);
+        const pid = url.searchParams.get("pid");
+
+        var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'));
+
+        var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+            return new bootstrap.Tooltip(tooltipTriggerEl)
+        })
+
+        let phoneData = undefined;
+        let colorDescriptor = undefined;
+
+        class MyDbManager extends DBManager{
+            firstLoad(){
+                cancelAnimationFrame(update);
+                phoneData = myDbManager.getDb("phone");
+                colorDescriptor = myDbManager.getDb("colorDescriptor");
+                initPage(pid);
+                initTarget();
+            }
+        }
+
+        const myDbManager = new MyDbManager();
+        myDbManager.addDb("phone");
+        myDbManager.addDb("colorDescriptor");
+
+        myDbManager.init();
+
+        function update(){
+            requestAnimationFrame(update);
+            myDbManager.update();
+        }
+
+        update();
+    </script>
+
+</body>
+</html>

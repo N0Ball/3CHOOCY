@@ -148,7 +148,6 @@ class DB {
         .then((response) => {
             return response.json();
         }).then((json) => {
-            console.log("YES");
             this.data = json;
             this.finishLoad = true;
         })

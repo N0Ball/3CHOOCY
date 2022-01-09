@@ -1,0 +1,40 @@
+img {
+    max-width: 100%;
+    max-height: 300px;
+}
+table {
+    table-layout: fixed;
+    width: 100%;
+}
+table th, td{
+    width: 1%;
+}
+.form-check-label{
+    position: relative;
+    left: -20px;
+}
+.border-light-start{
+    border-left: 3px solid #F0E0C0 !important;
+}
+.border-dark-end{
+    border-right: 3px solid #D9B68B;
+}
+.border-dark-bottom{
+    border-bottom: 3px solid #D9B68B !important;
+}
+.border-item{
+    border-left: 3px solid #F0E0C0 ;
+    border-top: 3px solid #F0E0C0;
+}
+tbody tr th{
+    border-top: 3px solid #F0E0C0!important;
+}
+.hidden{
+    display: none !important;
+}
+.red{
+    letter-spacing: .5px !important;
+    padding: 0 !important;
+    height: 60px !important;
+    line-height: 60px !important;
+}

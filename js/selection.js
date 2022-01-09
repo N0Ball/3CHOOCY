@@ -23,7 +23,7 @@ function initSideBar(data){
         collapse.id = `collapse${itemName}`;
         collapse.classList.add("collapse");
         collapseContent = `
-        <div class="card card-body card-dark">
+        <div class="card card-body card-dark px-3">
         `
 
         for (let selectItem of item["items"]){
@@ -71,8 +71,10 @@ function initPhone(data){
 
         const image = document.createElement('img');
         image.src = imgPath;
+        image.onclick = (e) => {viewDetail(e.path[0].getAttribute('pid'))};
         image.classList.add("card-img-top");
         image.classList.add("card-img");
+        image.setAttribute("pid", index);
         image.setAttribute("alt", `${name} Profile`);
 
         const cardBody = document.createElement('div');
@@ -88,7 +90,7 @@ function initPhone(data){
         addBtn.classList.add("btn");
         addBtn.classList.add("btn-primary");
         addBtn.classList.add("w-100");
-        addBtn.setAttribute('pid', index);
+        addBtn.setAttribute("pid", index);
         addBtn.onclick = (e) => {addTarget(e.path[0].getAttribute('pid'))};
         addBtn.innerHTML = `<i class="fas fa-plus" pid='${index}'></i>`;
 
@@ -103,54 +105,7 @@ function initPhone(data){
     }
 }
 
-function addTarget(pid){
-    const targetField = document.getElementById('target-field');
-
+function viewDetail(pid){
     console.log(pid);
-
-    if (phoneData == undefined){
-        console.error("No phone Data found!");
-        return;
-    }
-
-    for (let item of targetField.childNodes){
-        if (item.getAttribute('pid') == pid){
-            console.warn("Already Added to comparison");
-            return;
-        }
-    }
-
-    const target = phoneData[pid];
-    const name = target["title"] || "????";   
-    const imgPath = target["profile image path"] || "./src/img/default_phone.jpg";
-
-    const container = document.createElement('div');
-    container.setAttribute("pid", pid);
-    container.classList.add("target-container");
-    container.innerHTML = `
-        <i class="target-cross fas fa-times" onclick="removeTarget(${pid});"></i>
-        <img src="${imgPath}" class="rounded-circle target-img" alt="${name} Profile Image">
-    `
-
-    targetField.appendChild(container);
-}
-
-function removeTarget(pid){
-    const targetField = document.getElementById('target-field');
-
-    let target = undefined;
-
-    for (let item of targetField.childNodes){
-        if (item.getAttribute('pid') == pid){
-            target = item;
-            break;
-        }
-    }
-
-    if (target == undefined){
-        console.error("Can't find pid");
-        return;
-    }
-
-    targetField.removeChild(target);
+    location.href = `./detail.html?pid=${pid}`;
 }

@@ -4,62 +4,354 @@
             "title" : "小米 11T Pro",
             "profile image path" : "./src/img/phones/sm11tpro.png",
             "price" : 17999,
+            "prices":{
+                "256G / 12G": 17999
+            },
             "tags" : {
-                "color": [
+                "up-time": [
+                    "2021 / 11"
+                ],
+                "colors": [
                     "Blue",
                     "Gray",
                     "White"
+                ],
+                "OS": [
+                    "Android 11"
+                ],
+                "cpu-brand": [
+                    "Qualcomm"
+                ],
+                "cpu-type": [
+                    "Snapdragon 888"
+                ],
+                "screen-size": [
+                    6.67
+                ],
+                "camera-pixel": [
+                    "1.08 億"
+                ],
+                "RAM": [
+                    12
+                ],
+                "ROM": [
+                    "256G"
+                ],
+                "battery": [
+                    5000
+                ],
+                "NFC": [
+                    "支援"
                 ]
             },
-            "details" : "OUO"
+            "details" : "小米 11T Pro 配置 6.67 吋 FHD+ AMOLED「挖孔」螢幕，峰值亮度可達 1,000nits，具備 120Hz 螢幕更新率、480Hz 觸控採樣率；通過 DisplayMate 認證 A+ 評等，支援 HDR10+、10bit 色彩顯示、MEMC 動態補償技術，提供 TrueColor 顯示功能，螢幕表面覆蓋康寧大猩猩 Victus 玻璃。<br>Harman Kardon 調音<br>小米 11T Pro 背蓋分別採用浸滲防眩光表面，與刷紋金屬外觀設計，握持手感很不錯，機身設有側邊指紋辨識器，具備紅外線遙控器功能。機身搭載 Harman Kardon 專業調音雙揚聲器，支援 Dolby Atmos 環繞音效，能夠依據不同音源呈現對應的聲學曲線，打造高品質的音效表現。<br>120W 超速閃充<br>小米 11T Pro 搭載 Qualcomm Snapdragon 888 八核心處理器，內建 12GB RAM + 256GB ROM；支援 5G 高速上網，提供藍牙 5.2、Wi-Fi 6、NFC 功能；配備 5,000mAh 電池，支援 120W HyperCharge 超速閃充，充滿電只需 17 分鐘，通過德國萊因 TÜV 安全快充系統認證，保障電池的使用安全。<br>1.08 億主鏡頭<br>小米 11T Pro 前置 1,600 萬畫素自拍鏡頭，後置三鏡頭主相機，提供 1.08 億畫素主鏡頭 + 800 萬畫素 120 度超廣角鏡頭 + 500 萬畫素長焦微距鏡頭（3-7cm 微距模式），採用 2.1μm 九合一 Super Pixel 技術及雙原生 ISO，強化手機攝影體驗；支援 HDR10+ 攝影，具有一鍵 AI 電影模式、8K 錄影功能；搭配音源變焦功能，可同時聚焦畫面並拉近音訊距離，可更真實的呈現影片主體。<br>小米 11T Pro 功能特色<br>◎ 5G + 5G 雙卡雙待<br>◎ Android 11 作業系統、MIUI 12.5 操作介面<br>◎ 6.67 吋 2,400 x 1,080pixels 解析度螢幕（120Hz 螢幕更新率）<br>◎ Qualcomm Snapdragon 888 八核心處理器<br>◎ 12GB RAM + 256GB ROM<br>◎ 前置 1,600 萬畫素鏡頭<br>◎ 後置 1.08 億畫素鏡頭 + 800 萬畫素鏡頭 + 500 萬畫素鏡頭<br>◎ Wi-Fi 6、藍牙 5.2、NFC、紅外線遙控<br>◎ Harman Kardon 調音、Dolby Atmos 環繞音效<br>◎ 側邊指紋辨識<br>◎ 配備 5,000mAh 電池，採用 USB Type-C 連接埠<br>◎ 支援 120W HyperCharge 超速閃充"
         },
         {
             "title" : "小米 11T",
             "profile image path" : "./src/img/phones/sm11t.png",
             "price" : 13999,
+            "prices":{
+                "256G / 8G": 13999
+            },
             "tags" : {
-                "color": [
-                    "Yellow"
+                "up-time": [
+                    "2021 / 11"
+                ],
+                "colors": [
+                    "Blue",
+                    "Gray",
+                    "White"
+                ],
+                "OS": [
+                    "Android 11"
+                ],
+                "cpu-brand": [
+                    "MediaTek"
+                ],
+                "cpu-type": [
+                    "Dimensity 1200-Ultra"
+                ],
+                "screen-size": [
+                    6.67
+                ],
+                "camera-pixel": [
+                    "1.08 億"
+                ],
+                "RAM": [
+                    8
+                ],
+                "ROM": [
+                    "256G"
+                ],
+                "battery": [
+                    5000
                 ]
             },
-            "details" : "OUO"
+            "details" : "6.67 吋 120Hz 螢幕<br>小米 11T 配置 6.67 吋 FHD+ AMOLED「挖孔」螢幕，峰值亮度可達 1,000nits，具備 120Hz 螢幕更新率、480Hz 觸控採樣率；支援 HDR10+、DCI-P3 廣色域、10bit 色彩顯示，提供 TrueColor、True Display 顯示功能，螢幕表面覆蓋康寧大猩猩 Victus 玻璃。<br>立體聲雙喇叭<br>小米 11T 背蓋分別採用浸滲防眩光表面，與刷紋金屬外觀設計，握持手感很不錯，機身側邊設有與電源鍵整合的指紋辨識器。機身搭載 Dolby Atmos 立體聲雙喇叭，提供 360° 環繞音效體驗；具備紅外線遙控器功能。<br>67W 有線快充<br>小米 11T 運行 Android 11 作業系統、MIUI 12.5 操作介面，搭載訂製的聯發科天璣 1200-Ultra 行動平台，內建 8GB RAM + 256GB ROM，支援 5G + 5G 雙卡雙待，提供藍牙 5.2、Wi-Fi 6、NFC 功能。配備 5,000mAh 電池，支援 67W 有線快充。<br>1.08 億主鏡頭<br>小米 11T 後置三鏡頭主相機，提供 1.08 億畫素廣角鏡頭 + 800 萬畫素 120 度超廣角鏡頭 + 500 萬畫素長焦微距鏡頭（3-7cm 微距模式），採用 2.1μm 九合一 Super Pixel 技術及雙原生 ISO，強化手機攝影體驗，支援 HDR 攝影，具有一鍵 AI 電影模式，搭配音源變焦功能，可同時聚焦畫面並拉近音訊的距離。<br>小米 11T 功能特色<br>◎ 5G + 5G 雙卡雙待<br>◎ Android 11 作業系統、MIUI 12.5 操作介面<br>◎ 6.67 吋 2,400 x 1,080pixels 解析度 AMOLED 螢幕（120Hz 螢幕更新率）<br>◎ 聯發科天璣 1200-Ultra 八核心處理器<br>◎ 8GB RAM + 256GB ROM<br>◎ 前置 1,600 萬畫素鏡頭<br>◎ 後置 1.08 億畫素鏡頭 + 800 萬畫素鏡頭 + 500 萬畫素鏡頭<br>◎ Wi-Fi 6、藍牙 5.2、NFC、紅外線遙控<br>◎ 側邊指紋辨識<br>◎ 配備 5,000mAh 電池，採用 USB Type-C 連接埠<br>◎ 支援 67W 有線快充"
         },
         {
             "title" : "小米 11 Lite 5G NE",
             "profile image path" : "./src/img/phones/sm11lite5gne.png",
             "price" : 9999,
+            "prices":{
+                "128G / 6G": 17999,
+                "256G / 8G": 10999,
+                "128G / 8G": 9999
+            },
             "tags" : {
-                "color": [
-                    "Yellow"
+                "up-time": [
+                    "2021 / 10"
+                ],
+                "colors": [
+                    "Blue",
+                    "Black",
+                    "White",
+                    "Pink"
+                ],
+                "OS": [
+                    "Android 11"
+                ],
+                "cpu-brand": [
+                    "Qualcomm"
+                ],
+                "cpu-type": [
+                    "Snapdragon 778G"
+                ],
+                "screen-size": [
+                    6.55
+                ],
+                "camera-pixel": [
+                    "6400 萬"
+                ],
+                "RAM": [
+                    8, 6
+                ],
+                "ROM": [
+                    "128G", "256G"
+                ],
+                "battery": [
+                    4250
                 ]
             },
-            "details" : "OUO"
+            "details" : "6.55 吋 90Hz 螢幕<br>小米 11 Lite 5G NE (8GB/128GB) 配置 6.55 吋 AMOLED「挖孔」螢幕，提供 20：9 顯示比例，具備 90Hz 螢幕更新率、240Hz 觸控採樣率，支援 HDR10+、Dolby Vision 色彩顯示，無論追劇、玩遊戲都能享有沉浸式的影音體驗。正面覆蓋康寧第 5 代大猩猩玻璃，提高螢幕保護力。<br>防眩光磨砂玻璃<br>小米 11 Lite 5G NE (8GB/128GB) 主打輕薄機身外型，機身重量僅有 158g，擁有很好的握持手感；背蓋選用防眩光磨砂玻璃，可有效預防指紋沾黏，共有「松露黑」、「糖果藍」、「蜜桃粉」、「雪花白」等顏色款式。配備立體聲雙喇叭，支援智慧音效功能。<br>高通驍龍 778G<br>小米 11 Lite 5G NE (8GB/128GB) 運行 Android 11 作業系統、MIUI 12.5 操作介面，搭載 Qualcomm Snapdragon 778G 行動平台，内建 nano-SIM 三選二卡槽，支援 5G + 5G 雙卡雙待，提供 microSD 記憶卡擴充功能。配備 4,250mAh 電池，支援 33W 有線快充，提供藍牙 5.2、Wi-Fi 6、NFC 功能。<br>訂製妝容模式<br>小米 11 Lite 5G NE (8GB/128GB) 前置 2,000 萬畫素自拍鏡頭，支援 AI 美顏、人像解鎖，內建專屬訂製妝容模式。後置三鏡頭主相機，提供 6,400 萬畫素主鏡頭 + 800 萬畫素 119 度超廣角鏡頭 + 500 萬畫素長焦鏡頭（3-7cm 微距模式），搭配 0.7μm 四合一技術，可強化手機攝影體驗，具有一鍵 AI 電影模式、VLOG 錄影功能，支援 4K 錄影、夜間模式。<br>小米 11 Lite 5G NE (8GB/128GB) 功能特色<br>◎ 5G + 5G 雙卡雙待<br>◎ Android 11 作業系統、MIUI 12.5 操作介面<br>◎ 6.55 吋 2,400 x 1,080pixels 解析度螢幕（90Hz）<br>◎ Qualcomm Snapdragon 778G, 2.4GHz 八核心處理器<br>◎ 8GB RAM + 128GB ROM<br>◎ 前置 2,000 萬畫素鏡頭<br>◎ 後置 6,400 萬畫素鏡頭 + 800 萬畫素鏡頭 + 500 萬畫素鏡頭<br>◎ Wi-Fi 6、藍牙 5.2、NFC、紅外線遙控<br>◎ 側邊指紋辨識、人臉解鎖<br>◎ 配備 4,250mAh 電池<br>◎ 採用 USB Type-C 連接埠，支援 33W 有線快充<br>◎ 可透過 microSD 記憶卡擴充最大 1TB 儲存空間<br>◎ 盒裝配件：33W 電源充電器、USB Type-C 數據線、Type-C 轉 3.5 mm 耳機轉接器、高透軟膠保護殼、SIM 卡插針"
         },
         {
-            "title" : "小米 11 5G",
-            "profile image path" : "./src/img/phones/sm115g.png",
-            "price" : 21999,
+            "title" : "小米 11 Lite 5G",
+            "profile image path" : "./src/img/phones/sm11lite5gne.png",
+            "price" : 9999,
+            "prices":{
+                "128G / 6G": 9999
+            },
             "tags" : {
-                "color": [
-                    "Yellow"
+                "up-time": [
+                    "2021 / 05"
+                ],
+                "colors": [
+                    "Blue",
+                    "Gray",
+                    "White"
+                ],
+                "OS": [
+                    "Android 11"
+                ],
+                "cpu-brand": [
+                    "Qualcomm"
+                ],
+                "cpu-type": [
+                    "Snapdragon 780G"
+                ],
+                "screen-size": [
+                    6.55
+                ],
+                "camera-pixel": [
+                    "6400 萬"
+                ],
+                "RAM": [
+                    6
+                ],
+                "ROM": [
+                    "128G"
+                ],
+                "battery": [
+                    4250
                 ]
             },
-            "details" : "OUO"
+            "details" : "6.55 吋 90Hz 螢幕<br>小米 11 Lite 5G (6GB/128GB) 採用 6.55 吋 2,400 x 1,080pixels 解析度 AMOLED「挖孔」螢幕，通過 HDR10+ 顯示認證、DCI-P3 廣色域標準，擁有低藍光護眼模式，正面覆蓋康寧大猩猩第六代玻璃。支援 90Hz 螢幕更新率、240Hz 觸控採樣率，可提供滑順的操作體驗。<br>防眩光玻璃背蓋<br>小米 11 Lite 5G (6GB/128GB) 主打輕薄的機身設計，手機厚度僅有 6.81mm，帶來不錯的手感體驗；背蓋採用防眩光玻璃製成，能有效避免指紋沾染，搭配三款亮眼色系「松露黑」、「柑橘黃」與「薄荷綠」，打造初夏的視覺體驗。<br>高通驍龍 780G<br>小米 11 Lite 5G (6GB/128GB) 運行 Android 11 作業系統、MIUI 12 操作介面，規格搭載 Qualcomm Snapdragon 780G 八核心處理器，內建 6GB RAM + 128GB ROM，搭配 nano-SIM 三選二卡槽設計，支援 5G + 5G 雙卡雙待、microSD 記憶卡擴充功能。<br>LiquidCool 水冷散熱<br>小米 11 Lite 5G (6GB/128GB) 配備 4,250mAh 電池，支援 33W 快充技術，提供 Wi-Fi 6、藍牙 5.2 與 NFC 等功能。導入 LiquidCool 水冷散熱技術，即便處理各種複雜操作，也能確保機身溫度避免過熱。配備立體聲雙揚聲器，擁有 Hi-Res Audio 音效認證。<br>6,400 萬畫素三鏡頭<br>小米 11 Lite 5G (6GB/128GB) 後置三鏡頭主相機，分別為 6,400 畫素鏡頭 + 800 萬畫素 119 度超廣角 + 500 萬畫素 3cm 微距鏡頭，支援 AI 場景辨識、一鍵式 AI 電影模式，滿足多種場合的攝影需求。前置 2,000 萬畫素自拍鏡頭，具備人臉解鎖功能。<br>小米 11 Lite 5G (6GB/128GB) 功能特色<br>◎ Android 11 作業系統、MIUI 12 操作介面<br>◎ 5G + 5G 雙卡雙待<br>◎ 6.55 吋 2,400 x 1,080pixels 解析度 AMOLED 螢幕（90Hz 螢幕更新率）<br>◎ Qualcomm Snapdragon 780G 八核心處理器<br>◎ 6GB RAM + 128GB ROM<br>◎ 前置 2,000 萬畫素鏡頭<br>◎ 後置 6,400 畫素 + 800 萬畫素 + 500 萬畫素鏡頭<br>◎ Wi-Fi 6、藍牙 5.2、NFC、紅外線遙控<br>◎ Hi-Res Audio 音效<br>◎ 側邊指紋辨識、人臉解鎖<br>◎ 配備 4,250mAh 電池<br>◎ 採用 USB Type-C 連接埠，支援 33W 有線快充<br>◎ 可透過 microSD 記憶卡擴充 1TB 儲存空間"
         },
         {
-            "title" : "Iphone 1011101010"
+            "title" : "Xperia PRO-I",
+            "profile image path" : "./src/img/phones/xperiaproI.jpg",
+            "price" : 48880,
+            "prices":{
+                "512G / 12G": 48880
+            },
+            "tags" : {
+                "up-time": [
+                    "2021 / 05"
+                ],
+                "colors": [
+                    "Blue",
+                    "Gray",
+                    "White"
+                ],
+                "OS": [
+                    "Android 11"
+                ],
+                "cpu-brand": [
+                    "Qualcomm"
+                ],
+                "cpu-type": [
+                    "Snapdragon 888"
+                ],
+                "screen-size": [
+                    6.5
+                ],
+                "camera-pixel": [
+                    "1200 萬"
+                ],
+                "RAM": [
+                    12
+                ],
+                "ROM": [
+                    "512G"
+                ],
+                "battery": [
+                    4500
+                ]
+            },
+            "details" : "6.5 吋 4K HDR OLED 螢幕<br>Sony Xperia PRO-I 配置 6.5 吋 4K HDR OLED 螢幕，採用 21：9 顯示比例，覆蓋 Gorilla Glass Victus 玻璃，強化螢幕耐用性，具備 120Hz 螢幕更新率、240Hz 觸控採樣率；配備 X1 手機影像處理引擎，內建 CineAlta、導演模式等顯示功能，支援 DCI-P3、ITU-R BT.2020 色域，擁有等同於 10 位元的顯示技術，帶來栩栩如生的高品質螢幕效果。<br>磨砂霧面背蓋<br>Sony Xperia PRO-I 背蓋採用 Gorilla Glass 6 玻璃 + 磨砂霧面質感工藝，具備 IP68 防塵防水，結合環繞刻紋線條噴砂金屬框，帶來猶如專業相機般的視覺衝擊，側邊擁有吊飾孔設計，提升拍攝的便利性；內建劇院級立體聲喇叭，通過 Hi-Res 認證，搭載 DSEE Ultimate 數位音質還原技術；支援 360 度實景音效、360 度空間音效、杜比全景聲模式，享有 Sony 高品質音樂美學。<br>高通驍龍 888<br>Sony Xperia PRO-I 搭載 Qualcomm Snapdragon 888 行動平台，內建 12GB RAM + 512GB ROM，提供 5G + 4G 雙卡雙待；支援 1TB 記憶卡擴充；備有 4,500mAh 電池，支援 30W PD 快充，並導入充電保護機制，防止手機過度充電；內建「遊戲增強器」，結合 Qualcomm Snapdragon Elite Gaming 遊戲引擎，暢玩遊戲體驗大躍進，搭配「H.S.電源控制」，能繞過電池直接對手機供電，避免溫度上升。<br>蔡司 T* 鍍膜三鏡頭<br>Sony Xperia PRO-I 相機採用 Sony Alpha 技術與 ZEISS T* 鍍膜，提供 1,200 萬畫素 24mm 焦距廣角鏡頭（1 吋 Exmor RS 感光元件、F2.0 / F4.0 可變雙光圈、OIS）+ 1,200 萬畫素 50mm 標準鏡頭（1/2.9 吋 Exmor RS 感光元件、OIS）+ 1,200 萬畫素 16mm 124° 超廣角鏡頭（1/2.5 吋 Exmor RS 感光元件）；具備 3D iToF 測距感測器，搭配 BIONZ X 手機影像處理器，帶來出色的影像運算速度，創造更豐富多元的構圖可能性，提供 20fps 高速連拍。<br>Videography 高品質錄影功能<br>Sony Xperia PRO-I 推出 Videography Pro 高品質的錄影功能，具備光學智慧防手震錄影與 FlawlessEye 技術，讓拍攝更加流暢穩定不晃動，還可依個人需求進行調整；並首款在錄影方面搭載「眼部追蹤對焦」以及「物件追蹤對焦」功能，同時擁有 4K / 120fps 錄影、Cinematography Pro 電影級錄影。此外，在主相機旁還設有一個獨立麥克風，透過「智慧風切聲過濾」，可有效過濾風切聲，讓使用者能清晰地錄製語音。<br>同步推出專屬配件<br>Sony Xperia PRO-I 同步推出專屬配件，可選購 Vlog 專屬 3.5 吋 1,280 x 720pixels 解析度 16:9 LCD 外接螢幕（組合含外接螢幕、磁性設計專屬夾具、L 型連接線），提供外接麥克風插孔，專屬支架上保留麥克風安裝位置；搭配 GP-VPT2BT 無線遙控拍攝握把，直接在握把就能實現錄影操作，同時推出真皮質感專屬背蓋。<br>Sony Xperia PRO-I 功能特色<br>◎ 5G + 4G 雙卡雙待<br>◎ Android 11 作業系統<br>◎ 6.5 吋 3,840 x 1,644pixels 解析度 HDR OLED 螢幕（120Hz 螢幕更新率）<br>◎ Qualcomm Snapdragon 888 八核心處理器<br>◎ 12GB RAM + 512GB ROM<br>◎ 前鏡頭：800 萬畫素<br>◎ 後鏡頭：1,200 萬畫素 + 1,200 萬畫素 + 1,200 萬畫素（24mm + 50mm + 16mm）<br>◎ ZEISS T* 鍍膜、3D iToF 測距感測器<br>◎ Videography 高品質錄影<br>◎ 指紋辨識<br>◎ IP65 / IP68 防塵防水<br>◎ Wi-Fi 6、藍牙 5.2、NFC<br>◎ 4,500mAh 電池，採用 USB Type-C 規格<br>◎ 支援 30W PD 快充<br>◎ 支援 microSD 記憶卡，最高可擴充至 1TB 儲存空間"
         },
         {
-            "title" : "Iphone 1011101010"
+            "title" : "Xperia 1 III",
+            "profile image path" : "./src/img/phones/xperia1III.jpg",
+            "price" : 39990,
+            "prices":{
+                "512G / 12G": 39990,
+                "256G / 12G": 39990
+            },
+            "tags" : {
+                "up-time": [
+                    "2021 / 07"
+                ],
+                "colors": [
+                    "Blue",
+                    "Gray",
+                    "White"
+                ],
+                "OS": [
+                    "Android 11"
+                ],
+                "cpu-brand": [
+                    "Qualcomm"
+                ],
+                "cpu-type": [
+                    "Snapdragon 888"
+                ],
+                "screen-size": [
+                    6.5
+                ],
+                "camera-pixel": [
+                    "1200 萬"
+                ],
+                "RAM": [
+                    12
+                ],
+                "ROM": [
+                    "256G",
+                    "512G"
+                ],
+                "battery": [
+                    4500
+                ]
+            },
+            "details" : "21：9 顯示比例<br>Sony Xperia 1 III 256GB 搭載 6.5 吋 HDR OLED 螢幕，不但擁有 4K 超高解析度，同時具備 120Hz 螢幕更新率、240Hz 觸控採樣率。螢幕延續 21：9 顯示比例，配備 X1 手機影像處理引擎，內建 CinemaWide、導演模式等顯示功能，支援 BRAVIA HDR Remaster 技術，擁有等同於 10 位元的顯示技術。<br>磨砂霧面背蓋<br>Sony Xperia 1 III 256GB 正面覆蓋 Gorilla Glass Victus 玻璃，背蓋為 Gorilla Glass 6 玻璃 + 磨砂霧面質感設計，有效降低指紋沾染，具備 IP68 防塵防水。搭載雙前置「全段立體聲揚聲器」，結合全新擴音器音箱結構，可消除因聲壓引發的手機震動；支援 360 度空間音效、杜比全景聲模式，享有高品質的音學體驗。<br>高通驍龍 888<br>Sony Xperia 1 III 256GB 搭載 Qualcomm Snapdragon 888 行動平台，內建 12GB RAM + 256GB ROM，採用三選二 nano-SIM 卡插槽，支援 5G + 4G 雙卡雙待；具備最大 1TB 儲存空間的 microSD 記憶卡擴充功能。配備 4,500mAh 電池，符合 USB PD 快充協議，支援 30W 有線快充，提供 Qi 無線充電、無線電量共享功能<br>升級版遊戲增強器<br>Sony Xperia 1 III 256GB 再度強化遊戲體驗，內建全新升級的「遊戲增強器」功能，可針對部分遊戲開啟「L-γ深色背景強化」模式，讓藏身暗處的敵人無所遁形；搭配新增的「音訊等化器」還能自由強化 31Hz-16kHz 間的音頻聲量，不管是敵人的腳步聲、遊戲背景的蟲鳴鳥叫，都可以依玩家喜好調整得很清楚；支援高幀率遊戲錄影與 30 秒回放預錄功能。<br>潛望式光學變焦<br>Sony Xperia 1 III 256GB 相機延續 Sony Alpha 技術與 ZEISS T* 鍍膜，提供 1,200 萬畫素 16mm 焦距超廣角鏡頭（1/2.6 吋 Exmor RS 感光元件）+ 1,200 萬畫素 24mm 焦距廣角鏡頭（1/1.7 吋 Exmor RS 感光元件、OIS）+ 1,200 萬畫素 70mm-105mm 焦距望遠鏡頭（1/2.9 吋 Exmor RS 感光元件、潛望式光學變焦、OIS、F2.3 光圈 / F2.8 光圈）；同時擁有 4 組焦距，為手機攝影帶來更多的創作可能。具備 3D iToF 測距感測器，內建新升級的即時眼部（人眼、動物眼）追焦、即時物件追焦，提供 20fps 高速連拍與 AI 超高解析縮放功能。<br>Sony Xperia 1 III 256GB 功能特色<br>◎ 5G + 4G 雙卡雙待<br>◎ Android 11 作業系統<br>◎ 6.5 吋 3,840 x 1,644pixels 解析度 HDR OLED 螢幕（120Hz 螢幕更新率）<br>◎ Qualcomm Snapdragon 888 八核心處理器<br>◎ 12GB RAM + 256GB ROM<br>◎ 前鏡頭：800 萬畫素<br>◎ 後鏡頭：1,200 萬畫素 + 1,200 萬畫素 + 1,200 萬畫素（16mm + 24mm + 70mm/105mm）<br>◎ ZEISS T* 鍍膜、3D iToF 測距感測器<br>◎ 即時眼部追焦、即時物件追焦、AI 超高解析縮放<br>◎ 側邊指紋辨識<br>◎ IP65 / IP68 防塵防水<br>◎ Wi-Fi 6、藍牙 5.2、NFC<br>◎ 4,500mAh 電池，採用 USB Type-C 規格<br>◎ 支援 30W 有線快充，提供無線充電、無線電量共享<br>◎ 支援 microSD 記憶卡，最高可擴充至 1TB 儲存空間"
         },
         {
-            "title" : "Iphone 1011101010"
+            "title" : "Xperia 5 III",
+            "profile image path" : "./src/img/phones/xperia5III.jpg",
+            "price" : 29990,
+            "prices":{
+                "8G / 256G": 29990
+            },
+            "tags" : {
+                "up-time": [
+                    "2021 / 09"
+                ],
+                "colors": [
+                    "Blue",
+                    "Gray",
+                    "White"
+                ],
+                "OS": [
+                    "Android 11"
+                ],
+                "cpu-brand": [
+                    "Qualcomm"
+                ],
+                "cpu-type": [
+                    "Snapdragon 888"
+                ],
+                "screen-size": [
+                    6.1
+                ],
+                "camera-pixel": [
+                    "1200 萬"
+                ],
+                "RAM": [
+                    8
+                ],
+                "ROM": [
+                    "256G"
+                ],
+                "battery": [
+                    4500
+                ]
+            },
+            "details" : "6.1 吋 120Hz 螢幕<br>Sony Xperia 5 III 採用 6.1 吋 FHD+ 解析度 HDR OLED 螢幕，具備 120Hz 螢幕更新率、240Hz 觸控採樣率，提供滑順的操作體驗。螢幕延續 21：9 顯示比例，支援 X1 for mobile 影像處理技術，內建 CinemaWide、導演模式等顯示功能；正面覆蓋 Gorilla Glass 6 玻璃。<br>IP68 防塵防水<br>Sony Xperia 5 III 背蓋採用 Gorilla Glass 6 強化玻璃，延續亮面質感與小巧機身設計，具備 IP68 防塵防水，滿足日常防護所需，共有鏡黑、鏡綠、鏡粉等顏色款式。搭載雙前置「全段立體聲揚聲器」，結合全新擴音器音箱結構，支援 360 Reality Audio 實境音效、Dolby Atmos 杜比全景聲，享有優質的音學體驗。<br>高通驍龍 888<br>Sony Xperia 5 III 搭載 Qualcomm Snapdragon 888 行動平台，内建 8GB RAM / 256GB ROM，支援 5G + 4G 雙卡雙待，提供 microSD 記憶卡擴充；配備 4,500mAh 電池，擁有 30W 有線快充。遊戲體驗加入深色背景強化模式，新增高幀率遊戲錄影與 30 秒回放預錄功能。<br>潛望式光學變焦<br>Sony Xperia 5 III 延續 Sony Alpha 技術與 ZEISS T* 鍍膜，提供 1,200 萬畫素 16mm 焦距超廣角（1/2.6 吋 Exmor RS 感光元件）+ 1,200 萬畫素 24mm 焦距廣角（1/1.7 吋 Exmor RS 感光元件、OIS）+ 1,200 萬畫素 70mm-105mm 焦距（1/2.9 吋 Exmor RS 感光元件、潛望式光學變焦、F2.3 光圈 / F2.8 光圈、OIS）三鏡頭主相機，支援即時眼部（人眼、動物眼）追焦，提供物件追焦、AI 超高解析縮放功能。<br>Sony Xperia 5 III 功能特色<br>◎ 5G + 4G 雙卡雙待<br>◎ Android 11 作業系統<br>◎ 6.1 吋 2,520 x 1,080pixels 解析度 HDR OLED 螢幕<br>◎ Qualcomm Snapdragon 888 八核心處理器<br>◎ 8GB + 256GB<br>◎ 前鏡頭：800 萬畫素<br>◎ 後鏡頭：1,200 萬畫素 + 1,200 萬畫素 + 1,200 萬畫素<br>◎ 即時眼部追焦（人眼、動物眼）、物件追焦、AI 超高解析縮放<br>◎ 側邊指紋辨識<br>◎ IP68 防塵防水<br>◎ Wi-Fi 6、藍牙 5.2、NFC<br>◎ 4,500mAh 電池<br>◎ 採用 USB Type-C 規格，支援 30W 有線快充<br>◎ 支援 microSD 記憶卡，最高可擴充至 1TB 儲存空間"
         },
         {
-            "title" : "Iphone 1011101010"
-        },
-        {
-            "title" : "Iphone 1011101010"
+            "title" : "Xperia 10 III",
+            "profile image path" : "./src/img/phones/xperia10III.jpg",
+            "price" : 12990,
+            "prices":{
+                "128G / 6G": 12990
+            },
+            "tags" : {
+                "up-time": [
+                    "2021 / 05"
+                ],
+                "colors": [
+                    "Black",
+                    "Blue",
+                    "Pink",
+                    "White"
+                ],
+                "OS": [
+                    "Android 11"
+                ],
+                "cpu-brand": [
+                    "Qualcomm"
+                ],
+                "cpu-type": [
+                    "Snapdragon 690"
+                ],
+                "screen-size": [
+                    6
+                ],
+                "camera-pixel": [
+                    "1200 萬"
+                ],
+                "RAM": [
+                    6
+                ],
+                "ROM": [
+                    "128G"
+                ],
+                "battery": [
+                    4500
+                ]
+            },
+            "details" : "21：9 顯示比例<br>Sony Xperia 10 III 採用 6 吋 FHD+ 解析度 HDR OLED 螢幕，延續 21：9 顯示比例，具備 120Hz 觸控採樣率，支援 TRILUMINOS display for mobile 原色顯示技術，提供寬廣的視覺體驗，正面覆蓋 Gorilla Glass 6 玻璃。<br>IP68 防塵防水<br>Sony Xperia 10 III 背蓋採用 Gorilla Glass 6 強化玻璃，共有水漾黑、水漾白、水漾藍、水漾粉等顏色款式，機身具備 IP68 防塵防水，滿足日常防護所需。保留 3.5mm 耳機孔，支援 Hi-Res Audio、DSEE Ultimate 數位音質還原技術。<br>高通驍龍 690<br>Sony Xperia 10 III 搭載 Qualcomm Snapdragon 690 行動平台，内建 6GB RAM / 128GB ROM；採用雙面 Nano-SIM 卡槽設計，支援 5G + 4G 雙卡雙待，具備 microSD 記憶卡擴充功能。配備 4,500mAh 電池，擁有 18W PD 有線快充。<br>夜景攝影模式<br>Sony Xperia 10 III 後置三鏡頭主相機，提供 800 萬畫素 16mm 焦距超廣角 + 1,200 萬畫素 27mm 焦距廣角 + 800 萬畫素 54mm 焦距三鏡頭，支援智慧場景辨識（寵物偵測優化）、10fps 高速連拍，提供夜景攝影功能。<br>Sony Xperia 10 III 功能特色<br>◎ 5G + 4G 雙卡雙待<br>◎ Android 11 作業系統<br>◎ 6 吋 2,520 x 1,080pixels 解析度 HDR OLED 螢幕<br>◎ Qualcomm Snapdragon 690 八核心處理器<br>◎ 6GB RAM / 128GB ROM<br>◎ 前鏡頭：800 萬畫素<br>◎ 後鏡頭：1,200 萬畫素 + 800 萬畫素 + 800 萬畫素<br>◎ 智慧場景辨識（寵物偵測優化）、夜景模式<br>◎ 側邊指紋辨識<br>◎ IP65 / IP68 防塵防水<br>◎ Wi-Fi 5、藍牙 5.1、NFC<br>◎ 4,500mAh 電池<br>◎ 採用 USB Type-C 規格，支援 18W PD 有線快充<br>◎ 支援 microSD 記憶卡，最高可擴充至 1TB 儲存空間"
         },
         {
             "title" : "Iphone 1011101010"

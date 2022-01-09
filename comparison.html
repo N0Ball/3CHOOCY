@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/selection.css">
+    <link rel="stylesheet" href="./css/comparison.css">
+    <link rel="stylesheet" href="./css/modules/bootstrap.min.css">
+    <link rel="stylesheet" href="./src/modules/fontawesome/css/all.min.css">
+    <link rel="shortcut icon" href="./src/img/logo.png" type="image/x-icon">
+    <title>Selection</title>
+</head>
+<body>
+
+    <!-- Top Section (Nav Bar) -->
+    <section id="top">
+        <div class="row g-0 h-100">
+
+            <div class="col-3 d-flex flex-column flex-column-reverse">
+                <a href="./selection.html">
+                    <img src="./src/img/logo_text.png" alt="Logo text" id="logo-text" class="m-3">
+                </a>
+            </div>
+
+            <div class="col-7 d-flex align-items-end" id="input-bar">
+                <div class="input-group mb-3 justify-content-end">
+                    <input id="product-input" type="text" class="form-control" placeholder="請輸入產品名稱" aria-label="請輸入產品名稱" aria-describedby="search-icon">
+                    <div class="input-group-text" id="search-icon">
+                        <i class="fas fa-search"></i>
+                    </div>
+                    <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">選擇類別</button>
+                    <ul class="dropdown-menu dropdown-menu-end">
+                        <li><a class="dropdown-item" href="#">手機</a></li>
+                        <li><a class="dropdown-item disabled" href="#">平板</a></li>
+                        <li><a class="dropdown-item disabled" href="#">電腦</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div id="logo-container">
+                <img id="logo-light" src="./src/img/logo_light.png" alt="logo light">
+            </div>
+
+        </div>
+    </section>
+
+    <main>
+
+        <div class="row g-0 h-100">
+
+            <div class="col-11" id="result-field">
+                <div class="container mt-5">
+                    <table class="table table-borderless w-100">
+                        <thead>
+                            <tr id="thead"></tr>
+                        </thead>
+                        <tbody id="comparison-table">
+                            <tr id="name"></tr>
+                            <tr id="price"></tr>
+                            <tr id="up-time"></tr>
+                        </tbody>
+                    </table>
+                </div>
+
+            </div> <!-- Main arena -->
+
+            <!-- Target slide -->
+            <div class="col-1 d-flex flex-column justify-content-center">
+                <div id="target-bar" class="d-flex flex-column"></div>
+            </div>
+            
+        </div>
+        
+    </main>
+
+    <script src="./js/modules/bootstrap.bundle.min.js"></script>
+    <script src="./js/db.js"></script>
+    <script src="./js/target.js"></script>
+    <script src="./js/comparison.js"></script> 
+    <script>
+
+        var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'));
+
+        var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+            return new bootstrap.Tooltip(tooltipTriggerEl)
+        })
+
+        let phoneData = undefined;
+        let comparisonData = undefined;
+
+        class MyDbManager extends DBManager{
+            firstLoad(){
+                cancelAnimationFrame(update);
+                phoneData = myDbManager.getDb("phone");
+                comparisonData = myDbManager.getDb("comparison");
+                initTarget();
+                initPage();
+            }
+        }
+
+        const myDbManager = new MyDbManager();
+        myDbManager.addDb("phone");
+        myDbManager.addDb("comparison");
+
+        myDbManager.init();
+
+        function update(){
+            requestAnimationFrame(update);
+            myDbManager.update();
+        }
+
+        update();
+    </script>
+
+</body>
+</html>
