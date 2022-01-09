@@ -40,7 +40,6 @@ function addTarget(pid){
         targetCount += 1;
     }
 
-    console.log(targetCount);
     if (targetCount >= 4){
         removeTarget(targetField.childNodes[0].getAttribute('pid'));
     }
@@ -91,10 +90,6 @@ function updateCookie(){
     }
 
     document.cookie = `target_pids=${JSON.stringify(targetPids)}`;
-}
-
-function veiwDetail(pid){
-    console.log(pid);
 }
 
 function getCookie(name) {

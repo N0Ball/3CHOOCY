@@ -51,6 +51,7 @@ function initSideBar(data){
 
 function initPhone(data){
     const resultCards = document.getElementById("result-cards");
+    resultCards.innerHTML = "";
     
     let index = 0;
     for (const phone of data){
@@ -125,7 +126,31 @@ function initPhone(data){
     }
 }
 
+function searchText(){
+    const text = document.getElementById('product-input').value;
+
+    console.log(text);
+
+    const newPhoneData = [];
+    let count = 0;
+
+    phoneData.forEach( phone => {
+        if (phone['title'].includes(text)){
+            newPhoneData.push(phone);
+            count += 1;
+        }
+    });
+
+    initPhone(newPhoneData);
+
+    const searchText = document.getElementById('search-text');
+    const searchCount = document.getElementById('search-count');
+
+    searchText.innerHTML = text;
+    searchCount.innerHTML = count;
+    
+}
+
 function viewDetail(pid){
-    console.log(pid);
     location.href = `./detail.html?pid=${pid}`;
 }

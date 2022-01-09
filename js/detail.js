@@ -63,7 +63,6 @@ function displayPhone(pid){
         button.onclick = (e) => {changeMemory(e.path[0].getAttribute('price'))};
         
         button.innerHTML = memory;
-        console.log(button);
         memoriesDom.appendChild(button);
 
         maxMemPrice = (price > maxMemPrice ? price : maxMemPrice);
