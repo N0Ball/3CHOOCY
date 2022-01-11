@@ -12,6 +12,10 @@
     <title>Selection</title>
 </head>
 <body>
+        
+    <section id="loading" class="min-vw-100 d-flex justify-content-center align-items-center">
+        <img src="./src/img/loading.gif" alt="loading img" class="img-fluid">
+    </section>
 
     <!-- Top Section (Nav Bar) -->
     <section id="top">
@@ -184,6 +188,8 @@
         var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
             return new bootstrap.Tooltip(tooltipTriggerEl)
         })
+        
+        const loading = document.getElementById('loading');
 
         let phoneData = undefined;
         let colorDescriptor = undefined;
@@ -191,6 +197,7 @@
         class MyDbManager extends DBManager{
             firstLoad(){
                 cancelAnimationFrame(update);
+                loading.classList.add('invisible');
                 phoneData = myDbManager.getDb("phone");
                 colorDescriptor = myDbManager.getDb("colorDescriptor");
                 initPage(pid);

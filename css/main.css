@@ -116,3 +116,15 @@ select{
 .hide{
     transform: translateX(90%);
 }
+#loading{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh !important;
+    z-index: 1000;
+    background-color:F0E0C0;
+}
+#loading>img{
+    height: 90%;
+    width: 50%;
+}
