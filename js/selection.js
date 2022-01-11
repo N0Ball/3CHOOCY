@@ -1,9 +1,12 @@
+const toIntList = ['RAM', 'ROM', 'screen-size', 'sim-number', 'weight', 'battery', 'fast-charge-W', 'screen-refresh-rate', 'camera-pixel', 'cpu-type'];
+
 function initSideBar(data){
     const sidebar = document.getElementById('side-bar-selection');
     
     for (let item of data){
 
         const itemName = item["item-name"];
+        const itemTarget = item["item-target"];
         
         const button = document.createElement('button');
         button.classList.add("btn");
@@ -27,15 +30,18 @@ function initSideBar(data){
         <div class="card card-body card-dark px-3">
         `
 
+        let selectIndex = 0;
         for (let selectItem of item["items"]){
             collapseContent += `
             <div class="form-check">
-                <input class="form-check-input" type="checkbox" value="" id="${itemName}-${selectItem}">
+                <input class="form-check-input filter-select" type="checkbox" data-value="${itemTarget}|${selectIndex}" id="${itemName}-${selectItem}" onclick="updateFilter();">
                 <label class="form-check-label" for="${itemName}-${selectItem}">
                     ${selectItem}
                 </label>
             </div>
             `
+
+            selectIndex += 1;
         }
 
         collapseContent += `
@@ -129,8 +135,6 @@ function initPhone(data){
 function searchText(){
     const text = document.getElementById('product-input').value;
 
-    console.log(text);
-
     const newPhoneData = [];
     let count = 0;
 
@@ -151,6 +155,331 @@ function searchText(){
     
 }
 
+function changeFilter(target){
+
+    let filter = new Filter();
+
+    switch (parseInt(target.value)) {
+        case filter.DATESORT:
+            filter = new SortFilter('up-time');
+            break;
+
+        case filter.REV_PRICESORT:
+            filter = new SortFilter('max-price', true);
+            break;
+
+        case filter.PRICESORT:
+            filter = new SortFilter('max-price');
+            break;
+
+        case filter.CAMERASORT:
+            filter = new SortFilter('camera-pixel');
+
+        case filter.BATTERYSORT:
+            filter = new SortFilter('battery');
+    
+        default:
+            break;
+    }
+    
+
+    let newData = filter.filterData(phoneData);
+    initPhone(newData);
+    
+}
+
+const filterSelections = document.getElementsByClassName('filter-select');
+function updateFilter(){
+
+    const filterTargets = {};
+
+    for (const filterSelection of filterSelections){
+
+        if (filterSelection.checked){
+
+            key = filterSelection.getAttribute('data-value').split('|')[0];
+            value = filterSelection.getAttribute('data-value').split('|')[1];
+
+            if (key in filterTargets){
+                filterTargets[key].push(value);
+            }else{
+                filterTargets[key] = [value];
+            }
+
+        }
+    }
+
+    let newData = [];
+    for (const [target, values] of Object.entries(filterTargets)){
+
+        const itemTargets = getSelectionData(target);
+        let filter = new TypeFilter(target, values, itemTargets);
+        newData = filter.filterData(phoneData);
+    }
+
+    // newData.forEach(data=>{
+    //     console.log(data['tags']['cpu-type']);
+    // })
+
+    // console.log("======================");
+    
+    // phoneData.forEach(data=>{
+
+    //     if (data != true){
+    //         console.log(data['tags']['cpu-type']);
+    //     }
+
+    // })
+
+    initPhone(newData);
+    
+}
+
+function getSelectionData(target){
+
+    let targets = undefined;
+
+    selectionData.forEach( data => {
+
+        if (data['item-target'] == target){
+            targets = data['targets'];
+            return;
+        }
+
+    })
+
+    return targets;
+}
+
 function viewDetail(pid){
     location.href = `./detail.html?pid=${pid}`;
+}
+
+class Filter{
+    constructor(){
+        this.DATESORT = 1;
+        this.REV_PRICESORT = 2;
+        this.PRICESORT = 3;
+        this.CAMERASORT = 4;
+        this.BATTERYSORT = 5;
+    };
+
+    filterFunc(_){}
+
+    preFilterData(data){
+
+        if (data[0] == true){
+            return data;
+        }
+        
+        data.forEach( e => {
+
+            e['tags']['max-price'] = Object.entries(e['prices']);
+
+            for (const [key, values] of Object.entries(e['tags'])){
+
+                
+                if (toIntList.includes(key)){
+
+                    let transValue = [];
+                    let unit = [];
+
+                    values.forEach( value => {
+
+                        transValue.push(value.match(/([0-9.]+)/)[0]);
+                        unit.push((value.match(/[^0-9.]+/) || [''])[0]);
+
+                    })
+
+                    
+                    e['tags'][key] = transValue.map( (e, i) => [e, unit[i]]);
+                }
+                
+                e['tags'][key] = this.specialCase(key, e['tags'][key]);
+
+            }
+
+        });
+
+        data.unshift(true);
+
+        return data;
+    }
+
+    specialCase(key, values){
+
+        let newValue = [];
+
+        values.forEach( value => {
+    
+            if (key == 'up-time'){
+                value = value.split(' / ');
+            }
+    
+            if (key == 'max-price'){
+
+                value = [value[1]];
+
+                if (newValue.length > 0){
+
+                    if (newValue[0] > value[0]){
+                        value = newValue[0];
+                    }
+                    
+                    newValue.shift()
+                }
+
+            }
+    
+            if (key == 'camera-pixel'){
+                if (value[1].includes('億')){
+                    value = [(parseInt(value[0])*10000).toString(), value[1].replace('億', '萬')];
+                }
+            }
+
+            if (key == 'ROM'){
+                if (value[1].includes('T')){
+                    value = [(parseInt(value[0])*1024).toString(), value[1].replace('T', 'G')];
+                }
+            }
+
+            newValue.push(value);
+
+        })
+
+        return newValue;
+    }
+    
+    filterData(phoneData) {
+
+        let data = this.preFilterData(phoneData);
+        return this.filterFunc(data);
+
+    }
+
+}
+
+class SortFilter extends Filter{
+
+    constructor(filter_by, reverse=false){
+        super();
+        this.filter_by = filter_by;
+        this.reverse = reverse
+    }
+
+    filterFunc(data){
+
+        data = data.slice(1);
+        
+        data.sort( (first, second) => {
+            
+            first = first['tags'][this.filter_by][0];
+            second = second['tags'][this.filter_by][0];
+            
+            if (this.reverse){
+                let tmp = first;
+                first = second;
+                second = tmp;
+            }
+            
+            if  (first[0] == second[0]){
+                
+                if (first.length == 1) return 0;
+                
+                return second[1] - first[1];
+            }
+            
+            return second[0] - first[0];
+            
+        });
+        
+        return data;
+
+    }
+
+}
+
+class TypeFilter extends Filter{
+
+    constructor(target, values, itemTargets){
+        super();
+        self.filterTarget = target;
+        self.values = values;
+        self.itemTargets = itemTargets;
+    }
+
+    filterFunc(data){
+
+        data = data.slice(1);
+        
+        data = data.filter( e => {
+            let targets = e['tags'][self.filterTarget];
+            
+            const returnList = {};
+            for(let i = 0; i < self.itemTargets.length; i++){
+
+                let shouldBeFilter = false;
+
+                if (self.values.includes(i.toString())){
+                    shouldBeFilter = true;
+                }
+
+                targets.forEach(target => {
+                    if (isNaN(target)){
+    
+                        if(target == self.itemTargets[i]){
+                            if (!(target in returnList)){
+                                returnList[target] = shouldBeFilter;
+                                return;
+                            }
+                        }
+    
+                    }else{
+    
+                        if (target >= self.itemTargets[i]){
+                            if (!(target in returnList)){
+                                returnList[target] = shouldBeFilter;
+                                return;
+                            }
+                        }
+    
+                    }
+                })
+
+                if (Object.keys(returnList).length == targets.length){
+                    for(const status of Object.values(returnList)){
+                        if (status){
+                            return true;
+                        }
+                    }
+                    return false;
+                }
+
+
+            }
+
+            return false;
+        })
+
+        return data;
+    }
+
+    specialCase(key, values){
+        let newValues = super.specialCase(key, values);
+        let modifyValues = [];
+        
+
+        if (toIntList.includes(key) || key == 'up-time'){
+            newValues.forEach( newValue => {
+                modifyValues.push(newValue[0]);
+            });
+        }
+
+        if (modifyValues.length == 0){
+            modifyValues = newValues;
+        }
+
+        return modifyValues;
+    }
+
 }

@@ -82,14 +82,14 @@
                         搜尋：「<span id="search-text"></span>」，共找到 <span id="search-count">0</span> 筆相符的資料：
                     </p>
                     <div class="input-group mb-3 w-25 px-2">
-                        <label class="btn-secondary input-group-text" style="background-color: #F8EEDC !important; color: #73563D !important;" for="inputGroupSelect01">排序</label>
-                        <select class="form-select" id="inputGroupSelect01" style="background-color: #F8EEDC !important; color: #73563D !important;">
+                        <label class="btn-secondary input-group-text" style="background-color: #F8EEDC !important; color: #73563D !important; font-size: 18px;" for="filterSelect">排序</label>
+                        <select class="form-select w-25" id="filterSelect" style="background-color: #F8EEDC !important; color: #73563D !important;" onchange="changeFilter(this);">
                             <option selected>選擇排序</option>
-                            <option value="1">上市日期（新➞舊）</option>
-                            <option value="2">價格（低➞高）</option>
-                            <option value="3">價格（高➞低）</option>
-                            <option value="4">相機畫素（高➞低）</option>
-                            <option value="5">電池容量（高➞低）</option>
+                            <option value="1">上市日期 (新➞舊)</option>
+                            <option value="2">價格 (低➞高)</option>
+                            <option value="3">價格 (高➞低)</option>
+                            <option value="4">相機畫素 (高➞低)</option>
+                            <option value="5">電池容量 (高➞低)</option>
                         </select>
                     </div>
                 </div>
@@ -124,11 +124,13 @@
         })
 
         let phoneData = undefined;
+        let selectionData = undefined;
 
         class MyDbManager extends DBManager{
             firstLoad(){
                 phoneData = myDbManager.getDb("phone");
-                initSideBar(myDbManager.getDb("selection"));
+                selectionData = myDbManager.getDb("selection")
+                initSideBar(selectionData);
                 initPhone(phoneData);
                 initTarget();
                 cancelAnimationFrame(update);

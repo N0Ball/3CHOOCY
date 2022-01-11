@@ -16,6 +16,13 @@ main{
     width: 100%;
     height: calc(100vh - 5rem);
 }
+#filterSelect{
+    font-size: 18px;
+    padding-left: .25rem !important;
+    padding: 0;
+    letter-spacing: 0px;
+    text-align: start;
+}
 #side-bar{
     position: relative;
 

@@ -2,34 +2,37 @@
     "DATA" : [
         {
             "item-name": "品牌",
+            "item-target": "brand",
             "items":[
-                "APPLE",
-                "SONY",
+                "Apple",
+                "Sony",
+                "小米"
+            ],
+            "targets":[
+                "Apple",
+                "Sony",
                 "小米"
             ]
         },
         {
             "item-name": "儲存空間",
+            "item-target": "ROM",
             "items":[
                 "512G",
                 "256G",
                 "128G",
                 "64G以下"              
-            ]
-        },
-        {
-            "item-name": "SD卡",
-            "items":[
-                "1TB",
-                "512G",
-                "256G",
-                "128G",
-                "64G以下",
-                "不支援"
+            ],
+            "targets":[
+                512,
+                256,
+                128,
+                0
             ]
         },
         {
             "item-name": "處理器",
+            "item-target": "cpu-type",
             "items":[
                 "S880+（S880以上）",
                 "S870+",
@@ -41,38 +44,78 @@
                 "華為 Kirin 麒麟",
                 "三星 Exynos 獵戶座",
                 "聯發科 helio"
+            ],
+            "targets":[
+                ["S", 880],
+                ["S", 870],
+                ["S", 860],
+                ["A", 14],
+                ["A", 13],
+                ["A", 12],
+                ["A", 11],
+                ["Kirin", 0],
+                ["Exynos", 0],
+                ["Helio", 0]
             ]
         },
         {
             "item-name": "相機畫素",
+            "item-target": "camera-pixel",
             "items":[
                 "1億 +",
-                "< 1億"
+                "5000萬 ~ 1億",
+                "3000萬 ~ 5000萬",
+                "3000萬以下"
+            ],
+            "targets":[
+                10000,
+                5000,
+                3000,
+                0
             ]
         },
         {
             "item-name": "螢幕尺寸",
+            "item-target": "screen-size",
             "items":[
                 "6.5吋+",
                 "6吋（6~6.4吋未滿6.5吋的都歸在這）",
                 "5.5吋（依↑此類推）",
-                "5吋"
+                "5吋或以下"
+            ],
+            "targets":[
+                6.5,
+                6,
+                5.5,
+                0
             ]
         },
         {
             "item-name": "電池容量",
+            "item-target": "battery",
             "items":[
-                "> 6000",
-                "5000 ~ 6000",
+                "> 5000",
                 "4000 ~ 5000",
-                "< 4000"
+                "3000 ~ 4000",
+                "< 3000"
+            ],
+            "targets":[
+                5000,
+                4000,
+                3000,
+                0
             ]
         },
         {
             "item-name": "上市時間",
+            "item-target": "up-time",
             "items":[
                 "2021年",
                 "2020年"               
+            ],
+            "targets": [
+                2021,
+                2020
             ]
         }
     ]
