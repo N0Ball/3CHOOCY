@@ -18,7 +18,7 @@
         <div class="row g-0 h-100">
 
             <div class="col-3 d-flex flex-column flex-column-reverse">
-                <a href="./selection.html">
+                <a href="./selection.html" class="d-flex justify-content-center">
                     <img src="./src/img/logo_text.png" alt="Logo text" id="logo-text" class="m-3">
                 </a>
             </div>
@@ -54,33 +54,33 @@
 
             <div class="col-11" id="result-field">
 
-                <div id="main-detail" class="row g-0 mt-5 ms-5 me-3 ps-5">
+                <div id="main-detail" class="row g-0 mx-5 px-5">
 
                     <!-- Main display -->
-                    <div class="card mb-3">
+                    <div class="card mb-3 mx-4">
 
-                        <div class="row g-0">
+                        <div class="row g-0 mt-5">
 
                             <!-- Phone image -->
                             <div class="col-4 d-flex justify-content-center align-items-center">
-                                <img id="phone-img" src="" class="img-fluid rounded-start" alt="Phone image">
+                                <img id="phone-img" src="" class="rounded-start" alt="Phone image">
                             </div>
 
-                            <div class="col-2"></div>
+                            <div class="col-1"></div>
 
                             <!-- Phone breif discription -->
-                            <div class="col-6">
+                            <div class="col-7">
 
-                                <div class="card-body">
+                                <div class="card-body" style="padding-top: 0 !important;">
 
                                     <!-- Phone up time -->
-                                    <p class="text-end fw-light">上市日期： <span id="up-time"></span></p>
+                                    <span class="text-end fs-little fw-light w-100 d-block">上市日期： <span id="up-time" class="fs-little"></span></span>
 
                                     <!-- Phone title -->
-                                    <h1 id="title" class="card-title fw-bold mb-5 title"></h1>
+                                    <h2 id="title" class="card-title fw-bold mb-5 title"></h2>
 
                                     <!-- After title discription-->
-                                    <div class="row pt-4">
+                                    <div class="row">
 
                                         <div class="col-2 d-flex flex-column pe-0 title fs-little">
                                             <span class="fs-little">作業系統</span>
@@ -113,7 +113,7 @@
                                     <div id="detail-colors" class="mt-4"></div>
 
                                     <!-- Memory badges -->
-                                    <div class="mt-3">
+                                    <div>
                                         <div class="row g-0">
                                             <div id="memories" class="col-6 pt-2"></div>
                                             <div class="col-6">
@@ -140,11 +140,15 @@
 
                     </div> <!-- Main display -->
 
-                    <div class="accordion accordion-flush" id="feature">
+                    <div class="accordion accordion-flush mx-4" id="feature">
                         <div class="accordion-item">
                             <h2 class="accordion-header" id="feature-heading">
                             <div class="collapsed bg-transparent" data-bs-toggle="collapse" data-bs-target="#feature-detail" aria-expanded="false" aria-controls="feature-detail">
-                                <h1 id="feature-title" class="fw-bold text">產品特色</h1>
+                                <span id="feature-title">
+                                    <h3 class="fw-bold text px-4">
+                                        產品特色
+                                    </h3>
+                                </span>
                             </div>
                             </h2>
                             <div id="feature-detail" class="accordion-collapse collapse" aria-labelledby="feature-heading" data-bs-parent="#feature">

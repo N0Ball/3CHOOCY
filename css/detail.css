@@ -17,6 +17,8 @@
 }
 #phone-img{
     border: 3px solid #F0E0C0;
+    height: 470px;
+    width: 470px;
 }
 #feature{
     text-decoration: none;
