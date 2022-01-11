@@ -2,6 +2,19 @@ let target_pids = undefined;
 
 function initTarget(){
     const target = document.getElementById('target-bar');
+    const img = document.createElement('img');
+    target.classList.add('position-relative');
+    img.src = './src/img/handle.png';
+    img.style = `
+        position: absolute;
+        height: 120px;
+        width: 30px;
+        top: calc(50% - 60px);
+        left: -30px;
+    `
+    img.onclick = () => {
+        target.classList.toggle('hide');
+    }
     
     if (!target){
         console.error('Cannot find target bar');
@@ -12,6 +25,8 @@ function initTarget(){
     <div class="d-inline-block h-75 bg-transparent d-flex align-items-center flex-column overflow-auto" id="target-field"></div>
     <button class="btn btn-dark m-3 text fw-bold" onclick='location.href="./comparison.html"' style="border-radius: 5px !important">開始</button>
     `
+
+    target.appendChild(img);
 
     target_pids = JSON.parse(getCookie('target_pids') || "[]");
 

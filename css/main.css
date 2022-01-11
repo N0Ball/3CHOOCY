@@ -104,9 +104,15 @@ select{
     box-sizing: border-box;
     border-radius: 3px;
 }
+#target-bar{
+    transition: all 1s ease;
+}
 .fs-little{
     font-size: 20px !important;
 }
 .fs-tiny{
     font-size: 18px !important;
+}
+.hide{
+    transform: translateX(90%);
 }
