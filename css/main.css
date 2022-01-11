@@ -12,6 +12,10 @@ html{
 input{
     border: none;
 }
+#product-input::placeholder{
+    color: rgba(240, 224, 192, 0.5) !important;
+    width: 600px;
+}
 ::-webkit-scrollbar {
     display: none;
 }
@@ -83,7 +87,7 @@ select{
 #logo-container{
     position: absolute;
     overflow: hidden;
-    right: 3rem;
+    right: .5rem;
     top: calc(5rem - 85px);
     width: 170px;
     height: 85px;

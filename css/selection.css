@@ -1,5 +1,5 @@
-#product-input::placeholder{
-    color: rgba(240, 224, 192, 0.5) !important;
+#product-input{
+    width: 600px;
 }
 .input-group-text{
     background-color: #D9B68B !important;
@@ -59,6 +59,7 @@ main{
     border-radius: 0 !important;
     font-weight: bold !important;
     letter-spacing: .1rem;
+    padding: 0 !important;
 }
 .input-budget{
     height: 25px;
